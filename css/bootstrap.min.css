@@ -6728,3 +6728,6 @@ button.close {
         display: none !important
     }
 }
+.navbar-center {
+    margin-left: 30px;
+}
