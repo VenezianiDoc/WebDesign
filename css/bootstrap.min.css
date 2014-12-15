@@ -5414,6 +5414,11 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 .panel-body {
     padding: 15px
+        
+}
+
+.panel-body > h1, h2, h3, h4, h5 {
+    display: inline;  
 }
 
 .panel-heading {
