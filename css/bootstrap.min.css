@@ -4401,35 +4401,35 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 .navbar-btn {
     margin-top: 8px;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .navbar-btn.btn-sm {
     margin-top: 10px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .navbar-btn.btn-xs {
     margin-top: 14px;
-    margin-bottom: 14px
+    margin-bottom: 14px;
 }
 
 .navbar-text {
     margin-top: 15px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 @media (min-width: 768px) {
     .navbar-text {
         float: left;
         margin-right: 15px;
-        margin-left: 15px
+        margin-left: 15px;
     }
 }
 
 @media (min-width: 768px) {
     .navbar-left {
-        float: left !important
+        float: left !important;
     }
 
     .navbar-right {
@@ -4438,17 +4438,17 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     }
 
     .navbar-right ~ .navbar-right {
-        margin-right: 0
+        margin-right: 0;
     }
 }
 
 .navbar-default {
     background-color: #f8f8f8;
-    border-color: #e7e7e7
+    border-color: #e7e7e7;
 }
 
 .navbar-default .navbar-brand {
-    color: #777
+    color: #777;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -4457,42 +4457,42 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .navbar-default .navbar-text {
-    color: #777
+    color: #777;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #777
+    color: #777;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #333;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
-    background-color: #e7e7e7
+    background-color: #e7e7e7;
 }
 
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #ddd
+    border-color: #ddd;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #ddd
+    background-color: #ddd;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #888
+    background-color: #888;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: #e7e7e7
+    border-color: #e7e7e7;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
@@ -4502,92 +4502,92 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #777
+        color: #777;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
-        background-color: transparent
+        background-color: transparent;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #555;
-        background-color: #e7e7e7
+        background-color: #e7e7e7;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
         color: #ccc;
-        background-color: transparent
+        background-color: transparent;
     }
 }
 
 .navbar-default .navbar-link {
-    color: #777
+    color: #777;
 }
 
 .navbar-default .navbar-link:hover {
-    color: #333
+    color: #333;
 }
 
 .navbar-default .btn-link {
-    color: #777
+    color: #777;
 }
 
 .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-    color: #333
+    color: #333;
 }
 
 .navbar-default .btn-link[disabled]:hover, fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:focus {
-    color: #ccc
+    color: #ccc;
 }
 
 .navbar-inverse {
     background-color: #222;
-    border-color: #080808
+    border-color: #080808;
 }
 
 .navbar-inverse .navbar-brand {
-    color: #9d9d9d
+    color: #9d9d9d;
 }
 
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
     color: #fff;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .navbar-inverse .navbar-text {
-    color: #9d9d9d
+    color: #9d9d9d;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #9d9d9d
+    color: #9d9d9d;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #fff;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #080808
+    background-color: #080808;
 }
 
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
     color: #444;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #333
+    border-color: #333;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: #333
+    background-color: #333;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #fff
+    background-color: #fff;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -4596,52 +4596,52 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #fff;
-    background-color: #080808
+    background-color: #080808;
 }
 
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-        border-color: #080808
+        border-color: #080808;
     }
 
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-        background-color: #080808
+        background-color: #080808;
     }
 
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: #9d9d9d
+        color: #9d9d9d;
     }
 
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #fff;
-        background-color: transparent
+        background-color: transparent;
     }
 
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #fff;
-        background-color: #080808
+        background-color: #080808;
     }
 
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
         color: #444;
-        background-color: transparent
+        background-color: transparent;
     }
 }
 
 .navbar-inverse .navbar-link {
-    color: #9d9d9d
+    color: #9d9d9d;
 }
 
 .navbar-inverse .navbar-link:hover {
-    color: #fff
+    color: #fff;
 }
 
 .navbar-inverse .btn-link {
-    color: #9d9d9d
+    color: #9d9d9d;
 }
 
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
-    color: #fff
+    color: #fff;
 }
 
 .navbar-inverse .btn-link[disabled]:hover, fieldset[disabled] .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:focus {
@@ -4653,32 +4653,32 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     margin-bottom: 20px;
     list-style: none;
     background-color: #f5f5f5;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 .breadcrumb > li {
-    display: inline-block
+    display: inline-block;
 }
 
 .breadcrumb > li + li:before {
     padding: 0 5px;
     color: #ccc;
-    content: "/\00a0"
+    content: "/\00a0";
 }
 
 .breadcrumb > .active {
-    color: #777
+    color: #777;
 }
 
 .pagination {
     display: inline-block;
     padding-left: 0;
     margin: 20px 0;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 .pagination > li {
-    display: inline
+    display: inline;
 }
 
 .pagination > li > a, .pagination > li > span {
@@ -4690,13 +4690,13 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     color: #337ab7;
     text-decoration: none;
     background-color: #fff;
-    border: 1px solid #ddd
+    border: 1px solid #ddd;
 }
 
 .pagination > li:first-child > a, .pagination > li:first-child > span {
     margin-left: 0;
     border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px
+    border-bottom-left-radius: 4px;
 }
 
 .pagination > li:last-child > a, .pagination > li:last-child > span {
@@ -4707,7 +4707,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
     color: #23527c;
     background-color: #eee;
-    border-color: #ddd
+    border-color: #ddd;
 }
 
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
@@ -4722,12 +4722,12 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     color: #777;
     cursor: not-allowed;
     background-color: #fff;
-    border-color: #ddd
+    border-color: #ddd;
 }
 
 .pagination-lg > li > a, .pagination-lg > li > span {
     padding: 10px 16px;
-    font-size: 18px
+    font-size: 18px;
 }
 
 .pagination-lg > li:first-child > a, .pagination-lg > li:first-child > span {
@@ -6741,3 +6741,7 @@ button.close {
 
 
 
+
+.tag {
+    color: #0000ff;
+}
