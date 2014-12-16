@@ -27,6 +27,14 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            /* $("#navigation_bar").load("navigation_bar.html"); */
+            $("#footer").load("../footer.html");
+        });
+    </script>
 </head>
 
 <body>
@@ -127,15 +135,8 @@
 
 
     <!-- FOOTER -->
-    <div class="container">
-        <footer>
-            <hr class="featurette-divider">
-            <p class="pull-right"><a href="#">Top</a>
-            </p>
+    <div id="footer"></div>
 
-            <p>© 2014, VenezianiDoc</p>
-        </footer>
-    </div>
     <!-- ./FOOTER -->
 
     <!-- Script -->
