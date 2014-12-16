@@ -9,15 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/stylevenezianidoc.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/stylevenezianidoc.css" rel="stylesheet">
+    <link href="../css/carousel.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Titolo, descrizione, autore -->
-    <title>Discover Veneto</title>
+    <title>Categorie - Avventura</title>
     <meta name="description" content="Esplora Venezia e tutto il Veneto con le migliori offerte nel web!">
     <meta name="author" content="VenezianiDoc">
 
@@ -43,7 +43,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Logo o nome del sito  -->
-                <a class="navbar-brand" href="index.html">Discover Veneto</a>
+                <a class="navbar-brand" href="../index.html">Discover Veneto</a>
             </div>
             <div class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right" role="search">
@@ -69,7 +69,7 @@
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorie<span
                         class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Avventura</a>
+                            <li class="active"><a href="#">Avventura</a>
                             </li>
                             <li><a href="#">Relax &amp; Benessere</a>
                             </li>
@@ -193,7 +193,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>
