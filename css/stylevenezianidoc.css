@@ -36,7 +36,8 @@ a {
 }
 
 a:active, a:hover {
-    outline: 0
+    outline: 0;
+    color: #ff00a3
 }
 
 abbr[title] {
@@ -6744,8 +6745,4 @@ button.close {
 
 .logo {
     width: 270px;
-}
-
-a.active {
-    border-bottom: 1px #333 solid;
 }

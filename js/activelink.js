@@ -1,16 +1,11 @@
-$(function () {
-    setNavigation();
+$(function() {
+    var url = window.location.href;
+
+// Will only work if string in href matches with location
+    $('a[href="'+ url +'"]').addClass('active');
+
+// Will also work for relative and absolute hrefs
+    $('a').filter(function() {
+        return this.href == url;
+    }).addClass('active');
 });
-
-function setNavigation() {
-    var path = window.location.pathname;
-    path = path.replace(/\/$/, "");
-    path = decodeURIComponent(path);
-
-    $(".nav a").each(function () {
-        var href = $(this).attr('href');
-        if (path.substring(0, href.length) === href) {
-            $(this).closest('li').addClass('active');
-        }
-    });
-}
