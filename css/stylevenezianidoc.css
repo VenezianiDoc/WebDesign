@@ -6745,3 +6745,7 @@ button.close {
 .logo {
     width: 270px;
 }
+
+a.active {
+    border-bottom: 1px #333 solid;
+}
