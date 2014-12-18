@@ -1790,9 +1790,9 @@ if (typeof jQuery === 'undefined') {
         var o = this.options
 
         return $e.attr('data-content')
-        || (typeof o.content == 'function' ?
-            o.content.call($e[0]) :
-            o.content)
+            || (typeof o.content == 'function' ?
+                o.content.call($e[0]) :
+                o.content)
     }
 
     Popover.prototype.arrow = function () {
@@ -1907,9 +1907,9 @@ if (typeof jQuery === 'undefined') {
                 var $href = /^#./.test(href) && $(href)
 
                 return ($href
-                && $href.length
-                && $href.is(':visible')
-                && [[$href[offsetMethod]().top + offsetBase, href]]) || null
+                    && $href.length
+                    && $href.is(':visible')
+                    && [[$href[offsetMethod]().top + offsetBase, href]]) || null
             })
             .sort(function (a, b) {
                 return a[0] - b[0]
