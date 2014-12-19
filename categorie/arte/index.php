@@ -10,6 +10,9 @@
 
 <body>
 
+<?php
+include "../../navbar.php"
+?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -60,15 +63,9 @@
     <!-- ========= ./CONTAINER ======== -->
 
 
-    <!-- FOOTER -->
-    <div id="footer"></div>
-
-    <!-- ./FOOTER -->
-
-    <!-- Script -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <?php
+    include '../../footer.php'
+    ?>
     <script src="../../js/bootstrap.min.js"></script>
 </div>
 </body>
