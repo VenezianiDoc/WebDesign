@@ -28,19 +28,17 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        $(function () {
-            $("#navigation_bar").load("navbar.html");
-            $("#footer").load("footer.html");
-        });
-    </script>
+
 
 </head>
 
 <body>
 
-<div id="navigation_bar"></div>
-<!--- Inserimento navbar ---->
+<div id="navigation_bar">
+    <?php
+    include 'navbar.php'
+    ?>
+</div>
 
 <!-- ========= CAROUSEL ========= -->
 <div id="myCarousel" class="carousel slide">
@@ -150,7 +148,11 @@
 
 
 <!-- FOOTER -->
-<div id="footer"></div>
+<div id="footer">
+    <?php
+    include 'footer.php'
+    ?>
+</div>
 
 <!-- ./FOOTER -->
 

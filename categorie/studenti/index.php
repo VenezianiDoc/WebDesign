@@ -2,61 +2,35 @@
 <html lang="it">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/stylevenezianidoc.css" rel="stylesheet">
-    <link href="../css/carousel.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="../font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Titolo, descrizione, autore -->
-    <title>Categorie - Discover Veneto</title>
-    <meta name="description" content="Esplora Venezia e tutto il Veneto con le migliori offerte nel web!">
-    <meta name="author" content="VenezianiDoc">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        $(function () {
-            $("#navigation_bar").load("../navbar.html");
-            $("#footer").load("../footer.html");
-        });
-    </script>
+    <?php
+    include '../../head.php'
+    ?>
+    <title>Studenti - Discover Veneto</title>
 </head>
 
 <body>
 
-<div id="navigation_bar"></div>
-<!--- Inserimento navbar ---->
+<?php
+include '../../navbar.php'
+?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="../index.html">Home</a>
+        <li><a href="/index.php">Home</a>
+        </li>
+        <li><a href="/categorie">Categorie</a>
         </li>
         <!-- pagina attiva-->
-        <li class="active">Categorie</li>
+        <li class="active">Studenti</li>
     </ol>
 </div>
 <!-- /breadcrumbs -->
 <div class="container">
     <div class="page-header">
-        <h1>Categorie
-            <small> Scegli la tua vacanza ideale</small>
+        <h1>Studenti
+            <small> Scopri tutte le offerte</small>
         </h1>
     </div>
 
@@ -89,16 +63,9 @@
     <!-- ========= ./CONTAINER ======== -->
 
 
-    <!-- FOOTER -->
-    <div id="footer"></div>
-
-    <!-- ./FOOTER -->
-
-    <!-- Script -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.min.js"></script>
+    <?php
+    include '../../footer.php'
+    ?>
 </div>
 </body>
 
