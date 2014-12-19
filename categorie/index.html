@@ -31,7 +31,7 @@
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
         $(function () {
-            /* $("#navigation_bar").load("navigation_bar.html"); */
+            $("#navigation_bar").load("../navbar.html");
             $("#footer").load("../footer.html");
         });
     </script>
@@ -39,69 +39,8 @@
 
 <body>
 
-<!-- ========= NAVBAR ========= -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <!-- Header della navbar -->
-        <div class="navbar-header">
-            <!-- Pulsanti per v. mobile -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-- Logo o nome del sito  -->
-            <a class="navbar-brand" href="../index">Discover Veneto</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <form class="navbar-form navbar-right" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Cerca...">
-                </div>
-                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
-                </button>
-            </form>
-        </div>
-    </div>
-    <div class="container">
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-left">
-                <!-- Link semplici -->
-                <li><a href="#">Offerte</a>
-                </li>
-                <li><a href="#">Destinazioni</a>
-                </li>
-                <li><a href="#">Viaggiare sicuri</a>
-                </li>
-                <!-- Link dropdown -->
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorie<span
-                        class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="./avventura">Avventura</a>
-                        </li>
-                        <li><a href="#">Relax &amp; Benessere</a>
-                        </li>
-                        <li><a href="#">Arte</a>
-                        </li>
-                        <li><a href="#">Famiglia</a>
-                        </li>
-                        <li><a href="#">Studenti</a>
-                        </li>
-                        <li><a href="#">Business Man</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i> Carrello</a>
-                </li>
-                <li><a href="#">Login</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- ========= ./NAVBAR ========= -->
+<div id="navigation_bar"></div>
+<!--- Inserimento navbar ---->
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
