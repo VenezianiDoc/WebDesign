@@ -36,7 +36,8 @@ a {
 }
 
 a:active, a:hover {
-    outline: 0
+    outline: 0;
+    color: #ff00a3
 }
 
 abbr[title] {
@@ -6737,10 +6738,6 @@ button.close {
 .navbar-center {
     margin-left: 30px;
 }
-
-
-
-
 
 .tag {
     color: #0000ff;
