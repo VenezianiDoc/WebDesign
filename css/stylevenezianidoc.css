@@ -6741,7 +6741,8 @@ button.close {
 }
 
 .tag {
-    color: #0000ff;
+    color: #404040;
+    text-align: center;
 }
 
 .logo {

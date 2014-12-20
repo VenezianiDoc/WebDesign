@@ -13,11 +13,11 @@
                 <a class="navbar-brand" href="/">Discover Veneto</a>
             </div>
             <div class="navbar-collapse collapse">
-                <form class="navbar-form navbar-right" role="search">
+                <form class="navbar-form navbar-right" role="search" action="/search">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Cerca...">
                     </div>
-                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
+                    <button type="submit" class="btn btn-default" ><i class="fa fa-search"></i>
                     </button>
                 </form>
             </div>

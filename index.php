@@ -87,7 +87,7 @@ include 'navbar.php'
     <br>
 
     <!-- TAG -->
-    <div class="col-sm-12 hidden-xs">
+    <div class="col-sm-12"> <!-- Disponibile anche per mobile -->
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">Social tags</h3>
