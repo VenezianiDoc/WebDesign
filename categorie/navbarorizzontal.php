@@ -1,4 +1,4 @@
-<div class="btn-group-vertical" role="group" aria-label="Categorie">
+<div class="btn-group-vertical hidden-xs" role="group" aria-label="Categorie">
     <div class="btn-group" role="group">
             <a type="button" class="btn btn-default" href="/categorie/index.php">Indice categorie</a>
             <a type="button" class="btn btn-default" href="/categorie/avventura">Avventura</a>
