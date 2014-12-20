@@ -16,16 +16,18 @@
         <ol class="breadcrumb">
             <li><a href="../index">Home</a>
             </li>
+            <li><a href="index.php">Viaggiare Sicuri</a>
+            </li>
             <!-- pagina attiva-->
-            <li class="active">Categorie</li>
+            <li class="active">Come fare se</li>
         </ol>
     </div>
     <!-- /breadcrumbs -->
 
     <div class="container">
         <div class="page-header">
-            <h1>Categorie
-            <small> Scegli la tua vacanza ideale</small>
+            <h1>Come fare se..
+            <small> Guida rapida su come affrontare gli imprevisti nel viaggio</small>
         </h1>
         </div>
 
