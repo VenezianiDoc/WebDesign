@@ -8,7 +8,8 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Servizi</h3>
-                        <br><br>
+                        <br>
+                        <br>
 
                         <div class="row link-bottom">
                             <a href="/about.php" class="btn-outline" target="_blank">About us</a>
@@ -18,22 +19,21 @@
                         </div>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Seguici su</h3><br><br>
+                        <h3>Seguici su</h3>
+                        <br>
+                        <br>
                         <ul class="list-inline">
                             <li>
                                 <!-- le dimensioni del font sono in font-awesome.min.css in .fa -->
-                                <a href="https://www.facebook.com/" class="btn-social btn-outline"
-                                   target="_blank"><i
+                                <a href="https://www.facebook.com/" class="btn-social btn-outline" target="_blank"><i
                                         class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/" class="btn-social btn-outline"
-                                   target="_blank"><i
+                                <a href="https://twitter.com/" class="btn-social btn-outline" target="_blank"><i
                                         class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/"
-                                   class="btn-social btn-outline" target="_blank"><i
+                                <a href="https://www.youtube.com/" class="btn-social btn-outline" target="_blank"><i
                                         class="fa fa-fw fa-youtube"></i></a>
                             </li>
                             <li>
@@ -50,7 +50,8 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Links</h3>
-                        <br><br>
+                        <br>
+                        <br>
 
                         <div class="row link-bottom">
                             <a href="/about.php" class="btn-outline" target="_blank">About</a>

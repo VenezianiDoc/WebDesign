@@ -10,4 +10,3 @@
     <li><a href="/destinazioni/locali">Locali &amp; Ristorazione</a>
     </li>
 </ul>
-

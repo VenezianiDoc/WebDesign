@@ -17,7 +17,7 @@
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Cerca...">
                     </div>
-                    <button type="submit" class="btn btn-default" ><i class="fa fa-search"></i>
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
                     </button>
                 </form>
             </div>
