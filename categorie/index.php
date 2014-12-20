@@ -35,9 +35,7 @@ include '../navbar.php'
     <div class="container">
         <div class="raw">
             <div class="col-sm-2">
-                <?php
-                include '../navbarorizzontal.php'
-                ?>
+                 <?php include 'navbarorizzontal.php' ?>
             </div>
             <div class="col-xs-12 col-sm-10">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus

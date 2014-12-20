@@ -41,3 +41,21 @@
     margin-top: 110px;
     margin-bottom: 15px;
 }
+
+/* STILE MENU ORIZZONTALE */
+
+ul.menuor {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border: 0px;
+    vertical-align: middle;
+}
+
+ul.menuor li {
+    background-color: #ebebeb;
+    display: block;
+    margin: 0px;
+    padding: 10px;
+}

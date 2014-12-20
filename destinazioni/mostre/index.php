@@ -16,7 +16,7 @@
         <ol class="breadcrumb">
             <li><a href="/index.php">Home</a>
             </li>
-            <li><a href="/categorie/">Destinazioni</a>
+            <li><a href="/destinazioni/">Destinazioni</a>
             </li>
             <!-- pagina attiva-->
             <li class="active">Mostre &amp; Concerti</li>

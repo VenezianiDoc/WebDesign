@@ -1,4 +1,4 @@
-<ul class="navor" role="group" aria-label="Categorie">
+<ul class="navor menuor" role="group" aria-label="Categorie">
     <li><a href="/destinazioni/index.php">Indice destinazioni</a>
     </li>
     <li><a href="/destinazioni/musei">Musei</a>

@@ -6753,5 +6753,8 @@ button.close {
 @media (max-width: 768px) { /* Nascondere navor */
     .navor {
         display: none;
+        font-family: Verdana, sans-serif;
     }
+    
+
 }
