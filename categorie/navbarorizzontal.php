@@ -7,3 +7,4 @@
             <li><a href="/categorie/studenti">Studenti</a></li>
             <li><a href="/categorie/business">Business Man</a></li>
 </ul>
+
