@@ -35,12 +35,12 @@ include '../../navbar.php'
     </div>
     <div class="container">
         <div class="raw">
-            <div class="col-lg-2">
+            <div class="col-sm-2">
                 <?php
                 include '../navbarorizzontal.php'
                 ?>
             </div>
-            <div class="col-lg-10">
+            <div class="col-xs-12 col-sm-10">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus
                     pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare
                     placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin
