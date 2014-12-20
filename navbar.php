@@ -28,11 +28,24 @@
                     <!-- Link semplici -->
                     <li><a href="/offerte">Offerte</a>
                     </li>
-                    <li><a href="/destinazioni">Destinazioni</a>
+                    <!-- Link dropdown DESTINAZIONI -->
+                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Destinazioni<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="/destinazioni/index.php">Indice destinazioni</a>
+                            </li>
+                            <li><a href="/destinazioni/musei">Musei</a>
+                            </li>
+                            <li><a href="/destinazioni/mostre">Mostre &amp; Concerti</a>
+                            </li>
+                            <li><a href="/destinazioni/alberghi">Alberghi &amp; Alloggi</a>
+                            </li>
+                            <li><a href="/destinazioni/locali">Locali &amp; Ristorazione</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li><a href="/viaggiaresicuri">Viaggiare sicuri</a>
-                    </li>
-                    <!-- Link dropdown -->
+                    <!-- Link dropdown CATEGORIE -->
                     <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Categorie<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -52,6 +65,8 @@
                             <li><a href="/categorie/business">Business Man</a>
                             </li>
                         </ul>
+                    </li>
+                    <li><a href="/viaggiaresicuri">Viaggiare sicuri</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
