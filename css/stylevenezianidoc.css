@@ -3122,7 +3122,8 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 .btn-default {
     color: #333;
     background-color: #fff;
-    border-color: #ccc
+    border-color: #ccc;
+    text-align: left;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
@@ -3537,7 +3538,7 @@ tbody.collapse.in {
 .btn-group, .btn-group-vertical {
     position: relative;
     display: inline-block;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .btn-group > .btn, .btn-group-vertical > .btn {
@@ -6745,4 +6746,11 @@ button.close {
 
 .logo {
     width: 270px;
+}
+
+
+@media (max-width: 768px) { /* Nascondere navor */
+    .navor {
+        display: none;
+    }
 }
