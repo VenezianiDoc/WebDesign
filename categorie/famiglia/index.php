@@ -35,6 +35,11 @@ include '../../navbar.php'
     </div>
     <div class="container">
         <div class="raw">
+            <div class="col-lg-2">
+                <?php
+                include '../navbarorizzontal.php'
+                ?>
+            </div>
             <div class="col-lg-10">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus
                     pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare
@@ -58,11 +63,6 @@ include '../../navbar.php'
                     lobortis. Integer pellentesque velit et mollis accumsan. Sed semper ex ac tellus lobortis, vitae posuere
                     velit condimentum. Donec suscipit blandit turpis in pellentesque. Ut pretium suscipit sapien et
                     vulputate.</p>
-            </div>
-            <div class="col-lg-2">
-                <?php
-                include '../navbarorizzontal.php'
-                ?>
             </div>
         </div>
     </div>
