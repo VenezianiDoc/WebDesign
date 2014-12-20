@@ -33,10 +33,13 @@
                     <li><a href="/viaggiaresicuri">Viaggiare sicuri</a>
                     </li>
                     <!-- Link dropdown -->
-                    <li class="dropdown"><a href="./categorie/index" class="dropdown-toggle" data-toggle="dropdown">Categorie<span
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Categorie<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="categorie/avventura">Avventura</a>
+                            <li>
+                                <a href="/categorie/index.php">Indice categorie</a>
+                            </li>
+                            <li><a href="/categorie/avventura">Avventura</a>
                             </li>
                             <li><a href="/categorie/relax">Relax &amp; Benessere</a>
                             </li>
