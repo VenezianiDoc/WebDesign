@@ -33,11 +33,11 @@ include '../navbar.php'
     </div>
 
     <div class="container">
-        <p>Pagina 1</p><hr>
+        <h2>Pagina 1<small> Sottotitolo pagina</small></h2><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin est molestie nec. Ut volutpat vulputate lacus in pretium...</p><hr>
 
-        <p>Pagina 2</p><hr>
+        <h2>Pagina 2<small> Sottotitolo pagina</small></h2><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin est molestie nec. Ut volutpat vulputate lacus in pretium...</p><hr>
 
-        <p>Pagina 3</p><hr>
+        <h2>Pagina 3<small> Sottotitolo pagina</small></h2><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin est molestie nec. Ut volutpat vulputate lacus in pretium...</p><hr>
 
 
     </div>
