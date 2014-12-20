@@ -12,9 +12,9 @@
                         <br>
 
                         <div class="row link-bottom">
-                            <a href="/about.php" class="btn-outline" target="_blank">About us</a>
+                            <a href="/about.php" class="btn-outline">About us</a>
                             <br>
-                            <a href="/contatti" class="btn-outline" target="_blank">Contatti</a>
+                            <a href="/contatti.php" class="btn-outline">Contatti</a>
                             <br>
                         </div>
                     </div>
@@ -49,14 +49,14 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Links</h3>
+                        <h3>Shortcuts</h3>
                         <br>
                         <br>
 
                         <div class="row link-bottom">
-                            <a href="/about.php" class="btn-outline" target="_blank">About</a>
+                            <a href="/offerte/lastminute.php" class="btn-outline">Last Minute</a>
                             <br>
-                            <a href="/mappa" class="btn-outline" target="_blank">Mappa del sito</a>
+                            <a href="/viaggiaresicuri/" class="btn-outline">Viaggiare sicuri</a>
                             <br>
                         </div>
                     </div>
