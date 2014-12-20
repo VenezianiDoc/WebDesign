@@ -1,1 +1,7 @@
-bassa stag
+    </div>
+    <!-- ========= ./CONTAINER ======== -->
+    
+    
+    <?php include '../footer.php' ?>
+    
+</body>

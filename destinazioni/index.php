@@ -53,10 +53,12 @@
 
             </div>
         </div>
-        <!-- ========= ./CONTAINER ======== -->
-
-        <?php include "../footer.php"; ?>
-    </div>
+            </div>
+    <!-- ========= ./CONTAINER ======== -->
+    
+    
+    <?php include '../footer.php' ?>
+    
 </body>
 
 </html>
