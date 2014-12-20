@@ -21,7 +21,7 @@ include '../navbar.php'
         <li><a href="../index.php">Home</a>
         </li>
         <!-- pagina attiva-->
-        <li class="active">Categorie</li>
+        <li class="active">Search</li>
     </ol>
 </div>
 <!-- /breadcrumbs -->
