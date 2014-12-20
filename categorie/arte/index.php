@@ -69,7 +69,6 @@ include "../../navbar.php"
     </div>
     <!-- ========= ./CONTAINER ======== -->
 
-
     <?php
     include '../../footer.php'
     ?>
