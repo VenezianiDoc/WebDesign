@@ -33,7 +33,7 @@
                     <li><a href="/viaggiaresicuri">Viaggiare sicuri</a>
                     </li>
                     <!-- Link dropdown -->
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Categorie<span
+                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Categorie<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
