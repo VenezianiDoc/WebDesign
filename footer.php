@@ -7,13 +7,13 @@
 
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Links</h3>
+                        <h3>Servizi</h3>
                         <br><br>
 
                         <div class="row link-bottom">
-                            <a href="/about.php" class="btn-outline" target="_blank">About</a>
+                            <a href="/about.php" class="btn-outline" target="_blank">About us</a>
                             <br>
-                            <a href="/mappa" class="btn-outline" target="_blank">Mappa del sito</a>
+                            <a href="/contatti" class="btn-outline" target="_blank">Contatti</a>
                             <br>
                         </div>
                     </div>
