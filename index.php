@@ -11,9 +11,9 @@
 
 <body>
 
-    <?php
-    include 'navbar.php'
-    ?>
+<?php
+include 'navbar.php'
+?>
 
 <!-- ========= CAROUSEL ========= -->
 <div id="myCarousel" class="carousel slide">
@@ -26,7 +26,7 @@
     <div class="carousel-inner">
 
         <div class="item active">
-            <img src="http://placehold.it/1900x1080/990000/ffffff&text=Slide%20Uno" alt="Welcome">
+            <img src="http://placehold.it/1900x1080/990000/ffffff&text=Offerta%20Uno" alt="Welcome">
 
             <div class="container">
                 <div class="carousel-caption">
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="http://placehold.it/1900x1080/990000/ffffff&text=Slide%20Due" alt="Second slide">
+            <img src="http://placehold.it/1900x1080/990000/ffffff&text=Offerta%20Due" alt="Second slide">
 
             <div class="container">
                 <div class="carousel-caption">
@@ -120,11 +120,9 @@
 
 </div>
 <!-- ========= ./CONTAINER ======== -->
-
-
-    <?php
-    include 'footer.php'
-    ?>
+<?php
+include 'footer.php'
+?>
 </body>
 
 </html>
