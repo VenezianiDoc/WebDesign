@@ -17,29 +17,37 @@
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
 
         <div class="carousel-inner">
 
             <div class="item active">
-                <img src="http://placehold.it/1900x1080/990000/ffffff&text=Offerta%20Uno" alt="Welcome">
+                <img src="http://www.hoteldelfino-mestre.com/wp-content/uploads/2013/09/venezia.jpg" alt="First slide">
 
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Welcome</h1>
-
-                        <p>The <em>Mos Eisley Cantina</em> is open every day, 24/7. Droids are not allowed inside, but your Credits are welcome.</p>
+                        <h1>Venezia</h1>
+                        <p>La più bella città del mondo con le sua laguna e la sua storia</p>
                     </div>
                 </div>
             </div>
             <div class="item">
-                <img src="http://placehold.it/1900x1080/990000/ffffff&text=Offerta%20Due" alt="Second slide">
-
+                <!-- <img src="http://placehold.it/1900x1080/990000/ffffff&text=Offerta%20Due" alt="Second slide"> -->
+                <img src="http://islandlakecatskiing.com/files/uploads/2013/10/trek_gall_ILL3956.jpg" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>References? Why the heck not.</h1>
-
-                        <p>We've been told you will never find a more wretched hive of scum and villainy.</p>
+                        <h1>Dolomiti</h1>
+                        <p>Il più bel patrimonio dell'UNESCO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="http://www.villa-albonico.com/images/slider-home/4.jpg" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Lago di Garda</h1>
+                        <p>Il più grande Lago d'Italia</p>
                     </div>
                 </div>
             </div>
@@ -51,9 +59,9 @@
             class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
     <!-- ========= ./CAROUSEL ======== -->
-
+    
     <br>
-
+    
     <!-- ========= CONTAINER ======== -->
     <div class="container">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin est molestie nec. Ut volutpat vulputate lacus in pretium. Aliquam consequat dolor tortor, in imperdiet diam posuere quis. Vivamus ex metus, finibus eu lectus in, consequat vehicula odio. Aenean imperdiet felis urna, et blandit orci accumsan in.</p>
