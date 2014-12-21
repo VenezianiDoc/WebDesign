@@ -29,8 +29,10 @@
         </div>
 
         <div class="container">
-            
-            <?php include 'cart.php' ?>
+
+            <!-- Simulatore carrello -->
+
+            <?php $TIPO = $_POST['TIPO']; if($TIPO==0){ include 'cart_vuoto.php'; } else{ include 'cart_pieno.php';} ?>
 
 
         </div>
