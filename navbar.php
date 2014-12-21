@@ -33,7 +33,7 @@
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
-                                <a href="/destinazioni/index.php">Indice destinazioni</a>
+                                <a href="/destinazioni/">Indice destinazioni</a>
                             </li>
                             <li><a href="/destinazioni/musei">Musei</a>
                             </li>
