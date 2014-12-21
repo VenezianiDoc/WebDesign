@@ -17,14 +17,14 @@
             <li><a href="../index.php">Home</a>
             </li>
             <!-- pagina attiva-->
-            <li class="active">Area Riservata</li>
+            <li class="active">Nuovo utente</li>
         </ol>
     </div>
     <!-- /breadcrumbs -->
     <div class="container">
 
         <div class="page-header">
-            <h1>Login
+            <h1>Registrati
             <small> Accedi per vivere un'esperienza ancora più intensa</small>
         </h1>
         </div>
@@ -32,22 +32,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <form class="form-inline">
+                    <form>
                         <fieldset>
-                            <label for="nome">Utente:</label>
-                            <input type="text" class="input-small" placeholder="e-mail">
-                            <label for="nome">Password:</label>
-                            <input type="password" class="input-small" placeholder="Password">
-                            <label class="checkbox">Ricordami </label>
-                            <input type="checkbox">
-                            <button type="submit" class="btn input-small">Accedi</button>
+                            <!-- esiste tag  <input type="datetime"> che indica i campi contenenti le date con orario -->
+                            <label for="nome">Nome:</label>
+                            <input id="nome" class="input-small" type="text" placeholder="Nome">
+                            <label for="cognome">Cognome:</label>
+                            <input id="cognome" class="input-small" type="text" placeholder="Cognome">
+                            <label for="email">Email:</label>
+                            <input id="email" class="input-small" type="email" placeholder="e-mail">
+                            <button type="submit" class="btn input-small">Registrami</button>
                         </fieldset>
                     </form>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <br>Se non sei ancora registrato, clicca <a href="registrati.php">qui</a>.
+                <div class="col-lg-12"><br>
+                    Se sei già registrato clicca <a href="index.php">qui</a>.
                 </div>
             </div>
         </div>

@@ -69,3 +69,7 @@ ul.menuor li {
     content: "_";
     color: white;
 }
+.input-small {
+    display: block;
+    margin: 10px;
+}
