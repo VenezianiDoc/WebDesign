@@ -73,3 +73,13 @@ ul.menuor li {
     display: block;
     margin: 10px;
 }
+
+.rimuovi {
+    position: relative;
+    top: 10px;
+    left: 10%;
+}
+
+.align-right {
+    text-align: right;
+}
