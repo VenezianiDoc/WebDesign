@@ -19,7 +19,6 @@
     </div>
 </div>
 
-
 <form action="../offerte">
     <button type="submit" class="btn input-small">Inizia a fare shopping</button>
 </form>
