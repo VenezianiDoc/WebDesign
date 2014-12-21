@@ -5414,11 +5414,11 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 
 .panel-body {
-    padding: 15px
-
+    padding: 15px;
 }
 
-.panel-body > h1, h2, h3, h4, h5 {
+
+a.panel-body > h1, h2, h3, h4, h5, h6 {
     display: inline;
 }
 
@@ -5441,7 +5441,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 
 .panel-title > a {
-    color: inherit
+    color: inherit;
 }
 
 .panel-footer {
@@ -6742,6 +6742,14 @@ button.close {
 .tag {
     color: #404040;
     text-align: center;
+}
+
+.tag > a, h1, h2, h3, h4, h5, h6 {
+    display: inline;
+}
+
+a.tag {
+    display: inline;
 }
 
 .logo {

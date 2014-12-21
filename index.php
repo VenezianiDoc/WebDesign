@@ -28,7 +28,7 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Venezia</h1>
-                        <p>La più bella città del mondo con le sua laguna e la sua storia</p>
+                        <p>La più bella città del mondo con la sua laguna e la sua storia</p>
                     </div>
                 </div>
             </div>
@@ -59,9 +59,9 @@
             class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
     <!-- ========= ./CAROUSEL ======== -->
-    
+
     <br>
-    
+
     <!-- ========= CONTAINER ======== -->
     <div class="container">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin est molestie nec. Ut volutpat vulputate lacus in pretium. Aliquam consequat dolor tortor, in imperdiet diam posuere quis. Vivamus ex metus, finibus eu lectus in, consequat vehicula odio. Aenean imperdiet felis urna, et blandit orci accumsan in.</p>
@@ -81,26 +81,19 @@
                     <h3 class="panel-title">Social tags</h3>
                 </div>
                 <div class="panel-body tag">
-                    <h1>Venezia</h1>
-                    <h4>Gondola</h4>
+                    <a href="search/"><h1>Venezia</h1></a>
+                    <a href="search/"><h4>Gondola</h4></a>
+                    <a href="search/"><h2>Veneto</h2></a>
+                    <a href="search/"><h1>San Marco</h1></a>
+                    <a href="search/"><h2>Laguna</h2></a>
+                    <a href="search/"><h5>Verona</h5></a>
+                    <a href="search/"><h3>Treviso</h3></a>
+                    <a href="search/"><h2>Padova</h2></a>
+                    <a href="search/"><h1>Hotel</h1></a>
+                    <a href="search/"><h3>Vino</h3></a>
+                    <a href="search/"><h2>Cortina</h2></a>
+                    <a href="search/"><h5>Belluno</h5></a>
 
-                    <h2>Veneto</h2>
-
-                    <h1>San Marco</h1>
-
-                    <h2>Laguna</h2>
-                    <h5>Verona</h5>
-
-                    <h3>Treviso</h3>
-
-                    <h2>Padova</h2>
-
-                    <h1>Hotel</h1>
-
-                    <h3>Vino</h3>
-
-                    <h2>Cortina</h2>
-                    <h5>Belluno</h5>
                 </div>
             </div>
         </div>
