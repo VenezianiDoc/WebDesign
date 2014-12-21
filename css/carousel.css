@@ -65,6 +65,7 @@ ul.menuor li {
 
 
 
-.form-group:after {
-    margin: 10px;
+.from_personal:after {
+    content: "_";
+    color: white;
 }

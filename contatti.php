@@ -24,7 +24,7 @@
 
     <div class="container">
         <div class="page-header">
-            <h1>Contattati<small> Tutti i nostri contatti</small></h1>
+            <h1>Contatti<small> Tutti i nostri contatti</small></h1>
         </div>
         <div class="row">
             <div class="col-sm-12">
@@ -43,7 +43,7 @@
                     <legend>Compila i campi seguenti per inviarci un e-mail:</legend>
 
                     <!-- Nome -->
-                    <div class="form-group">
+                    <div class="form-group from_personal">
                         <label class="col-md-3 control-label" for="name">Il tuo nome</label>
                         <div class="col-md-9">
                             <input id="name" name="name" type="text" placeholder="Nome" class="form-control">
@@ -51,7 +51,7 @@
                     </div>
 
                     <!-- Email -->
-                    <div class="form-group">
+                    <div class="form-group from_personal">
                         <label class="col-md-3 control-label" for="email">La tua e-mail</label>
                         <div class="col-md-9">
                             <input id="email" name="email" type="text" placeholder="e-mail" class="form-control">
@@ -59,7 +59,7 @@
                     </div>
 
                     <!-- Messaggio  -->
-                    <div class="form-group">
+                    <div class="form-group from_personal">
                         <label class="col-md-3 control-label" for="message">Il tuo messaggio</label>
                         <div class="col-md-9">
                             <textarea class="form-control" id="message" name="message" placeholder="Inserisci qui il testo dell'e-mail" rows="5"></textarea>
@@ -67,7 +67,7 @@
                     </div>
 
                     <!-- Pulsante -->
-                    <div class="form-group">
+                    <div class="form-group from_personal">
                         <div class="col-md-12 text-right">
                             <button type="submit" class="btn btn-primary btn-lg">Invia</button>
                         </div>
