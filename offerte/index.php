@@ -30,11 +30,9 @@
 
         <div class="container">
             <h2><a href="lastminute.php">Last minute</a></h2>
-            <br>
             <p>Tutte le offerte dell'ultimo secondo! >>>> DA INSERIRE IMMAGINI O ALTRO</p>
 
             <h2><a href="bassa.php">Bassa stagione</a></h2>
-            <br>
             <p>I prezzi migliori solo per te! >>>> DA INSERIRE IMMAGINI O ALTRO</p>
 
 

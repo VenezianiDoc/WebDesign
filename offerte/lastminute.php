@@ -34,11 +34,9 @@
 
         <div class="container">
             <h2>Qualcosa</h2>
-            <br>
             <p>Tutte le offerte! >>>> DA INSERIRE IMMAGINI O ALTRO</p>
 
             <h2>Qualcosa</h2>
-            <br>
             <p>I prezzi migliori solo per te! >>>> DA INSERIRE IMMAGINI O ALTRO</p>
 
 

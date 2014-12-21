@@ -24,7 +24,7 @@
     <div class="container">
         <div class="page-header">
             <h1>Pagina risultati
-            <small> Risultati di ricerca per la parola</small>
+            <small> Risultati di ricerca per "parola"</small>
         </h1>
         </div>
 

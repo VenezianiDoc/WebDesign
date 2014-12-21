@@ -81,18 +81,18 @@
                     <h3 class="panel-title">Social tags</h3>
                 </div>
                 <div class="panel-body tag">
-                    <a href="search/"><h1>Venezia</h1></a>
-                    <a href="search/"><h4>Gondola</h4></a>
-                    <a href="search/"><h2>Veneto</h2></a>
-                    <a href="search/"><h1>San Marco</h1></a>
-                    <a href="search/"><h2>Laguna</h2></a>
-                    <a href="search/"><h5>Verona</h5></a>
-                    <a href="search/"><h3>Treviso</h3></a>
-                    <a href="search/"><h2>Padova</h2></a>
-                    <a href="search/"><h1>Hotel</h1></a>
-                    <a href="search/"><h3>Vino</h3></a>
-                    <a href="search/"><h2>Cortina</h2></a>
-                    <a href="search/"><h5>Belluno</h5></a>
+                    <a class="tag" href="search/"><h1>Venezia</h1></a>
+                    <a class="tag" href="search/"><h4>Gondola</h4></a>
+                    <a class="tag" href="search/"><h2>Veneto</h2></a>
+                    <a class="tag" href="search/"><h1>San Marco</h1></a>
+                    <a class="tag" href="search/"><h2>Laguna</h2></a>
+                    <a class="tag" href="search/"><h5>Verona</h5></a>
+                    <a class="tag" href="search/"><h3>Treviso</h3></a>
+                    <a class="tag" href="search/"><h2>Padova</h2></a>
+                    <a class="tag" href="search/"><h1>Hotel</h1></a>
+                    <a class="tag" href="search/"><h3>Vino</h3></a>
+                    <a class="tag" href="search/"><h2>Cortina</h2></a>
+                    <a class="tag" href="search/"><h5>Belluno</h5></a>
 
                 </div>
             </div>
