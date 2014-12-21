@@ -32,7 +32,7 @@
 
             <!-- Simulatore carrello -->
 
-            <?php $TIPO = $_POST['TIPO']; if($TIPO==0){ include 'cart_vuoto.php'; } elseif($TIPO==2){include 'cart_cassa.php';} else{ include 'cart_pieno.php';} ?>
+            <?php $TIPO = $_POST['TIPO']; if($TIPO==1){include 'cart_pieno.php';} elseif($TIPO==2){include 'cart_cassa.php';} elseif($TIPO==3){include 'cart_pagato.php';} else{ include 'cart_vuoto.php';} ?>
 
 
         </div>

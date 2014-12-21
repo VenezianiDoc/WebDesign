@@ -43,6 +43,6 @@
             <p class="align-right">247,00 €</p>
         </div>
     </div>
-<form action="../offerte"><button type="submit" class="btn input-small">Continua lo shopping</button></form>
+<form action="../offerte"><button type="submit" class="btn input-small">Torna allo shopping</button></form>
 <form method="post" action="index.php"><button type="submit" class="btn input-small" name="TIPO" value="2">Vai alla cassa</button></form>
 </div>

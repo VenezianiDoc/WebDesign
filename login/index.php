@@ -39,7 +39,7 @@
                             <label for="nome">Password:</label>
                             <input type="password" class="input-small" placeholder="Password">
                             <label class="checkbox">Ricordami </label>
-                            <input type="checkbox">
+                            <input type="checkbox" checked="checked">
                             <button type="submit" class="btn input-small">Accedi</button>
                         </fieldset>
                     </form>

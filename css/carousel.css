@@ -83,3 +83,8 @@ ul.menuor li {
 .align-right {
     text-align: right;
 }
+
+img.logo-cart {
+    width: 7em;
+    margin: 15px 0px 15px 0px;
+}

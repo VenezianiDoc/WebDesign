@@ -6,11 +6,14 @@
         </div>
         <div class="panel-body">
             <p>
-                <h3>Hotel Splendid, Venezia</h3><hr>
-                <h3>Tour in gondola in Canal Grande</h3><hr>
-                <h3>Prima Materia - Punta della Dogana</h3><hr>
+                <h4>Hotel Splendid, Venezia</h4>
+                <hr>
+                <h4>Tour in gondola in Canal Grande</h4>
+                <hr>
+                <h4>Prima Materia - Punta della Dogana</h4>
+                <hr>
             </p>
-            <p class="align-right">247,00 €</p>
+            <h3 class="align-right">247,00 €</h3>
         </div>
     </div>
 </div>
@@ -20,14 +23,17 @@
             <h2>Metodo di pagamento</h2>
         </div>
         <div class="panel-body">
-            <p>
-                MasterCard<br>Pay Pal << Inserire controllo scelta
-            </p>
-            
-            <form action="#">
-    <button type="submit" class="btn input-small">Paga</button>
-</form>
-            
+            <form action="">
+                <fieldset>
+                    <input type="radio" name="metodo" value="mastercard">&emsp;<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1280px-MasterCard_Logo.svg.png" class="logo-cart" alt="MasterCard"><br>
+                    <input type="radio" name="metodo" value="paypal">&emsp;<img src="http://upload.wikimedia.org/wikipedia/az/d/dc/Paypal_logo.jpg" class="logo-cart" alt="PayPal">
+                </fieldset>
+            </form>
+
+            <form method="post" action="index.php">
+                <button type="submit" class="btn input-small" name="TIPO" value="3">Paga</button>
+            </form>
+
         </div>
     </div>
 </div>
@@ -35,5 +41,5 @@
 
 
 <form action="../offerte">
-    <button type="submit" class="btn input-small">Continua lo shopping</button>
+    <button type="submit" class="btn input-small">Torna allo shopping</button>
 </form>
