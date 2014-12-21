@@ -32,10 +32,10 @@
 
             <!-- breadcrumbs avanzamento carrello --><?php $TIPO = $_POST['TIPO']; ?>
         <ol class="breadcrumb-cart">
-            <li <?php if ($TIPO==0){echo ' class="active"';} ?>>Carrello</li>
-            <li <?php if ($TIPO==1){echo ' class="active"';} ?>>Check</li>
-            <li <?php if ($TIPO==2){echo ' class="active"';} ?>>Cassa</li>
-            <li <?php if ($TIPO==3){echo ' class="active"';} ?>>Conferma</li>
+            <li <?php if ($TIPO>=0){echo ' class="active"';} ?>>Carrello</li>
+            <li <?php if ($TIPO>=1){echo ' class="active"';} ?>>Check</li>
+            <li <?php if ($TIPO>=2){echo ' class="active"';} ?>>Cassa</li>
+            <li <?php if ($TIPO>=3){echo ' class="active"';} ?>>Conferma</li>
         </ol>
     </div>
     <!-- /breadcrumbs avanzamento carrello -->
