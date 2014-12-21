@@ -5076,8 +5076,10 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     border-color: #ebccd1
 }
 
-.alert-danger hr {
-    border-top-color: #e4b9c0
+.menuor hr {
+    border-top-color: #fff;
+    padding: 0;
+    margin: 0;
 }
 
 .alert-danger .alert-link {

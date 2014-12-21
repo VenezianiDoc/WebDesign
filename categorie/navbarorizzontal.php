@@ -1,6 +1,6 @@
 <ul class="navor menuor" role="group" aria-label="Categorie">
     <li><a href="/categorie/index.php">Indice categorie</a>
-    </li>
+    </li><hr>
     <li><a href="/categorie/avventura">Avventura</a>
     </li>
     <li><a href="/categorie/relax">Relax &amp; Benessere</a>
