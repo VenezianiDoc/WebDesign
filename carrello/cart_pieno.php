@@ -1,7 +1,7 @@
 <div class="row">
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h3 class="panel-title align-right">Prezzo&emsp;</p></h3>
+            <h3 class="panel-title align-right">Prezzo&emsp;</h3>
         </div>
     </div>
 
@@ -44,5 +44,5 @@
         </div>
     </div>
 <form action="../offerte"><button type="submit" class="btn input-small">Continua lo shopping</button></form>
-    <button type="submit" class="btn input-small">Vai alla cassa</button>
+<form method="post" action="index.php"><button type="submit" class="btn input-small" name="TIPO" value="2">Vai alla cassa</button></form>
 </div>
