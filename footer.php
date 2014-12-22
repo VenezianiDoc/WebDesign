@@ -1,6 +1,6 @@
 <div id="footer" class="hidden-print">
     <hr>
-    <footer class="text-center footer-style">
+    <footer class="text-center footer-style hidden-print">
         <div class="footer-above">
             <div class="container">
                 <br>
