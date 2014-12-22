@@ -30,9 +30,9 @@
 
         <div class="container">
             <div class="row">
-                <div class="hidden-xs">
-                    Widget desktop
+                <div class="hidden-xs text-center">
                     <!--Codice per il Widget desktop -->
+                    <img src="../img/widget_large.png" width="80%" alt="widget ricerca destinazione">
                 </div>
                 <div class="visible-xs">
                     Widget mobile

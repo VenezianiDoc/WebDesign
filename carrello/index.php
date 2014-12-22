@@ -31,7 +31,7 @@
         <div class="container">
 
             <!-- breadcrumbs avanzamento carrello --><?php $TIPO = $_POST['TIPO']; ?>
-        <ol class="breadcrumb-cart">
+        <ol class="breadcrumb-cart text-center">
             <li <?php if ($TIPO>=0){echo ' class="active"';} ?>>Carrello</li>
             <li <?php if ($TIPO>=1){echo ' class="active"';} ?>>Check</li>
             <li <?php if ($TIPO>=2){echo ' class="active"';} ?>>Cassa</li>
