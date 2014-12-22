@@ -39,7 +39,7 @@
                     <!--Codice per il Widget mobile -->
                 </div>
                 <br>
-                <div class="raw">
+                <div class="row">
                     <div class="col-sm-2">
                         <?php include 'navbarorizzontal.php' ?>
                     </div>

@@ -30,7 +30,7 @@
         </div>
 
         <div class="container">
-            <div class="raw">
+            <div class="row">
                 <div class="col-sm-2">
                     <?php include '../navbarorizzontal.php' ?>
                 </div>
