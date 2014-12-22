@@ -32,7 +32,7 @@
         </div>
 
         <div class="container">
-            <p>Polizia 113<br>Carabinieri 112<br>Vigili del Fuoco 115<br>Emergenza sanitaria 118 </p>
+            <p>Carabinieri 112<br>Polizia 113<br>Vigili del Fuoco 115<br>Emergenza sanitaria 118 </p>
 
             <p><h3>Assistenza medica</h3>
 Per entrare in Italia non sono prescritti vaccini di alcun genere. Per cure sanitarie i cittadini europei (compresa la Svizzera) debbono rivolgersi alle strutture pubbliche e private convenzionate del Servizio sanitario nazionale (ASL) e agli ospedali dislocati su tutto il territorio. Le prestazioni sono fornite a titolo gratuito, salvo il pagamento di un "ticket" (partecipazione alle spese) che resta a carico dell'assistito. In caso di emergenza chiamate il 118. La telefonata è gratuita.</p>

@@ -12,7 +12,7 @@
     <?php include 'navbar.php' ?>
 
     <!-- ========= CAROUSEL ========= -->
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel hidden-print">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

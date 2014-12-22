@@ -1,4 +1,4 @@
-<div id="footer">
+<div id="footer" class="hidden-print">
     <hr>
     <footer class="text-center footer-style">
         <div class="footer-above">
