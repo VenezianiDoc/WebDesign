@@ -63,6 +63,14 @@
     <br>
 
     <!-- ========= CONTAINER ======== -->
+    
+    <div class="container visible-print-block">
+        <div class="page-header">
+            <h1>Discover Veneto<small> Home Page</small>
+            </h1>
+        </div>    
+    </div>
+    
     <div class="container">
         <p>Il Veneto è una regione italiana a statuto ordinario di 4.927.401 abitanti situata nell'Italia nord-orientale; capitale storica e capoluogo amministrativo è Venezia. Confina a nord con il Trentino-Alto Adige e l'Austria, a sud con l'Emilia-Romagna, ad ovest con la Lombardia, a est con il Friuli-Venezia Giulia, e a sud-est con il Mar Adriatico. Insieme al Trentino-Alto Adige e al Friuli-Venezia Giulia il Veneto costituisce la macroarea del Triveneto o delle Tre Venezie.</p>
 
@@ -74,7 +82,7 @@
         <br>
 
         <!-- TAG -->
-        <div class="col-sm-12">
+        <div class="col-sm-12 hidden-print">
             <!-- Disponibile anche per mobile -->
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -93,6 +101,18 @@
                     <a class="tag" href="search/"><h3>Vino</h3></a>
                     <a class="tag" href="search/"><h2>Cortina</h2></a>
                     <a class="tag" href="search/"><h5>Belluno</h5></a>
+                    <a class="tag" href="search/"><h1>Doloniti</h1></a>
+                    <a class="tag" href="search/"><h4>Prosecco</h4></a>
+                    <a class="tag" href="search/"><h2>Mare Adriatico</h2></a>
+                    <a class="tag" href="search/"><h1>Italia</h1></a>
+                    <a class="tag" href="search/"><h2>Lago di Garda</h2></a>
+                    <a class="tag" href="search/"><h5>Friuli-Venezia Giulia</h5></a>
+                    <a class="tag" href="search/"><h3>Regione Veneto</h3></a>
+                    <a class="tag" href="search/"><h2>Dolomiti</h2></a>
+                    <a class="tag" href="search/"><h1>B&amp;B</h1></a>
+                    <a class="tag" href="search/"><h4>Cultura</h4></a>
+                    <a class="tag" href="search/"><h2>Rialto</h2></a>
+                    <a class="tag" href="search/"><h5>Palazzo Ducale</h5></a>
 
                 </div>
             </div>

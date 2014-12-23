@@ -3,9 +3,6 @@
         <div class="panel-heading">
             <h3 class="panel-title align-right">Prezzo&emsp;</h3>
         </div>
-    </div>
-
-    <div class="panel panel-default">
         <div class="panel-body">
             <p>
                 <h2>Hotel Splendid, Venezia</h2>Una notte per 2
