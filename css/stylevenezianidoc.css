@@ -6789,7 +6789,9 @@ a.tag, h1.tag, h2.tag, h3.tag, h4.tag, h5.tag, h6.tag, .tag {
 .bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
 .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
 /*END Form Wizard*/
+
 a.disabilitato {
-   pointer-events: none;
-   cursor: default;
+    pointer-events: none;
+    cursor: default;
+    color: white !important;
 }
