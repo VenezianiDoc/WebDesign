@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <div id="navigation_bar">
     <nav class="navbar navbar-inverse navbar-fixed-top" id="primary-nav">
         <div class="container">
@@ -72,7 +73,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/carrello"><i class="fa fa-shopping-cart"></i> Carrello</a>
                     </li>
-                    <li><a href="/user">Accedi</a>
+                    <li>
+                    <?php if($_session['user']==null){echo '<a href="/user/login.php">Accedi</a>';} else{echo '<a href="/user/index.php">Il mio account</a>';} ?>
                     </li>
                 </ul>
             </div>

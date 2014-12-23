@@ -2,12 +2,14 @@
 <html lang="it">
 
 <head>
+    <?php
+session_start();
+?>
     <?php include '../head.php' ?>
     <title>Area riservata - Discover Veneto</title>
 </head>
 
 <body>
-
     <?php include '../navbar.php' ?>
 
     <!-- ========= CONTAINER ======== -->
@@ -37,7 +39,7 @@
               <div class="row">
                   <div class="col-xs-6">
                       <div class="well">
-                          <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                          <form id="loginForm" method="POST" action="/user/" novalidate="novalidate">
                               <div class="form-group">
                                   <label for="username" class="control-label">Username</label>
                                   <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
