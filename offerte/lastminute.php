@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../head.php' ?>
-    <title>Bassa stagione - Discover Veneto</title>
+    <title>Last minute - Discover Veneto</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -26,6 +26,7 @@
         </ol>
     </div>
     <!-- /breadcrumbs -->
+    
     <div class="container">
         <div class="page-header">
             <h1>Last minute
@@ -36,7 +37,7 @@
         <div class="container">
             
             <div class="row">
-    			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 					<!-- PRICE ITEM -->
 					<div class="panel price panel-red">
 						<div class="panel-heading  text-center">
@@ -57,7 +58,7 @@
 					<!-- /PRICE ITEM -->
                 </div>
 				
-				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				    <!-- PRICE ITEM -->
 					<div class="panel price panel-blue">
 						<div class="panel-heading arrow_box text-center">
@@ -72,13 +73,13 @@
 							<li class="list-group-item"><i class="icon-ok text-info"></i> 5 stelle</li>
 						</ul>
 						<div class="panel-footer">
-							<a class="btn btn-lg btn-block btn-info" href="#">BUY NOW!</a>
+							<a class="btn btn-lg btn-block btn-info" href="#">Compra ora!</a>
 						</div>
 					</div>
 					<!-- /PRICE ITEM -->
 				</div>
 				
-				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 					<!-- PRICE ITEM -->
 					<div class="panel price panel-green">
 						<div class="panel-heading arrow_box text-center">
@@ -93,13 +94,13 @@
 							<li class="list-group-item"><i class="icon-ok text-success"></i> Mezza pensione</li>
 						</ul>
 						<div class="panel-footer">
-							<a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
+							<a class="btn btn-lg btn-block btn-success" href="#">Compra ora!</a>
 						</div>
 					</div>
 					<!-- /PRICE ITEM -->
 				</div>
 				
-				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <!-- PRICE ITEM -->
 					<div class="panel price panel-grey">
 						<div class="panel-heading arrow_box text-center">
@@ -114,7 +115,7 @@
 							<li class="list-group-item"><i class="icon-ok text-success"></i> 50 minuti</li>
 						</ul>
 						<div class="panel-footer">
-							<a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+							<a class="btn btn-lg btn-block btn-primary" href="#">Compra ora!</a>
 						</div>
 					</div>
 					<!-- /PRICE ITEM -->
@@ -123,8 +124,10 @@
 
 			</div>
             
-            <div class="row text-center">
-                Caricamento altre offerte
+            <div class="row text-center"><br>
+                <button class="btn btn-primary ladda-button" data-style="expand-right">
+        <span class="ladda-label"> Carica altre offerte </span>
+    </button>
             </div>
             
             
@@ -136,7 +139,7 @@
 
 
     <?php include '../footer.php' ?>
-
+    <script src="js.js"></script>
 </body>
 
 </html>
