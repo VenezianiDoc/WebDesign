@@ -2,19 +2,21 @@
 <html lang="it">
 
 <head>
-    <?php include 'head.php' ?>
+    <?php include '../head.php' ?>
     <title>About uss - Discover Veneto</title>
 </head>
 
 <body>
 
-    <?php include 'navbar.php' ?>
+    <?php include '../navbar.php' ?>
 
     <!-- ========= CONTAINER ======== -->
     <div class="container">
         <!-- breadcrumbs -->
         <ol class="breadcrumb">
-            <li><a href="index.php">Home</a>
+            <li><a href="/index.php">Home</a>
+            </li>
+            <li><a href="index.php">Servizi</a>
             </li>
             <!-- pagina attiva-->
             <li class="active">About us</li>
@@ -38,6 +40,6 @@
     <!-- ========= ./CONTAINER ======== -->
 
 
-    <?php include 'footer.php' ?>
+    <?php include '../footer.php' ?>
 
 </body>

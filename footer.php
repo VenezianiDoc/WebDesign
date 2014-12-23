@@ -7,20 +7,17 @@
 
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Servizi</h3>
-                        <br>
-                        <br>
+                        <a href="/servizi/" class="btn-outline"><h3>Servizi</h3></a>
 
                         <div class="row link-bottom">
-                            <a href="/about.php" class="btn-outline">About us</a>
+                            <a href="/servizi/about.php" class="btn-outline">About us</a>
                             <br>
-                            <a href="/contatti.php" class="btn-outline">Contatti</a>
+                            <a href="/servizi/contatti.php" class="btn-outline">Contatti</a>
                             <br>
                         </div>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Seguici su</h3>
-                        <br>
                         <br>
                         <ul class="list-inline">
                             <li>
@@ -50,14 +47,13 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Shortcuts</h3>
-                        <br>
-                        <br>
-
+                        
                         <div class="row link-bottom">
                             <a href="/offerte/lastminute.php" class="btn-outline">Last Minute</a>
                             <br>
-                            <a href="/viaggiaresicuri/" class="btn-outline">Viaggiare sicuri</a>
+                            <a href="/viaggiaresicuri/utili.php" class="btn-outline">Numeri utili</a>
                             <br>
+                            <a href="/viaggiaresicuri/comefare.php" class="btn-outline">Come fare se</a>
                         </div>
                     </div>
                 </div>
