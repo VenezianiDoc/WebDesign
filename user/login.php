@@ -2,9 +2,6 @@
 <html lang="it">
 
 <head>
-    <?php
-session_start();
-?>
     <?php include '../head.php' ?>
     <title>Area riservata - Discover Veneto</title>
 </head>

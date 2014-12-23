@@ -2,7 +2,7 @@
 <html lang="it">
 
 <head>
-    <?php $_session['user'] = $_POST['username']; ?>
+    <?php $_SESSION['user'] = $_POST['username']; ?>
     <?php include '../head.php' ?>
     <title>Area riservata - Discover Veneto</title>
 </head>
@@ -26,7 +26,7 @@
 
         <div class="page-header">
             <h1>Area riservata
-            <small> Benvenuto <?php echo $_session['user']; ?></small>
+            <small> Benvenuto <?php echo $_SESSION['user']; ?></small>
         </h1>
         </div>
 
