@@ -28,15 +28,15 @@
         </h1>
         </div>
 
-        <div class="container">
+        <div class="container text-center">
+            <div class="col-lg-12">
             <a href="lastminute.php"><h2>Last minute</h2>
-            <p><img src="/img/LastMinute_696x254.jpg"></p></a>
+            <p><img src="/img/LastMinute_696x254.jpg" class="img-responsive img-center"></p></a>
 
-            <h2><a href="bassa.php">Bassa stagione</a></h2>
-            <p>I prezzi migliori solo per te! >>>> DA INSERIRE IMMAGINI O ALTRO</p>
+            <a href="bassa.php"><h2>Bassa stagione</h2>
+            <p><img src="/img/BassaStagione_696x254.jpg" class="img-responsive img-center"></p></a>
 
-
-
+            </div>
         </div>
     </div>
     <!-- ========= ./CONTAINER ======== -->

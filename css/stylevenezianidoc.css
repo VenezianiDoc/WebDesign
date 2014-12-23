@@ -6795,3 +6795,8 @@ a.disabilitato {
     cursor: default;
     color: white !important;
 }
+
+.img-center {
+    margin-left: auto;
+    margin-right: auto;
+}
