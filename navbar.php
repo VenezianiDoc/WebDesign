@@ -72,7 +72,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/carrello"><i class="fa fa-shopping-cart"></i> Carrello</a>
                     </li>
-                    <li><a href="/login">Login</a>
+                    <li><a href="/user">Accedi</a>
                     </li>
                 </ul>
             </div>
