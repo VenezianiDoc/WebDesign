@@ -38,6 +38,8 @@
 
             </div>
         </div>
+        
+        <div class="container text-center"><strong>Link a offerte migliori che portano direttamente alla pagina prodotto.. tipo /musei/item1.php</strong></div>
     </div>
     <!-- ========= ./CONTAINER ======== -->
 
