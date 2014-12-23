@@ -70,10 +70,13 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/user/" class="disabilitato">
+                    <?php if($_SESSION['user']==null){echo ' ';} else{echo 'Ciao '.$_SESSION['user'];} ?>
+                    </a></li>
                     <li><a href="/carrello"><i class="fa fa-shopping-cart"></i> Carrello</a>
                     </li>
                     <li>
-                    <?php if($_SESSION['user']==null){echo '<a href="/user/login.php">Accedi</a>';} else{echo '<a href="/user/index.php">Il mio account</a>';} ?>
+                    <?php if($_SESSION['user']==null){echo '<a href="/user/login.php">Accedi</a>';} else{echo '<a href="/user/index.php">Il tuo account</a>';} ?>
                     </li>
                 </ul>
             </div>

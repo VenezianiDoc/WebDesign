@@ -1,11 +1,8 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
     <?php include 'head.php' ?>
     <title>Discover Veneto</title>
-
 </head>
 
 <body>

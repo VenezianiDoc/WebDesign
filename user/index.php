@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
-    <?php $_SESSION['user'] = $_POST['username']; ?>
+    
     <?php include '../head.php' ?>
     <title>Area riservata - Discover Veneto</title>
 </head>
@@ -34,6 +33,12 @@
             
             Dati utente, acquisti e lista desideri
             
+        </div>
+        
+        <div class="container">
+            <form method="POST" action="/user/loggatore.php">
+            Clicca qui per usicre: &emsp; <button type="submit" class="btn" value=null id="username">Esci</button>
+            </form>
         </div>
         
     </div>
