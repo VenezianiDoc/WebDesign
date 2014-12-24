@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../head.php' ?>
-    <title>Categorie - Discover Veneto</title>
+    <title>RSS - Discover Veneto</title>
 </head>
 
 <body>
@@ -17,14 +17,13 @@
         <li><a href="../index">Home</a>
         </li>
         <!-- pagina attiva-->
-        <li class="active">Categorie</li>
+        <li class="active">Rss</li>
     </ol>
 </div>
 <!-- /breadcrumbs -->
 <div class="container">
     <div class="page-header">
-        <h1>Categorie
-            <small> Scegli la tua vacanza ideale</small>
+        <h1><i class="fa fa-rss-square"></i> Rss
         </h1>
     </div>
 
@@ -34,7 +33,7 @@
             placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin
             est molestie nec. Ut volutpat vulputate lacus in pretium. Aliquam consequat dolor tortor, in imperdiet diam
             posuere quis. Vivamus ex metus, finibus eu lectus in, consequat vehicula odio. Aenean imperdiet felis urna,
-            et blandit orci accumsan in. CIAOOOOOOO</p>
+            et blandit orci accumsan in.</p>
 
         <p>Donec tempor, odio eu pretium consectetur, massa dui varius odio, viverra eleifend mauris urna id lacus. Cras
             molestie pellentesque magna, in efficitur eros vestibulum tincidunt. Maecenas porta rhoncus iaculis. Ut sit
