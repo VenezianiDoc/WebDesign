@@ -33,39 +33,53 @@ include '../navbar.php'
     </div>
 
     <div class="container">
-<ul>
-    <li>
-        <a href="/index.php">Home</a>
-    </li>
-    <ul>
-        <li>
-            <a href="/categorie/index.php">Categorie</a>
-        </li>
         <ul>
             <li>
-                <a href="/categorie/arte">Arte</a>
+                <a href="/index.php">Home</a>
             </li>
-            <li>
-                <a href="/categorie/avventura">Avventura</a>
-            </li>
-            <li>
-                <a href="/categorie/business">Business</a>
-            </li>
-            <li>
-                <a href="/categorie/famiglia">Famiglia</a>
-            </li>
-            <li>
-                <a href="/categorie/relax">Relax</a>
-            </li>
-            <li>
-                <a href="/categorie/studenti">Studenti</a>
-            </li>
+            <ul>
+                <li>
+                    <a href="/categorie/index.php">Categorie</a>
+                </li>
+                <ul>
+                    <li>
+                        <a href="/categorie/arte">Arte</a>
+                    </li>
+                    <li>
+                        <a href="/categorie/avventura">Avventura</a>
+                    </li>
+                    <li>
+                        <a href="/categorie/business">Business</a>
+                    </li>
+                    <li>
+                        <a href="/categorie/famiglia">Famiglia</a>
+                    </li>
+                    <li>
+                        <a href="/categorie/relax">Relax</a>
+                    </li>
+                    <li>
+                        <a href="/categorie/studenti">Studenti</a>
+                    </li>
+                </ul>
+                <li>
+                    <a href="/destinazioni/index.php">Destinazioni</a>
+                </li>
+                <ul>
+                    <li>
+                        <a href="/destinazioni/alberghi">Alberghi</a>
+                    </li>
+                    <li>
+                        <a href="/destinazioni/locali">Locali</a>
+                    </li>
+                    <li>
+                        <a href="/destinazioni/mostre">Mostre</a>
+                    </li>
+                    <li>
+                        <a href="/destinazioni/musei">Musei</a>
+                    </li>
+                </ul>
+            </ul>
         </ul>
-        <li>
-            <a href="/destinazioni/index.php">Destinazioni</a>
-        </li>
-    </ul>
-</ul>
     </div>
     <!-- ========= ./CONTAINER ======== -->
 
