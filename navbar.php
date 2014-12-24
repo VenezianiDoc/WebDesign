@@ -71,10 +71,16 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                    <?php if($_SESSION['user']==null){echo '<a href="/user/login.php">Accedi</a>';} elseif($_SESSION['user']==' '){echo '<a href="/user/index.php">Il tuo acconut</a>';} else{echo '<a href="/user/index.php">Account di '.$_SESSION['user'].'</a>';} ?>
+                        <?php if ($_SESSION['user'] == null) {
+                            echo '<a href="/user/login.php">Accedi</a>';
+                        } elseif ($_SESSION['user'] == ' ') {
+                            echo '<a href="/user/index.php">Il tuo acconut</a>';
+                        } else {
+                            echo '<a href="/user/index.php">Account di ' . $_SESSION['user'] . '</a>';
+                        } ?>
                     </li>
                     <li><a href="/carrello"><i class="fa fa-shopping-cart"></i> Carrello</a>
-                    </li>                    
+                    </li>
                 </ul>
             </div>
         </div>

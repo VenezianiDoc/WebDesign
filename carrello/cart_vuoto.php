@@ -14,6 +14,10 @@
             <p class="align-right">0,00 €</p>
         </div>
     </div>
-<form action="../offerte"><button type="submit" class="btn input-small">Inizia lo shopping</button></form>
-    <form method="post" action="index.php"><button type="submit" class="btn input-small" name="TIPO" value="1">Accedi al tuo vecchio carrello</button></form>
+    <form action="../offerte">
+        <button type="submit" class="btn input-small">Inizia lo shopping</button>
+    </form>
+    <form method="post" action="index.php">
+        <button type="submit" class="btn input-small" name="TIPO" value="1">Accedi al tuo vecchio carrello</button>
+    </form>
 </div>

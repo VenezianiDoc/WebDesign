@@ -24,4 +24,4 @@
 <![endif]-->
 
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
- <?php session_start(); ?>
+<?php session_start(); ?>

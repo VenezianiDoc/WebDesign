@@ -1,3 +1,3 @@
 <?php session_start(); ?>
 <?php $_SESSION['user'] = $_POST['username'];
-header('Location: /index.php');?>
+header('Location: /index.php'); ?>

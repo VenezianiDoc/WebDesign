@@ -8,37 +8,39 @@
 
 <body>
 
-    <?php include '../navbar.php' ?>
+<?php include '../navbar.php' ?>
 
-    <!-- ========= CONTAINER ======== -->
-    <div class="container">
-        <!-- breadcrumbs -->
-        <ol class="breadcrumb">
-            <li><a href="/index.php">Home</a>
-            </li>
-            <!-- pagina attiva-->
-            <li class="active">Servizi</li>
-        </ol>
-    </div>
-    <!-- /breadcrumbs -->
+<!-- ========= CONTAINER ======== -->
+<div class="container">
+    <!-- breadcrumbs -->
+    <ol class="breadcrumb">
+        <li><a href="/index.php">Home</a>
+        </li>
+        <!-- pagina attiva-->
+        <li class="active">Servizi</li>
+    </ol>
+</div>
+<!-- /breadcrumbs -->
 
-    <div class="container">
-        <div class="page-header">
-            <h1>Servizi</h1>
-        </div>
-
-        <h2><a href="about.php">About us</a></h2>
-            <p>Conosci il gruppo di sviluppatori. Chi siamo, che facciamo...</p>
-
-            <h2><a href="contatti.php">Contatti</a></h2>
-            <p>Tutti i mezzi per poterci contattare o venire a trovare.</p>
-        
-        
+<div class="container">
+    <div class="page-header">
+        <h1>Servizi</h1>
     </div>
 
-    <!-- ========= ./CONTAINER ======== -->
+    <h2><a href="about.php">About us</a></h2>
+
+    <p>Conosci il gruppo di sviluppatori. Chi siamo, che facciamo...</p>
+
+    <h2><a href="contatti.php">Contatti</a></h2>
+
+    <p>Tutti i mezzi per poterci contattare o venire a trovare.</p>
 
 
-    <?php include '../footer.php' ?>
+</div>
+
+<!-- ========= ./CONTAINER ======== -->
+
+
+<?php include '../footer.php' ?>
 
 </body>
