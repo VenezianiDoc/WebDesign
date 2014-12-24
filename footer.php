@@ -14,6 +14,9 @@
                             <br>
                             <a href="/servizi/contatti.php" class="btn-outline">Contatti</a>
                             <br>
+                            <a href="/mappa/" class="btn-outline">Mappa del sito</a>
+                            <br>
+
                         </div>
                     </div>
                     <div class="footer-col col-md-4">
@@ -47,7 +50,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Shortcuts</h3>
-                        
+
                         <div class="row link-bottom">
                             <a href="/offerte/lastminute.php" class="btn-outline">Last Minute</a>
                             <br>
