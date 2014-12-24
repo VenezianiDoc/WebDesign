@@ -14,11 +14,14 @@
             </div>
             <div class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right" role="search" action="/search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Cerca...">
+                    <div class="input-group custom-search-form">
+                      <input type="text" class="form-control" placeholder="Cerca...">
+                      <span class="input-group-btn">
+                          <button class="btn btn-default" type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                         </button>
+                     </span>
                     </div>
-                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
-                    </button>
                 </form>
             </div>
         </div>
