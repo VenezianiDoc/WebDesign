@@ -23,32 +23,13 @@
 <!-- /breadcrumbs -->
 <div class="container">
     <div class="page-header">
-        <h1><i class="fa fa-rss-square"></i> Rss
+        <h1><i class="fa fa-rss-square"></i>  Rss <small>Really Simple Syndication</small>
         </h1>
     </div>
 
     <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus
-            pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare
-            placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin
-            est molestie nec. Ut volutpat vulputate lacus in pretium. Aliquam consequat dolor tortor, in imperdiet diam
-            posuere quis. Vivamus ex metus, finibus eu lectus in, consequat vehicula odio. Aenean imperdiet felis urna,
-            et blandit orci accumsan in.</p>
-
-        <p>Donec tempor, odio eu pretium consectetur, massa dui varius odio, viverra eleifend mauris urna id lacus. Cras
-            molestie pellentesque magna, in efficitur eros vestibulum tincidunt. Maecenas porta rhoncus iaculis. Ut sit
-            amet lorem nec ipsum semper placerat in nec urna. Integer dictum enim in justo rhoncus, et hendrerit orci
-            rhoncus. Aenean pretium eget urna id finibus. Suspendisse vel commodo nibh. Pellentesque habitant morbi
-            tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Praesent hendrerit nulla consequat semper sagittis. Duis ut sollicitudin magna.</p>
-
-        <p>Sed lobortis consectetur neque, nec accumsan ligula interdum fringilla. Morbi laoreet, ipsum non efficitur
-            aliquet, elit leo vehicula urna, tincidunt tempor ex risus non dolor. Duis ac bibendum eros. Nunc id posuere
-            lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan turpis sed urna pharetra, non
-            varius tellus venenatis. Donec at porta sem. Donec id dignissim dolor. Cras non diam quam. Curabitur nec
-            lectus vehicula, porta eros sed, ultrices metus. Integer ut mauris lectus. Fusce sollicitudin rutrum urna id
-            lobortis. Integer pellentesque velit et mollis accumsan. Sed semper ex ac tellus lobortis, vitae posuere
-            velit condimentum. Donec suscipit blandit turpis in pellentesque. Ut pretium suscipit sapien et vulputate.
+        <p>Per essere sempre aggiornati in tempo reale il portale turistico regionale mette a disposizione i suoi contenuti attraverso il sistema RSS. Con pochi semplici passi si può accedere alle ultime informazioni: è sufficiente una connessione internet e un apposito programma chiamato Feed Reader.</p><p>
+La sigla Rss (dall'inglese Really simple syndication) identifica un formato di pubblicazione dei contenuti che permette di ricevere sul proprio computer le informazioni pubblicate in internet. Appare, infatti, un messaggio di notifica sul proprio pc ogni volta che la redazione pubblica un nuovo contenuto. Il servizio è gratuito e non richiede alcuna registrazione. Per fare questo è sufficiente che si indichi al programma l'indirizzo internet (Url) del feed o dei feed scelti. 
         </p>
 
 

@@ -42,7 +42,14 @@
     </div>
 
     <div class="container text-center"><strong>Link a offerte migliori che portano direttamente alla pagina prodotto..
-            tipo /musei/item1.php</strong></div>
+            tipo /musei/item1.php</strong>
+    </div>
+    
+    <div class="row"><br>
+        <h3>Viaggiare sicuri</h3><hr>
+        <p>Prima di intraprendere un viaggio consulta le info fornite nella pagina <a href="/viaggiaresicuri/comefare.php">Come fare se</a> e porta sempre con te i numeri presenti nella pagina <a href="/viaggiaresicuri/utili.php">Numeri utili</a>.</p>
+    </div>
+    
 </div>
 <!-- ========= ./CONTAINER ======== -->
 
