@@ -3,7 +3,7 @@
 
 <head>
     <?php include "../../head.php" ?>
-    <title>Albergi &amp; Alloggi - Discover Veneto</title>
+    <title>Alberghi &amp; Alloggi - Discover Veneto</title>
 </head>
 
 <body>
