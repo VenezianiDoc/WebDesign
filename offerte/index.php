@@ -32,11 +32,11 @@
         <div class="col-lg-12">
             <a href="lastminute.php"><h2>Last minute</h2>
 
-                <p><img src="/img/LastMinute_696x254.jpg" class="img-responsive img-center"></p></a>
+                <p><img src="/img/LastMinute_696x254.jpg" class="img-responsive img-center" alt="Last minute"></p></a>
 
             <a href="bassa.php"><h2>Bassa stagione</h2>
 
-                <p><img src="/img/BassaStagione_696x254.jpg" class="img-responsive img-center"></p></a>
+                <p><img src="/img/BassaStagione_696x254.jpg" class="img-responsive img-center" alt="Bassa stagione"></p></a>
 
         </div>
     </div>

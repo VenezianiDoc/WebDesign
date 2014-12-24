@@ -116,3 +116,7 @@ img.logo-cart {
 .strong {
     font-weight: bold;
 }
+
+.carosello {
+    text-shadow: 2px 2px 8px #000;
+}

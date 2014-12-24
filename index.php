@@ -24,7 +24,7 @@
             <img src="http://www.hoteldelfino-mestre.com/wp-content/uploads/2013/09/venezia.jpg" alt="First slide">
 
             <div class="container">
-                <div class="carousel-caption">
+                <div class="carousel-caption carosello">
                     <h1>Venezia</h1>
 
                     <p>La più bella città del mondo con la sua laguna e la sua storia</p>
@@ -36,7 +36,7 @@
             <img src="http://islandlakecatskiing.com/files/uploads/2013/10/trek_gall_ILL3956.jpg" alt="Second slide">
 
             <div class="container">
-                <div class="carousel-caption">
+                <div class="carousel-caption carosello">
                     <h1>Dolomiti</h1>
 
                     <p>Il più bel patrimonio dell'UNESCO</p>
@@ -47,7 +47,7 @@
             <img src="http://www.villa-albonico.com/images/slider-home/4.jpg" alt="Third slide">
 
             <div class="container">
-                <div class="carousel-caption">
+                <div class="carousel-caption carosello">
                     <h1>Lago di Garda</h1>
 
                     <p>Il più grande Lago d'Italia</p>
