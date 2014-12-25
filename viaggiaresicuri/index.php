@@ -8,43 +8,44 @@
 
 <body>
 
-<?php include '../navbar.php' ?>
+    <?php include '../navbar.php' ?>
 
-<!-- ========= CONTAINER ======== -->
-<div class="container">
-    <!-- breadcrumbs -->
-    <ol class="breadcrumb">
-        <li><a href="../index.php">Home</a>
-        </li>
-        <!-- pagina attiva-->
-        <li class="active">Viaggiare Sicuri</li>
-    </ol>
-</div>
-<!-- /breadcrumbs -->
-
-<div class="container">
-    <div class="page-header">
-        <h1>Viaggiare sicuri
-            <small> Non rovinarti la vacanza!</small>
-        </h1>
+    <!-- ========= CONTAINER ======== -->
+    <div class="container">
+        <!-- breadcrumbs -->
+        <ol class="breadcrumb">
+            <li><a href="../index.php">Home</a>
+            </li>
+            <!-- pagina attiva-->
+            <li class="active">Viaggiare Sicuri</li>
+        </ol>
     </div>
+    <!-- /breadcrumbs -->
 
     <div class="container">
-        <h2><a href="comefare.php">Come fare se..</a></h2>
+        <div class="page-header">
+            <h1>Viaggiare sicuri
+            <small> Non rovinarti la vacanza!</small>
+        </h1>
+        </div>
 
-        <p>Guida rapida su come affrontare gli imprevisti nel viaggio.</p>
+        <div class="container">
+            <a href="comefare.php"><h2 class="text-center">Come fare se..</h2>
+                <img src="/img/comefare.jpg" class="img-responsive img-center" alt="Come fare se"></a>
 
-        <h2><a href="utili.php">Numeri utili</a></h2>
+            <p class="text-center">Guida rapida su come affrontare gli imprevisti nel viaggio.</p>
 
-        <p>Tutti i numeri utili per viaggiare in sicurezza.</p>
+            <a href="utili.php"><h2 class="text-center">Numeri utili</h2>
+            <img src="/img/utili.gif" class="img-responsive img-center" alt="Numeir utili">
+</a>
+            <p class="text-center">Tutti i numeri utili per viaggiare in sicurezza.</p>
 
-
+        </div>
     </div>
-</div>
-<!-- ========= ./CONTAINER ======== -->
+    <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footer.php' ?>
+    <?php include '../footer.php' ?>
 
 </body>
 
