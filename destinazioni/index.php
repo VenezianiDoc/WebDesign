@@ -31,7 +31,6 @@
         <div class="container">
             <div class="row text-center">
                 <div class="hidden-xs col-lg-12 col-md-12">
-
                     <!--Codice per il Widget desktop -->
 
                     <div class="ui-group-buttons text-center">
@@ -47,15 +46,15 @@
                         <button type="button" class="btn btn-primary">Costume</button>
                         <div class="or"></div>
                         <button type="button" class="button btn btn-success">Sciarpa</button>
-                            <br>
+                        <br>
                         <button type="button" class="btn btn-primary">Mare</button>
                         <div class="or"></div>
                         <button type="button" class="button btn btn-success">Montagna</button>
-                        
+
                         <button type="button" class="btn btn-primary">Metropoli</button>
                         <div class="or"></div>
                         <button type="button" class="button btn btn-success">Sobborgo</button>
-                        
+
                         <button type="button" class="btn btn-primary">$$$</button>
                         <div class="or"></div>
                         <button type="button" class="button btn btn-success">$</button>
@@ -65,9 +64,32 @@
 
                 </div>
 
-                <div class="visible-xs">
-                    Widget mobile
+                <div class="visible-xs col-xs-12">
                     <!--Codice per il Widget mobile -->
+                    <h2>Trova la tua meta ideale:</h2>
+
+                    <form>
+                        <fieldset>
+
+                            <select name="destinazini" class="form-control">
+                                <option selected="selected">Relax</option>
+                                <option>Avventura</option>
+                                <option>Coppia</option>
+                                <option>Famiglia</option>
+                                <option>Costume</option>
+                                <option>Sciarpa</option>
+                                <option>Mare</option>
+                                <option>Montagna</option>
+                                <option>Metropoli</option>
+                                <option>Sobborgo</option>
+                                <option>$$$</option>
+                                <option>$</option>
+                            </select>
+                        </fieldset>
+                    </form>
+
+                    <hr>
+
                 </div>
             </div>
             <br>
