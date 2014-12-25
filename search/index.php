@@ -8,65 +8,73 @@
 
 <body>
 
-<?php include '../navbar.php' ?>
+    <?php include '../navbar.php' ?>
 
-<!-- ========= CONTAINER ======== -->
-<div class="container">
-    <!-- breadcrumbs -->
-    <ol class="breadcrumb">
-        <li><a href="../index.php">Home</a>
-        </li>
-        <!-- pagina attiva-->
-        <li class="active">Search</li>
-    </ol>
-</div>
-<!-- /breadcrumbs -->
-<div class="container">
-    <div class="page-header">
-        <h1>Pagina risultati
-            <small> Risultati di ricerca per "parola"</small>
-        </h1>
-    </div>
-
+    <!-- ========= CONTAINER ======== -->
     <div class="container">
-        <h2>Pagina 1
+        <!-- breadcrumbs -->
+        <ol class="breadcrumb">
+            <li><a href="../index.php">Home</a>
+            </li>
+            <!-- pagina attiva-->
+            <li class="active">Search</li>
+        </ol>
+    </div>
+    <!-- /breadcrumbs -->
+    <div class="container">
+        <div class="page-header">
+            <h1>Pagina risultati
+            <small> Risultati di ricerca per "parola"</small>
+            </h1>
+        </div>
+
+        <div class="input-group-btn search-panel">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                <span id="search_concept" class="">Ordina per</span>  <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Qualsiasi</a>
+                </li>
+                <li class="divider"></li>
+                <li><a href="#">Offerte</a>
+                </li>
+                <li><a href="#">Destinazioni</a>
+                </li>
+                <li><a href="#">Categorie</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h2>Pagina 1
             <small> Sottotitolo pagina</small>
         </h2>
-        <br>
+            <br>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus
-            pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare
-            placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin
-            est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
-        <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
+            <hr>
 
-        <h2>Pagina 2
+            <h2>Pagina 2
             <small> Sottotitolo pagina</small>
         </h2>
-        <br>
+            <br>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus
-            pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare
-            placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin
-            est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
-        <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
+            <hr>
 
-        <h2>Pagina 3
+            <h2>Pagina 3
             <small> Sottotitolo pagina</small>
         </h2>
-        <br>
+            <br>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus
-            pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare
-            placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin
-            est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
-        <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat cursus ex, et dignissim lectus pellentesque sit amet. Nunc fermentum nisl id mi molestie sagittis. Curabitur pharetra, lacus et ornare placerat, nisi orci lobortis sem, id auctor metus ex eget nulla. Sed hendrerit elementum mi, in sollicitudin est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
+            <hr>
 
+
+        </div>
+        <?php include '../footer.php' ?>
 
     </div>
-    <?php include '../footer.php' ?>
-
-</div>
 </body>
 
 </html>
