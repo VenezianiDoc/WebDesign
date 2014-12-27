@@ -111,8 +111,6 @@ img.logo-cart {
     color: #b78600;
 }
 
-
-
 .strong {
     font-weight: bold;
 }
@@ -129,6 +127,7 @@ img.logo-cart {
     z-index: 3;
     font-size: 12px
 }
+
 .ui-group-buttons .or:before {
     position: absolute;
     top: 50%;
@@ -152,6 +151,7 @@ img.logo-cart {
     -ms-box-sizing: border-box;
     box-sizing: border-box
 }
+
 .ui-group-buttons .or:after {
     position: absolute;
     top: 0;
@@ -163,30 +163,38 @@ img.logo-cart {
     border-top: .6em solid white;
     border-bottom: .6em solid white;
 }
+
 .ui-group-buttons .or.or-lg {
     height: 1.3em;
     font-size: 16px
 }
+
 .ui-group-buttons .or.or-lg:after {
     height: 2.85em
 }
+
 .ui-group-buttons .or.or-sm {
     height: 1em
 }
+
 .ui-group-buttons .or.or-sm:after {
     height: 2.5em
 }
+
 .ui-group-buttons .or.or-xs {
     height: .25em
 }
+
 .ui-group-buttons .or.or-xs:after {
     height: 1.84em;
     z-index: -1000
 }
+
 .ui-group-buttons {
     display: inline-block;
     vertical-align: middle
 }
+
 .ui-group-buttons:after {
     content: ".";
     display: block;
@@ -194,17 +202,20 @@ img.logo-cart {
     clear: both;
     visibility: hidden
 }
+
 .ui-group-buttons .btn {
     float: left;
     border-radius: 0;
     width: 100px;
 }
+
 .ui-group-buttons .btn {
     margin-left: 0;
     border-top-left-radius: .25em;
     border-bottom-left-radius: .25em;
     padding-right: 15px
 }
+
 .ui-group-buttons .btn {
     border-top-right-radius: .25em;
     border-bottom-right-radius: .25em;
