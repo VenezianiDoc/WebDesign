@@ -142,9 +142,7 @@
                                 <div class="panel-footer">
                                     <button class="btn  btn-primary" type="button" data-toggle="tooltip" data-original-title="shop">Inizia shopping</button>
                                     <span class="pull-right">
-                            <button class="btn btn-primary" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Carrello">Carrello</button>
+                            <button class="btn btn-primary" type="button" data-toggle="tooltip" data-original-title="Carrello" onclick="window.location.href='/carrello'">Carrello</button>
                         </span>
                                 </div>
                             </div>
