@@ -72,14 +72,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="panel-footer">
-                                    <button class="btn  btn-primary" type="button" data-toggle="tooltip" data-original-title="Send message to user">Logout <i class="fa fa-sign-out"></i>
+                                <div class="panel-footer"><form method="POST" action="/user/loggatore.php">
+                                    <button class="btn  btn-primary" type="submit" data-toggle="tooltip" data-original-title="Send message to user" value=null id="username">Logout <i class="fa fa-sign-out"></i>
                                     </button>
                                     <span class="pull-right">
                             <button class="btn btn-warning" type="button"
                                     data-toggle="tooltip"
                                     data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button" data-toggle="tooltip" data-original-title="Remove this user"><i class="fa fa-trash"></i></button>  </span>
+                            <button class="btn btn-danger" type="button" data-toggle="tooltip" data-original-title="Remove this user"><i class="fa fa-trash"></i></button>  </span></form>
                                 </div>
                             </div>
                         </div>
