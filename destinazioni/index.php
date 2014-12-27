@@ -34,7 +34,7 @@
                     <!--Codice per il Widget desktop -->
 
                     <div class="ui-group-buttons text-center">
-                        <h2>Trova la tua meta ideale:</h2>
+                        <h2>Trova la tua meta ideale:</h2><br>
                         <button type="button" class="btn btn-primary">Relax</button>
                         <div class="or"></div>
                         <button type="button" class="button btn btn-success">Avventura</button>
@@ -66,8 +66,7 @@
 
                 <div class="visible-xs col-xs-12">
                     <!--Codice per il Widget mobile -->
-                    <h2>Trova la tua meta ideale:</h2>
-
+                    <h2>Trova la tua meta ideale:</h2><br>
                     <form>
                         <fieldset>
 
@@ -100,7 +99,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-10">
             <div class="row">
-                
+                <p>Destinazioni consigliate in base alle tue scelte:</p><br>
                 <div class="well">
                     <div class="media">
 
