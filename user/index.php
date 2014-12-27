@@ -32,16 +32,13 @@
 
         <div class="container">
 
-            Dati utente, acquisti e lista desideri POSSIBILITA DI AGGIUNGERE TAG
-
             <div class="row">
                 <div class="col-lg-6">
-                    <h3>Utente</h3>
                     <div class="row-fluid user-infos cyruxx">
                         <div class="span10 offset1">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Informazioni</h3>
+                                    <h3 class="panel-title">Informazioni Utente</h3>
                                 </div>
                                 <div class="panel-body">
                                     <div class="row-fluid">
@@ -82,9 +79,152 @@
                             <button class="btn btn-warning" type="button"
                                     data-toggle="tooltip"
                                     data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button" data-toggle="tooltip" data-original-title="Remove this user"><i class="fa fa-trash"></i></button>  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row-fluid user-infos cyruxx">
+                        <div class="span10 offset1">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Acquisti</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row-fluid">
+                                        <div class="span6">
+                                            <table class="table table-condensed table-responsive table-user-information">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Hotel Splendid</td>
+                                                        <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Punta della Dogana</td>
+                                                        <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button>
+                            
+                        </span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Notte per due</td>
+                                                        <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button>
+                        </span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Giro in gondola</td>
+                                                        <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button>
+                        </span>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-footer">
+                                    <button class="btn  btn-primary" type="button" data-toggle="tooltip" data-original-title="shop">Inizia shopping</button>
+                                    <span class="pull-right">
+                            <button class="btn btn-primary" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Carrello">Carrello</button>
+                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row-fluid user-infos cyruxx">
+                        <div class="span10 offset1">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Lista dei desideri</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row-fluid">
+                                        <div class="span6">
+                                            <table class="table table-condensed table-responsive table-user-information">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Abano Terme</td>
+                                                        <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
                             <button class="btn btn-danger" type="button"
                                     data-toggle="tooltip"
                                     data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Notte in rifugio</td>
+                                                        <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Guida C.A.I.</td>
+                                                        <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Albergo Monte Bianco</td>
+                                                        <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-footer">
+                                    <button class="btn  btn-primary" type="button" data-toggle="tooltip" data-original-title="Add">Aggiungi articolo</button>
+                                    <span class="pull-right">
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user">Svuota lista</button>
                         </span>
                                 </div>
                             </div>
@@ -92,13 +232,6 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h3>Acquisti</h3>
-                </div>
-                <div class="col-lg-6">
-                    <h3>Lista dei desideri</h3>
-                </div>
-                <div class="col-lg-6">
-                    <h3>Tag personali</h3>
                     <div class="row-fluid user-infos cyruxx">
                         <div class="span10 offset1">
                             <div class="panel panel-primary">
@@ -176,17 +309,17 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
 
-        <div class="container">
-            <form method="POST" action="/user/loggatore.php">
-                Clicca qui per usicre: &emsp;
-                <button type="submit" class="btn" value=null id="username">Esci</button>
-            </form>
-        </div>
+    </div>
+
+    <div class="container">
+        <form method="POST" action="/user/loggatore.php">
+            Clicca qui per usicre: &emsp;
+            <button type="submit" class="btn" value=null id="username">Esci</button>
+        </form>
+    </div>
 
     </div>
     <!-- ========= ./CONTAINER ======== -->
