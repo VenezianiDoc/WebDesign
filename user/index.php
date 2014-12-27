@@ -119,7 +119,8 @@
                             <button class="btn btn-danger" type="button"
                                     data-toggle="tooltip"
                                     data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
-                        </span></td>
+                        </span>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>Mare</td>
@@ -130,7 +131,8 @@
                             <button class="btn btn-danger" type="button"
                                     data-toggle="tooltip"
                                     data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
-                        </span></td>
+                        </span>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>Castelli</td>
@@ -141,7 +143,8 @@
                             <button class="btn btn-danger" type="button"
                                     data-toggle="tooltip"
                                     data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
-                        </span></td>
+                        </span>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>Barche</td>
@@ -152,9 +155,10 @@
                             <button class="btn btn-danger" type="button"
                                     data-toggle="tooltip"
                                     data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
-                        </span></td>
+                        </span>
+                                                        </td>
                                                     </tr>
-                                                    
+
                                                 </tbody>
                                             </table>
                                         </div>
