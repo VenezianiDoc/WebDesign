@@ -33,8 +33,8 @@
                 </fieldset>
             </form>
 
-            <form method="post" action="index.php">
-                <button type="submit" class="btn input-small" name="TIPO" value="3">Paga</button>
+            <form method="post" action="index.php" class="text-center">
+                <button type="submit" class="btn btn-primary" name="TIPO" value="3">&emsp;&emsp;Paga&emsp;&emsp;</button>
             </form>
 
         </div>

@@ -87,15 +87,10 @@
                                 Aggiungi al carrello
                             </button>
                         </div>
-                        <div class="btn-group wishlist"> <?php if ($_SESSION['user'] == null) {
-                                echo '<a href="/user/login.php">';
-                            } else {
-                                echo '<a href="#">';
-                            } ?>
-                            <button type="button" class="btn btn-danger">
-                                Aggiungi Lista desideri
+                        <div class="btn-group wishlist">
+                            <button type="button" class="btn btn-danger" <?php if ($_SESSION['user'] == null) { echo 'onclick="myFunction()"'; } else { echo ''; } ?> >
+                                <span id="warning">Aggiungi a Lista desideri</span>
                             </button>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +99,7 @@
     </div>
 </div>
 <!-- ========= ./CONTAINER ======== -->
-
+    
 
 <?php include '../../footer.php' ?>
 

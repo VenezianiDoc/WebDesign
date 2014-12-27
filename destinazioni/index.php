@@ -177,8 +177,7 @@
                     <div class="media">
 
                         <div class="media-body">
-                            <a href="musei/item1.php"><h4 class="media-heading">Offerta <?php echo rand(0, 55);
-?></h4></a>
+                            <a href="musei/item1.php"><h4 class="media-heading">Offerta <?php echo rand(0, 55); ?></h4></a>
 
                             <p class="text-right">Città</p>
 

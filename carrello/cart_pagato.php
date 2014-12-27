@@ -1,7 +1,6 @@
 <div class="row">
-    <h2>Cassa</h2>
 
-    <div class="panel panel-default">
+    <div class="panel panel-success">
         <div class="panel-heading">
             <h2>Pagamento effettuato con successo</h2>
         </div>

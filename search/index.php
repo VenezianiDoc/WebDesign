@@ -33,20 +33,20 @@
             <span id="search_concept" class="">Ordina per</span> <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Qualsiasi</a>
+            <li onClick="window.location.reload();"><a href="#">Qualsiasi</a>
             </li>
             <li class="divider"></li>
-            <li><a href="#">Offerte</a>
+            <li onClick="window.location.reload();"><a href="#">Offerte</a>
             </li>
-            <li><a href="#">Destinazioni</a>
+            <li onClick="window.location.reload();"><a href="#">Destinazioni</a>
             </li>
-            <li><a href="#">Categorie</a>
+            <li onClick="window.location.reload();"><a href="#">Categorie</a>
             </li>
         </ul>
     </div>
 
     <div class="container">
-        <h2>Pagina 1
+        <h2>Pagina <?php echo rand(0, 55); ?>
             <small> Sottotitolo pagina</small>
         </h2>
         <br>
@@ -57,7 +57,7 @@
             est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
         <hr>
 
-        <h2>Pagina 2
+        <h2>Pagina <?php echo rand(0, 55); ?>
             <small> Sottotitolo pagina</small>
         </h2>
         <br>
@@ -68,7 +68,7 @@
             est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
         <hr>
 
-        <h2>Pagina 3
+        <h2>Pagina <?php echo rand(0, 55); ?>
             <small> Sottotitolo pagina</small>
         </h2>
         <br>

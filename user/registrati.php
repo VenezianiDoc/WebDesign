@@ -54,7 +54,7 @@
                                         <input id="email" class="form-control" type="email" placeholder="e-mail">
                                     </div>
                                     <br>
-                                    <button type="submit" class="btn btn-info btn-block">Registrami</button>
+                                    <button type="submit" class="btn btn-info">Registrami</button>&emsp;<a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>
                                 </form>
                             
                             </div>
