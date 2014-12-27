@@ -117,14 +117,14 @@
                 <a class="tag" href="search/"><h3>Vino</h3></a>
                 <a class="tag" href="search/"><h2>Cortina</h2></a>
                 <a class="tag" href="search/"><h5>Belluno</h5></a>
-                <a class="tag" href="search/"><h1>Doloniti</h1></a>
+                <a class="tag" href="search/"><h1>Dolomiti</h1></a>
                 <a class="tag" href="search/"><h4>Prosecco</h4></a>
                 <a class="tag" href="search/"><h2>Mare Adriatico</h2></a>
                 <a class="tag" href="search/"><h1>Italia</h1></a>
                 <a class="tag" href="search/"><h2>Lago di Garda</h2></a>
                 <a class="tag" href="search/"><h5>Friuli-Venezia Giulia</h5></a>
                 <a class="tag" href="search/"><h3>Regione Veneto</h3></a>
-                <a class="tag" href="search/"><h2>Dolomiti</h2></a>
+                <a class="tag" href="search/"><h2>Grappa</h2></a>
                 <a class="tag" href="search/"><h1>B&amp;B</h1></a>
                 <a class="tag" href="search/"><h4>Cultura</h4></a>
                 <a class="tag" href="search/"><h2>Rialto</h2></a>
