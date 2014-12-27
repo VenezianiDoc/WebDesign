@@ -30,27 +30,46 @@
     </div>
 
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <form>
-                    <fieldset>
-                        <!-- esiste tag  <input type="datetime"> che indica i campi contenenti le date con orario -->
-                        <label for="nome">Nome:</label>
-                        <input id="nome" class="input-small" type="text" placeholder="Nome">
-                        <label for="cognome">Cognome:</label>
-                        <input id="cognome" class="input-small" type="text" placeholder="Cognome">
-                        <label for="email">Email:</label>
-                        <input id="email" class="input-small" type="email" placeholder="e-mail">
-                        <button type="submit" class="btn input-small">Registrami</button>
-                    </fieldset>
-                </form>
+       
+        
+        
+        
+        <div id="login-overlay" class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="well">
+                                <form id="loginForm" method="POST" action="/user/loggatore.php" novalidate="novalidate">
+                                    <div class="form-group">
+                                        <label for="nome" class="control-label">Nome:</label>
+                                        <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="Nome">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cognome">Cognome:</label>
+                                        <input id="cognome" class="form-control" type="text" placeholder="Cognome">
+                                    </div>
+                                    <div  class="form-group">
+                                        <label for="email">Email:</label>
+                                        <input id="email" class="form-control" type="email" placeholder="e-mail">
+                                    </div>
+                                    <br>
+                                    <button type="submit" class="btn btn-info btn-block">Registrami</button>
+                                </form>
+                            
+                            </div>
+            <div class="text-right">
+                Se sei già registrato clicca <a href="login.php">qui</a>.
+            </div>
+        
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12"><br>
-                Se sei già registrato clicca <a href="index.php">qui</a>.
-            </div>
-        </div>
+        
+        
     </div>
 </div>
 <!-- ========= ./CONTAINER ======== -->

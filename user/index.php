@@ -149,7 +149,7 @@
                             </div>
                             <div class="panel-footer">
                                 <button class="btn  btn-primary" type="button" data-toggle="tooltip"
-                                        data-original-title="shop">Inizia shopping
+                                        data-original-title="shop" onclick="window.location.href='/offerte'">Inizia shopping
                                 </button>
                                     <span class="pull-right">
                                         <button class="btn btn-primary" type="button" data-toggle="tooltip" data-original-title="Carrello" onclick="window.location.href='/carrello'">Carrello</button>
@@ -198,7 +198,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Guida C.A.I.</td>
+                                                <td>Tour con guida C.A.I.</td>
                                                 <td><span class="pull-right">
                             <button class="btn btn-warning" type="button"
                                     data-toggle="tooltip"
@@ -328,12 +328,6 @@
 
 </div>
 
-<div class="container">
-    <form method="POST" action="/user/loggatore.php">
-        Clicca qui per usicre: &emsp;
-        <button type="submit" class="btn" value=null id="username">Esci</button>
-    </form>
-</div>
 
 </div>
 <!-- ========= ./CONTAINER ======== -->

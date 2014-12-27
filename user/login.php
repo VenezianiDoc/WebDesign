@@ -42,7 +42,6 @@
                                         <input type="text" class="form-control" id="username" name="username" value=""
                                                required="" title="Please enter you username"
                                                placeholder="example@gmail.com">
-                                        <span class="help-block"></span>
                                     </div>
                                     <div class="form-group">
                                         <label for="password" class="control-label">Password</label>
@@ -74,7 +73,7 @@
                                 <li><span class="fa fa-check text-success"></span> Ottieni un Bonus
                                     <small>(solo per i nuovi membri)</small>
                                 </li>
-                                <li><a href="/read-more/"><u>Read more</u></a></li>
+                                <li><a href="#"><u>Read more</u></a></li>
                             </ul>
                             <p><a href="registrati.php" class="btn btn-info btn-block">Registrami ora!</a></p>
                         </div>
