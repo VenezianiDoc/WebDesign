@@ -35,32 +35,33 @@
 
                     <div class="ui-group-buttons text-center">
                         <h2>Trova la tua meta ideale:</h2><br>
-                        <button type="button" class="btn btn-primary">Relax</button>
+                        <button type="button" class="btn btn-primary" onClick="window.location.reload();">Relax</button>
                         <div class="or"></div>
-                        <button type="button" class="button btn btn-success">Avventura</button>
+                        <button type="button" class="button btn btn-success" onClick="window.location.reload();">Avventura</button>
 
-                        <button type="button" class="btn btn-primary">Coppia</button>
+                        <button type="button" class="btn btn-primary" onClick="window.location.reload();">Coppia</button>
                         <div class="or"></div>
-                        <button type="button" class="button btn btn-success">Famiglia</button>
+                        <button type="button" class="button btn btn-success" onClick="window.location.reload();">Famiglia</button>
 
-                        <button type="button" class="btn btn-primary">Costume</button>
+                        <button type="button" class="btn btn-primary" onClick="window.location.reload();">Costume</button>
                         <div class="or"></div>
-                        <button type="button" class="button btn btn-success">Sciarpa</button>
+                        <button type="button" class="button btn btn-success" onClick="window.location.reload();">Sciarpa</button>
                         <br>
-                        <button type="button" class="btn btn-primary">Mare</button>
+                        <button type="button" class="btn btn-primary" onClick="window.location.reload();">Mare</button>
                         <div class="or"></div>
-                        <button type="button" class="button btn btn-success">Montagna</button>
+                        <button type="button" class="button btn btn-success" onClick="window.location.reload();">Montagna</button>
 
-                        <button type="button" class="btn btn-primary">Metropoli</button>
+                        <button type="button" class="btn btn-primary" onClick="window.location.reload();">Metropoli</button>
                         <div class="or"></div>
-                        <button type="button" class="button btn btn-success">Sobborgo</button>
+                        <button type="button" class="button btn btn-success" onClick="window.location.reload();">Sobborgo</button>
 
-                        <button type="button" class="btn btn-primary">$$$</button>
+                        <button type="button" class="btn btn-primary" onClick="window.location.reload();">$$$</button>
                         <div class="or"></div>
-                        <button type="button" class="button btn btn-success">$</button>
+                        <button type="button" class="button btn btn-success" onClick="window.location.reload();">$</button>
 
                     </div>
                     <hr>
+                    
 
                 </div>
 
@@ -104,7 +105,8 @@
                     <div class="media">
 
                         <div class="media-body">
-                            <a href="musei/item1.php"><h4 class="media-heading">Offerta 1</h4></a>
+                            <a href="musei/item1.php"><h4 class="media-heading">Offerta <?php echo rand(0, 55);
+?></h4></a>
 
                             <p class="text-right">Città</p>
 
@@ -139,7 +141,8 @@
                     <div class="media">
 
                         <div class="media-body">
-                            <a href="musei/item1.php"><h4 class="media-heading">Offerta 2</h4></a>
+                            <a href="musei/item1.php"><h4 class="media-heading">Offerta <?php echo rand(0, 55);
+?></h4></a>
 
                             <p class="text-right">Città</p>
 
@@ -174,7 +177,8 @@
                     <div class="media">
 
                         <div class="media-body">
-                            <a href="musei/item1.php"><h4 class="media-heading">Offerta 3</h4></a>
+                            <a href="musei/item1.php"><h4 class="media-heading">Offerta <?php echo rand(0, 55);
+?></h4></a>
 
                             <p class="text-right">Città</p>
 
