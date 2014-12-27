@@ -51,7 +51,7 @@
                     <div class="media">
 
                         <div class="media-body">
-                            <a href="item1.php"><h4 class="media-heading">Offerta 1</h4></a>
+                            <a href="/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 1</h4></a>
 
                             <p class="text-right">Città</p>
 
@@ -86,7 +86,7 @@
                     <div class="media">
 
                         <div class="media-body">
-                            <a href="item1.php"><h4 class="media-heading">Offerta 2</h4></a>
+                            <a href="/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 2</h4></a>
 
                             <p class="text-right">Città</p>
 
@@ -121,7 +121,7 @@
                     <div class="media">
 
                         <div class="media-body">
-                            <a href="item1.php"><h4 class="media-heading">Offerta 3</h4></a>
+                            <a href="/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 3</h4></a>
 
                             <p class="text-right">Città</p>
 
