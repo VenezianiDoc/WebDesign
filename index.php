@@ -20,7 +20,7 @@
 
     <div class="carousel-inner">
 
-        <div class="item active">
+        <div class="item active"><a href="search/">
             <img src="http://www.hoteldelfino-mestre.com/wp-content/uploads/2013/09/venezia.jpg" alt="First slide">
 
             <div class="container">
@@ -29,9 +29,9 @@
 
                     <p>La più bella città del mondo con la sua laguna e la sua storia</p>
                 </div>
-            </div>
+            </div></a>
         </div>
-        <div class="item">
+        <div class="item"><a href="search/">
             <!-- <img src="http://placehold.it/1900x1080/990000/ffffff&text=Offerta%20Due" alt="Second slide"> -->
             <img src="http://islandlakecatskiing.com/files/uploads/2013/10/trek_gall_ILL3956.jpg" alt="Second slide">
 
@@ -41,9 +41,9 @@
 
                     <p>Il più bel patrimonio dell'UNESCO</p>
                 </div>
-            </div>
+            </div></a>
         </div>
-        <div class="item">
+        <div class="item"><a href="search/">
             <img src="http://www.villa-albonico.com/images/slider-home/4.jpg" alt="Third slide">
 
             <div class="container">
@@ -52,7 +52,7 @@
 
                     <p>Il più grande Lago d'Italia</p>
                 </div>
-            </div>
+            </div></a>
         </div>
 
     </div>
