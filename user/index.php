@@ -36,7 +36,7 @@
             <div class="col-lg-6">
                 <div class="row-fluid user-infos cyruxx">
                     <div class="span10 offset1">
-                        <div class="panel panel-primary">
+                        <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Informazioni Utente</h3>
                             </div>
@@ -96,7 +96,7 @@
             <div class="col-lg-6">
                 <div class="row-fluid user-infos cyruxx">
                     <div class="span10 offset1">
-                        <div class="panel panel-primary">
+                        <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Acquisti</h3>
                             </div>
@@ -164,7 +164,7 @@
             <div class="col-lg-6">
                 <div class="row-fluid user-infos cyruxx">
                     <div class="span10 offset1">
-                        <div class="panel panel-primary">
+                        <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Lista dei desideri</h3>
                             </div>
@@ -245,7 +245,7 @@
             <div class="col-lg-6">
                 <div class="row-fluid user-infos cyruxx">
                     <div class="span10 offset1">
-                        <div class="panel panel-primary">
+                        <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Tag personali</h3>
                             </div>
