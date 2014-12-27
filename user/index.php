@@ -9,321 +9,337 @@
 
 <body>
 
-    <?php include '../navbar.php' ?>
+<?php include '../navbar.php' ?>
 
-    <!-- ========= CONTAINER ======== -->
-    <div class="container">
-        <!-- breadcrumbs -->
-        <ol class="breadcrumb">
-            <li><a href="../index.php">Home</a>
-            </li>
-            <!-- pagina attiva-->
-            <li class="active">Area Riservata</li>
-        </ol>
-    </div>
-    <!-- /breadcrumbs -->
-    <div class="container">
+<!-- ========= CONTAINER ======== -->
+<div class="container">
+    <!-- breadcrumbs -->
+    <ol class="breadcrumb">
+        <li><a href="../index.php">Home</a>
+        </li>
+        <!-- pagina attiva-->
+        <li class="active">Area Riservata</li>
+    </ol>
+</div>
+<!-- /breadcrumbs -->
+<div class="container">
 
-        <div class="page-header">
-            <h1>Area riservata
+    <div class="page-header">
+        <h1>Area riservata
             <small> Benvenuto <?php echo $_SESSION['user']; ?></small>
         </h1>
-        </div>
+    </div>
 
-        <div class="container">
+    <div class="container">
 
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row-fluid user-infos cyruxx">
-                        <div class="span10 offset1">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Informazioni Utente</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="row-fluid">
-                                        <div class="span3">
-                                            <img class="img-circle" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=100" alt="User Pic">
-                                        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row-fluid user-infos cyruxx">
+                    <div class="span10 offset1">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Informazioni Utente</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row-fluid">
+                                    <div class="span3">
+                                        <img class="img-circle"
+                                             src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=100"
+                                             alt="User Pic">
+                                    </div>
+                                    <br>
+
+                                    <div class="span6">
+                                        <strong><?php echo $_SESSION['user']; ?></strong>
                                         <br>
-                                        <div class="span6">
-                                            <strong><?php echo $_SESSION['user']; ?></strong>
-                                            <br>
-                                            <table class="table table-condensed table-responsive table-user-information">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Lingua:</td>
-                                                        <td>Italiano</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Registrato dal:</td>
-                                                        <td>11/12/2014</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Acquisti:</td>
-                                                        <td>15</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Tag personali</td>
-                                                        <td>3</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                        <table class="table table-condensed table-responsive table-user-information">
+                                            <tbody>
+                                            <tr>
+                                                <td>Lingua:</td>
+                                                <td>Italiano</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Registrato dal:</td>
+                                                <td>11/12/2014</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Acquisti:</td>
+                                                <td>15</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tag personali</td>
+                                                <td>3</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
-                                <div class="panel-footer"><form method="POST" action="/user/loggatore.php">
-                                    <button class="btn  btn-primary" type="submit" data-toggle="tooltip" data-original-title="Send message to user" value=null id="username">Logout <i class="fa fa-sign-out"></i>
+                            </div>
+                            <div class="panel-footer">
+                                <form method="POST" action="/user/loggatore.php">
+                                    <button class="btn  btn-primary" type="submit" data-toggle="tooltip"
+                                            data-original-title="Send message to user" value=null id="username">Logout
+                                        <i class="fa fa-sign-out"></i>
                                     </button>
                                     <span class="pull-right">
                             <button class="btn btn-warning" type="button"
                                     data-toggle="tooltip"
                                     data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button" data-toggle="tooltip" data-original-title="Remove this user"><i class="fa fa-trash"></i></button>  </span></form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row-fluid user-infos cyruxx">
-                        <div class="span10 offset1">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Acquisti</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="row-fluid">
-                                        <div class="span6">
-                                            <table class="table table-condensed table-responsive table-user-information">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Hotel Splendid</td>
-                                                        <td><span class="pull-right">
-                            <button class="btn btn-warning" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button></span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Punta della Dogana</td>
-                                                        <td><span class="pull-right">
-                            <button class="btn btn-warning" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button>
-                            
-                        </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Notte per due</td>
-                                                        <td><span class="pull-right">
-                            <button class="btn btn-warning" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button>
-                        </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Giro in gondola</td>
-                                                        <td><span class="pull-right">
-                            <button class="btn btn-warning" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button>
-                        </span>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel-footer">
-                                    <button class="btn  btn-primary" type="button" data-toggle="tooltip" data-original-title="shop">Inizia shopping</button>
-                                    <span class="pull-right">
-                            <button class="btn btn-primary" type="button" data-toggle="tooltip" data-original-title="Carrello" onclick="window.location.href='/carrello'">Carrello</button>
-                        </span>
-                                </div>
+                            <button class="btn btn-danger" type="button" data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>  </span>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row-fluid user-infos cyruxx">
-                        <div class="span10 offset1">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Lista dei desideri</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="row-fluid">
-                                        <div class="span6">
-                                            <table class="table table-condensed table-responsive table-user-information">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Abano Terme</td>
-                                                        <td><span class="pull-right">
+            <div class="col-lg-6">
+                <div class="row-fluid user-infos cyruxx">
+                    <div class="span10 offset1">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Acquisti</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row-fluid">
+                                    <div class="span6">
+                                        <table class="table table-condensed table-responsive table-user-information">
+                                            <tbody>
+                                            <tr>
+                                                <td>Hotel Splendid</td>
+                                                <td><span class="pull-right">
                             <button class="btn btn-warning" type="button"
                                     data-toggle="tooltip"
-                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
-                        </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Notte in rifugio</td>
-                                                        <td><span class="pull-right">
+                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Punta della Dogana</td>
+                                                <td><span class="pull-right">
                             <button class="btn btn-warning" type="button"
                                     data-toggle="tooltip"
-                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button>
+                            
                         </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Guida C.A.I.</td>
-                                                        <td><span class="pull-right">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Notte per due</td>
+                                                <td><span class="pull-right">
                             <button class="btn btn-warning" type="button"
                                     data-toggle="tooltip"
-                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button>
                         </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Albergo Monte Bianco</td>
-                                                        <td><span class="pull-right">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Giro in gondola</td>
+                                                <td><span class="pull-right">
                             <button class="btn btn-warning" type="button"
                                     data-toggle="tooltip"
-                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                                    data-original-title="Edit"><i class="fa fa-info-circle"></i></button>
                         </span>
-                                                        </td>
-                                                    </tr>
+                                                </td>
+                                            </tr>
 
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                            </tbody>
+                                        </table>
                                     </div>
-                                </div>
-                                <div class="panel-footer">
-                                    <button class="btn  btn-primary" type="button" data-toggle="tooltip" data-original-title="Add">Aggiungi articolo</button>
-                                    <span class="pull-right">
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user">Svuota lista</button>
-                        </span>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row-fluid user-infos cyruxx">
-                        <div class="span10 offset1">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Tag personali</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="row-fluid">
-                                        <div class="span6">
-                                            <table class="table table-condensed table-responsive table-user-information">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Montagna</td>
-                                                        <td><span class="pull-right">
-                            <button class="btn btn-warning" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
-                        </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Mare</td>
-                                                        <td><span class="pull-right">
-                            <button class="btn btn-warning" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
-                        </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Castelli</td>
-                                                        <td><span class="pull-right">
-                            <button class="btn btn-warning" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
-                        </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Barche</td>
-                                                        <td><span class="pull-right">
-                            <button class="btn btn-warning" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
-                        </span>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel-footer">
-                                    <button class="btn  btn-primary" type="button" data-toggle="tooltip" data-original-title="Add">Aggiungi tag</button>
+                            <div class="panel-footer">
+                                <button class="btn  btn-primary" type="button" data-toggle="tooltip"
+                                        data-original-title="shop">Inizia shopping
+                                </button>
                                     <span class="pull-right">
-                            <button class="btn btn-danger" type="button"
-                                    data-toggle="tooltip"
-                                    data-original-title="Remove this user">Resetta</button>
+                                        <button class="btn btn-primary" type="button" data-toggle="tooltip" data-original-title="Carrello" onclick="window.location.href='/carrello'">Carrello</button>
                         </span>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row-fluid user-infos cyruxx">
+                    <div class="span10 offset1">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Lista dei desideri</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row-fluid">
+                                    <div class="span6">
+                                        <table class="table table-condensed table-responsive table-user-information">
+                                            <tbody>
+                                            <tr>
+                                                <td>Abano Terme</td>
+                                                <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Notte in rifugio</td>
+                                                <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Guida C.A.I.</td>
+                                                <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Albergo Monte Bianco</td>
+                                                <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                </td>
+                                            </tr>
 
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <button class="btn  btn-primary" type="button" data-toggle="tooltip"
+                                        data-original-title="Add">Aggiungi articolo
+                                </button>
+                                    <span class="pull-right">
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user">Svuota lista
+                            </button>
+                        </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row-fluid user-infos cyruxx">
+                    <div class="span10 offset1">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Tag personali</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row-fluid">
+                                    <div class="span6">
+                                        <table class="table table-condensed table-responsive table-user-information">
+                                            <tbody>
+                                            <tr>
+                                                <td>Montagna</td>
+                                                <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mare</td>
+                                                <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Castelli</td>
+                                                <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Barche</td>
+                                                <td><span class="pull-right">
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="fa fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="fa fa-trash"></i></button>
+                        </span>
+                                                </td>
+                                            </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <button class="btn  btn-primary" type="button" data-toggle="tooltip"
+                                        data-original-title="Add">Aggiungi tag
+                                </button>
+                                    <span class="pull-right">
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user">Resetta
+                            </button>
+                        </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="container">
-        <form method="POST" action="/user/loggatore.php">
-            Clicca qui per usicre: &emsp;
-            <button type="submit" class="btn" value=null id="username">Esci</button>
-        </form>
-    </div>
+</div>
 
-    </div>
-    <!-- ========= ./CONTAINER ======== -->
+<div class="container">
+    <form method="POST" action="/user/loggatore.php">
+        Clicca qui per usicre: &emsp;
+        <button type="submit" class="btn" value=null id="username">Esci</button>
+    </form>
+</div>
+
+</div>
+<!-- ========= ./CONTAINER ======== -->
 
 
-    <?php include '../footer.php' ?>
+<?php include '../footer.php' ?>
 
 </body>
 

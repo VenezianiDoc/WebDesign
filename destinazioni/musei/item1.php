@@ -46,7 +46,17 @@
 
                             <p class="text-right">Venezia</p>
 
-                        <p>Con la sua forma perfettamente triangolare, Punta della Dogana divide il Canal Grande dal Canale della Giudecca. L'ex porto monumentale della città ospita mostre di opere dalla collezione di François Pinault dopo un importante progetto di riqualifica voluto dalla François Pinault Foundation. L'edificio, così particolare e caratterizzante, cambia così funzione per la prima volta nella sua storia, abbandonando i traffici commerciali e diventando bocca di porto per le vette più rappresentative della produzione artistica contemporanea e luogo d'elezione per condividerla con il pubblico più ampio.</p><p>Biglietto valido per un ingresso fino al 12 febbraio.</p><p class="text-right strong">12,00 €</p>
+                            <p>Con la sua forma perfettamente triangolare, Punta della Dogana divide il Canal Grande dal
+                                Canale della Giudecca. L'ex porto monumentale della città ospita mostre di opere dalla
+                                collezione di François Pinault dopo un importante progetto di riqualifica voluto dalla
+                                François Pinault Foundation. L'edificio, così particolare e caratterizzante, cambia così
+                                funzione per la prima volta nella sua storia, abbandonando i traffici commerciali e
+                                diventando bocca di porto per le vette più rappresentative della produzione artistica
+                                contemporanea e luogo d'elezione per condividerla con il pubblico più ampio.</p>
+
+                            <p>Biglietto valido per un ingresso fino al 12 febbraio.</p>
+
+                            <p class="text-right strong">12,00 €</p>
                             <ul class="list-inline list-unstyled">
                                 <li><span><i class="glyphicon glyphicon-calendar"></i> fino al 12 febbraio</span></li>
                                 <li>|</li>
@@ -68,7 +78,9 @@
                                 </li>
                             </ul>
                         </div>
-                    </div><br>
+                    </div>
+                    <br>
+
                     <div class="text-center">
                         <div class="btn-group cart">
                             <button type="button" class="btn btn-success">
@@ -76,13 +88,14 @@
                             </button>
                         </div>
                         <div class="btn-group wishlist"> <?php if ($_SESSION['user'] == null) {
-                            echo '<a href="/user/login.php">';
-                        } else {
-                            echo '<a href="#">';
-                        } ?>
+                                echo '<a href="/user/login.php">';
+                            } else {
+                                echo '<a href="#">';
+                            } ?>
                             <button type="button" class="btn btn-danger">
-                                Aggiungi Lista desideri 
-                            </button></a>
+                                Aggiungi Lista desideri
+                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
