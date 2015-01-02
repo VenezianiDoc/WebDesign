@@ -86,7 +86,7 @@
                             <button type="button" class="btn btn-success">
                                 Aggiungi al carrello
                             </button>
-                        </div>
+                        </div><div class="col-md-1"></div>
                         <div class="btn-group wishlist">
                             <button type="button" class="btn btn-danger" <?php if ($_SESSION['user'] == null) { echo 'onclick="myFunction()"'; } else { echo ''; } ?> >
                                 <span id="warning">Aggiungi a Lista desideri</span>
