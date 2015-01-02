@@ -34,7 +34,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-xs-6">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="well">
                                 <form id="loginForm" method="POST" action="/user/loggatore.php" novalidate="novalidate">
                                     <div class="form-group">
@@ -63,7 +63,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12 col-sm-6">
                             <p class="lead">Registrati ora &egrave; <span class="text-success">GRATIS</span></p>
                             <ul class="list-unstyled" style="line-height: 2">
                                 <li><span class="fa fa-check text-success"></span> Vedi tutti i tuoi ordini</li>
