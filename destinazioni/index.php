@@ -30,7 +30,7 @@
 
         <div class="container">
             <div class="row text-center">
-                <div class="hidden-xs col-lg-12 col-md-12">
+                <div class="hidden-xs col-lg-12 col-md-12 hidden-print">
                     <!--Codice per il Widget desktop -->
 
                     <div class="ui-group-buttons text-center">
@@ -65,7 +65,7 @@
 
                 </div>
 
-                <div class="visible-xs col-xs-12">
+                <div class="visible-xs col-xs-12 hidden-print">
                     <!--Codice per il Widget mobile -->
                     <h2>Trova la tua meta ideale:</h2><br>
                     <form>
@@ -95,7 +95,7 @@
             <br>
 
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-sm-2 hidden-print">
                     <?php include 'navbarorizzontal.php' ?>
                 </div>
                 <div class="col-xs-12 col-sm-10">
