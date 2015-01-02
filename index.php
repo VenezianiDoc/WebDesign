@@ -7,6 +7,8 @@
 
 <body>
 
+<?php $pagina=home; ?>
+
 <?php include 'navbar.php' ?>
 
 <!-- ========= CAROUSEL ========= -->

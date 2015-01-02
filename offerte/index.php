@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <?php $pagina=offerte; ?>
 
 <?php include '../navbar.php' ?>
 

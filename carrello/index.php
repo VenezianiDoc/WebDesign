@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <?php $pagina=cart; ?>
 
 <?php include '../navbar.php' ?>
 

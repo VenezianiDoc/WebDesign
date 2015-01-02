@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <?php $pagina=categorie; ?>
 
 <?php include '../navbar.php' ?>
 
