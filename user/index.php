@@ -38,7 +38,7 @@
                     <div class="span10 offset1">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Informazioni Utente</h3>
+                                <h3 class="panel-title"><i class="fa fa-user"></i> Informazioni Utente</h3>
                             </div>
                             <div class="panel-body">
                                 <div class="row-fluid">
@@ -98,7 +98,7 @@
                     <div class="span10 offset1">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Acquisti</h3>
+                                <h3 class="panel-title"><i class="fa fa-inbox"></i> Acquisti</h3>
                             </div>
                             <div class="panel-body">
                                 <div class="row-fluid">
@@ -166,7 +166,7 @@
                     <div class="span10 offset1">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Lista dei desideri</h3>
+                                <h3 class="panel-title"><i class="fa fa-thumb-tack"></i> Lista dei desideri</h3>
                             </div>
                             <div class="panel-body">
                                 <div class="row-fluid">
@@ -246,7 +246,7 @@
                     <div class="span10 offset1">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Tag personali</h3>
+                                <h3 class="panel-title"><i class="fa fa-tags"></i> Tag personali</h3>
                             </div>
                             <div class="panel-body">
                                 <div class="row-fluid">

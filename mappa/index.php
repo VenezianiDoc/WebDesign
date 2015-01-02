@@ -27,7 +27,7 @@ include '../navbar.php'
 <!-- /breadcrumbs -->
 <div class="container">
     <div class="page-header">
-        <h1>Mappa del sito
+        <h1><i class="fa fa-sitemap"></i> Mappa del sito
             <small> Per non perdersi all'interno del sito</small>
         </h1>
     </div>

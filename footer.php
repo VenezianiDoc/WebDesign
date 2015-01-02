@@ -26,25 +26,25 @@
                             <li>
                                 <!-- le dimensioni del font sono in font-awesome.min.css in .fa -->
                                 <a href="https://www.facebook.com/" class="btn-social btn-outline" target="_blank"><i
-                                        class="fa fa-fw fa-facebook"></i></a>
+                                        class="fa fa-fw fa-facebook fa-2x"></i></a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/" class="btn-social btn-outline" target="_blank"><i
-                                        class="fa fa-fw fa-twitter"></i></a>
+                                        class="fa fa-fw fa-twitter fa-2x"></i></a>
                             </li>
                             <li>
                                 <a href="https://www.youtube.com/" class="btn-social btn-outline" target="_blank"><i
-                                        class="fa fa-fw fa-youtube"></i></a>
+                                        class="fa fa-fw fa-youtube fa-2x"></i></a>
                             </li>
                             <li>
                                 <a href="https://www.flickr.com/" class="btn-social btn-outline" target="_blank"><i
-                                        class="fa fa-fw fa-flickr"></i></a>
+                                        class="fa fa-fw fa-flickr fa-2x"></i></a>
                                 <!--<a href="https://www.linkedin.com" class="btn-social btn-outline" target="_blank"><i
                                         class="fa fa-fw fa-linkedin"></i></a>-->
                             </li>
                             <li>
                                 <a href="/rss" class="btn-social btn-outline" target="_blank"><i
-                                        class="fa fa-fw fa-rss"></i> </a>
+                                        class="fa fa-fw fa-rss fa-2x"></i> </a>
                             </li>
                         </ul>
                     </div>
