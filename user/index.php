@@ -234,8 +234,7 @@
                                     <span class="pull-right">
                             <button class="btn btn-danger" type="button"
                                     data-toggle="tooltip"
-                                    data-original-title="Remove this user">Svuota lista
-                            </button>
+                                    data-original-title="Remove this user">Svuota</button>
                         </span>
                             </div>
                         </div>
