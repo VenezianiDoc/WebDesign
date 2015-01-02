@@ -32,8 +32,8 @@
     </div>
     <div class="row">
         <div class="col-sm-12">
-            <p>Tel: +39 041 3456 908
-                <br>Indirizzo: Venezia, Via Torino 87
+            <p><i class="fa fa-phone"></i> Tel: +39 041 3456 908
+                <br><i class="fa fa-map-marker"></i> Indirizzo: Venezia, Via Torino 162
                 <br>
             </p>
         </div>
