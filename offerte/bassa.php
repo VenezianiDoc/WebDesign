@@ -51,7 +51,7 @@
                         <li class="list-group-item"><i class="icon-ok text-danger"></i> Hotel 5 stelle</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-danger" href="#">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-danger" href="/destinazioni/musei/item1.php">Compra ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -72,7 +72,7 @@
                         <li class="list-group-item"><i class="icon-ok text-info"></i> 5 stelle</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-info" href="#">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-info" href="/destinazioni/musei/item1.php">Compra ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -93,7 +93,7 @@
                         <li class="list-group-item"><i class="icon-ok text-success"></i> Mezza pensione</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-success" href="#">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-success" href="/destinazioni/musei/item1.php">Compra ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -114,7 +114,7 @@
                         <li class="list-group-item"><i class="icon-ok text-success"></i> 50 minuti</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-primary" href="#">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-primary" href="/destinazioni/musei/item1.php">Compra ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
