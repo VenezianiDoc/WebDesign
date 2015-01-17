@@ -12,7 +12,7 @@
                 <!-- Logo o nome del sito  -->
                 <a class="navbar-brand" <?php if ($pagina == home) {
                     echo 'id="home"';
-                } ?> href="/">Discover Veneto</a>
+                } ?> href="../">Discover Veneto</a>
             </div>
             <div class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right" role="search" action="/search">

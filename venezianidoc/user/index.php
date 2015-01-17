@@ -3,14 +3,14 @@
 
 <head>
 
-    <?php include '../head.php' ?>
+    <?php include '../headsecliv.php' ?>
     <title>Area riservata - Discover Veneto</title>
 </head>
 
 <body>
 <?php $pagina = user; ?>
 
-<?php include '../navbar.php' ?>
+<?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -334,11 +334,10 @@
 </div>
 
 
-</div>
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footer.php' ?>
+<?php include '../footersecliv.php' ?>
 
 </body>
 

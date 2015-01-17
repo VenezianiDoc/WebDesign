@@ -2,13 +2,13 @@
 <html lang="it">
 
 <head>
-    <?php include '../head.php' ?>
+    <?php include '../headsecliv.php' ?>
     <title>Search - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include '../navbar.php' ?>
+<?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -94,7 +94,7 @@
         </div>
 
     </div>
-    <?php include '../footer.php' ?>
+    <?php include '../footersecliv.php' ?>
 
 </div>
 </body>
