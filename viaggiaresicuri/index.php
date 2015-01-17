@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <?php $pagina=viaggiare; ?>
+<?php $pagina = viaggiare; ?>
 
 <?php include '../navbar.php' ?>
 

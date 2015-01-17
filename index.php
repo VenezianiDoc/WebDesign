@@ -7,7 +7,7 @@
 
 <body>
 
-<?php $pagina=home; ?>
+<?php $pagina = home; ?>
 
 <?php include 'navbar.php' ?>
 
@@ -23,38 +23,41 @@
     <div class="carousel-inner">
 
         <div class="item active"><a href="search/">
-            <img src="img/venezia.jpg" alt="First slide">
+                <img src="img/venezia.jpg" alt="First slide">
 
-            <div class="container">
-                <div class="carousel-caption carosello">
-                    <h1>Venezia</h1>
+                <div class="container">
+                    <div class="carousel-caption carosello">
+                        <h1>Venezia</h1>
 
-                    <p>La più bella città del mondo con la sua laguna e la sua storia</p>
+                        <p>La più bella città del mondo con la sua laguna e la sua storia</p>
+                    </div>
                 </div>
-            </div></a>
+            </a>
         </div>
         <div class="item"><a href="search/">
-            <!-- <img src="http://placehold.it/1900x1080/990000/ffffff&text=Offerta%20Due" alt="Second slide"> -->
-            <img src="img/montagna.jpg" alt="Second slide">
+                <!-- <img src="http://placehold.it/1900x1080/990000/ffffff&text=Offerta%20Due" alt="Second slide"> -->
+                <img src="img/montagna.jpg" alt="Second slide">
 
-            <div class="container">
-                <div class="carousel-caption carosello">
-                    <h1>Dolomiti</h1>
+                <div class="container">
+                    <div class="carousel-caption carosello">
+                        <h1>Dolomiti</h1>
 
-                    <p>Il più bel patrimonio dell'UNESCO</p>
+                        <p>Il più bel patrimonio dell'UNESCO</p>
+                    </div>
                 </div>
-            </div></a>
+            </a>
         </div>
         <div class="item"><a href="search/">
-            <img src="img/garda.jpg" alt="Third slide">
+                <img src="img/garda.jpg" alt="Third slide">
 
-            <div class="container">
-                <div class="carousel-caption carosello">
-                    <h1>Lago di Garda</h1>
+                <div class="container">
+                    <div class="carousel-caption carosello">
+                        <h1>Lago di Garda</h1>
 
-                    <p>Il più grande Lago d'Italia</p>
+                        <p>Il più grande Lago d'Italia</p>
+                    </div>
                 </div>
-            </div></a>
+            </a>
         </div>
 
     </div>

@@ -37,20 +37,18 @@
     }
 }
 
-
-
 .breadcrumb {
     margin-top: 110px;
     margin-bottom: 15px;
 }
 
-@media (max-width: 767px) { /*quando il menu diventa per versione mobile*/
+@media (max-width: 767px) {
+    /*quando il menu diventa per versione mobile*/
     .breadcrumb {
-    margin-top: 60px;
-    margin-bottom: 15px;
+        margin-top: 60px;
+        margin-bottom: 15px;
     }
 }
-
 
 /* STILE MENU ORIZZONTALE */
 
@@ -236,12 +234,6 @@ img.logo-cart {
     margin-bottom: 10px;
     margin-right: 10px;
 }
-
-
-
-
-
-
 
 #home {
     color: white;

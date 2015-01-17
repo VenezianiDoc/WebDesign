@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <?php $pagina=offerte; ?>
+<?php $pagina = offerte; ?>
 
 <?php include '../navbar.php' ?>
 
@@ -33,11 +33,13 @@
         <div class="col-lg-12">
             <a href="lastminute.php"><h2>Last minute</h2>
 
-                <p><img src="/img/LastMinute_696x254.jpg" class="img-responsive img-center hidden-print" alt="Last minute"></p></a>
+                <p><img src="/img/LastMinute_696x254.jpg" class="img-responsive img-center hidden-print"
+                        alt="Last minute"></p></a>
 
             <a href="bassa.php"><h2>Bassa stagione</h2>
 
-                <p><img src="/img/BassaStagione_696x254.jpg" class="img-responsive img-center hidden-print" alt="Bassa stagione"></p>
+                <p><img src="/img/BassaStagione_696x254.jpg" class="img-responsive img-center hidden-print"
+                        alt="Bassa stagione"></p>
             </a>
 
         </div>
@@ -54,7 +56,8 @@
                 <div class="media">
 
                     <div class="media-body">
-                        <a href="/venezianidoc/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 1</h4></a>
+                        <a href="/venezianidoc/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 1</h4>
+                        </a>
 
                         <p class="text-right">Città</p>
 
@@ -91,7 +94,8 @@
                 <div class="media">
 
                     <div class="media-body">
-                        <a href="/venezianidoc/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 2</h4></a>
+                        <a href="/venezianidoc/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 2</h4>
+                        </a>
 
                         <p class="text-right">Città</p>
 
@@ -172,7 +176,8 @@
             <h3>Viaggiare sicuri</h3>
             <hr>
             <p>Prima di intraprendere un viaggio consulta le info fornite nella pagina <a
-                    href="/venezianidoc/viaggiaresicuriaggiaresicuri/comefare.php">Come fare se</a> e porta sempre con te i numeri presenti nella
+                    href="/venezianidoc/viaggiaresicuriaggiaresicuri/comefare.php">Come fare se</a> e porta sempre con
+                te i numeri presenti nella
                 pagina <a href="/venezianidoc/viaggiaresicuriaggiaresicuri/utili.php">Numeri utili</a>.</p>
         </div>
     </div>

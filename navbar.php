@@ -10,7 +10,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Logo o nome del sito  -->
-                <a class="navbar-brand" <?php if($pagina==home){echo 'id="home"';}?> href="/">Discover Veneto</a>
+                <a class="navbar-brand" <?php if ($pagina == home) {
+                    echo 'id="home"';
+                } ?> href="/">Discover Veneto</a>
             </div>
             <div class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right" role="search" action="/search">
@@ -29,10 +31,14 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-left">
                     <!-- Link semplici -->
-                    <li <?php if($pagina==offerte){echo 'class="active"';}?> ><a href="/offerte">Offerte</a>
+                    <li <?php if ($pagina == offerte) {
+                        echo 'class="active"';
+                    } ?> ><a href="/offerte">Offerte</a>
                     </li>
                     <!-- Link dropdown DESTINAZIONI -->
-                    <li class="dropdown <?php if($pagina==destinazioni){echo ' active';}?>"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Destinazioni<span
+                    <li class="dropdown <?php if ($pagina == destinazioni) {
+                        echo ' active';
+                    } ?>"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Destinazioni<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
@@ -49,7 +55,9 @@
                         </ul>
                     </li>
                     <!-- Link dropdown CATEGORIE -->
-                    <li class="dropdown <?php if($pagina==categorie){echo ' active';}?>"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Categorie<span
+                    <li class="dropdown <?php if ($pagina == categorie) {
+                        echo ' active';
+                    } ?>"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Categorie<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
@@ -69,11 +77,15 @@
                             </li>
                         </ul>
                     </li>
-                    <li <?php if($pagina==viaggiare){echo 'class="active"';}?>><a href="/viaggiaresicuri">Viaggiare sicuri</a>
+                    <li <?php if ($pagina == viaggiare) {
+                        echo 'class="active"';
+                    } ?>><a href="/viaggiaresicuri">Viaggiare sicuri</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li <?php if($pagina==user){echo 'class="active"';}?>>
+                    <li <?php if ($pagina == user) {
+                        echo 'class="active"';
+                    } ?>>
                         <?php if ($_SESSION['user'] == null) {
                             echo '<a href="/user/login.php">Accedi</a>';
                         } elseif ($_SESSION['user'] == ' ') {
@@ -82,7 +94,9 @@
                             echo '<a href="/user/index.php">Account di ' . $_SESSION['user'] . '</a>';
                         } ?>
                     </li>
-                    <li <?php if($pagina==cart){echo 'class="active"';}?>><a href="/carrello"><i class="fa fa-shopping-cart"></i> Carrello</a>
+                    <li <?php if ($pagina == cart) {
+                        echo 'class="active"';
+                    } ?>><a href="/carrello"><i class="fa fa-shopping-cart"></i> Carrello</a>
                     </li>
                 </ul>
             </div>

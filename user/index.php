@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <?php $pagina=user; ?>
+<?php $pagina = user; ?>
 
 <?php include '../navbar.php' ?>
 
@@ -150,10 +150,14 @@
                             </div>
                             <div class="panel-footer">
                                 <button class="btn  btn-primary" type="button" data-toggle="tooltip"
-                                        data-original-title="shop" onclick="window.location.href='/offerte'">Inizia shopping
+                                        data-original-title="shop" onclick="window.location.href='/offerte'">Inizia
+                                    shopping
                                 </button>
                                     <span class="pull-right">
-                                        <button class="btn btn-primary" type="button" data-toggle="tooltip" data-original-title="Carrello" onclick="window.location.href='/carrello'">Carrello</button>
+                                        <button class="btn btn-primary" type="button" data-toggle="tooltip"
+                                                data-original-title="Carrello"
+                                                onclick="window.location.href='/carrello'">Carrello
+                                        </button>
                         </span>
                             </div>
                         </div>
@@ -235,7 +239,8 @@
                                     <span class="pull-right">
                             <button class="btn btn-danger" type="button"
                                     data-toggle="tooltip"
-                                    data-original-title="Remove this user">Svuota</button>
+                                    data-original-title="Remove this user">Svuota
+                            </button>
                         </span>
                             </div>
                         </div>

@@ -7,7 +7,7 @@
 </head>
 
 <body>
-        <?php $pagina=user; ?>
+<?php $pagina = user; ?>
 
 <?php include '../navbar.php' ?>
 
@@ -38,7 +38,8 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
                             <div class="well">
-                                <form id="loginForm" method="POST" action="/venezianidoc/user/loggatore.php" novalidate="novalidate">
+                                <form id="loginForm" method="POST" action="/venezianidoc/user/loggatore.php"
+                                      novalidate="novalidate">
                                     <div class="form-group">
                                         <label for="username" class="control-label">Username</label>
                                         <input type="text" class="form-control" id="username" name="username" value=""

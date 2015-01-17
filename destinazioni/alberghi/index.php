@@ -66,7 +66,8 @@
                     <div class="media">
 
                         <div class="media-body">
-                            <a href="/venezianidoc/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 1</h4></a>
+                            <a href="/venezianidoc/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta
+                                    1</h4></a>
 
                             <p class="text-right">Città</p>
 
@@ -101,7 +102,8 @@
                 <div class="well">
                     <div class="media">
                         <div class="media-body">
-                            <a href="/venezianidoc/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 2</h4></a>
+                            <a href="/venezianidoc/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta
+                                    2</h4></a>
 
                             <p class="text-right">Città</p>
 

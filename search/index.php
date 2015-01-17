@@ -79,20 +79,20 @@
             est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
         <hr>
 
-        
+
         <div class="text-center">
             <ul class="pagination pagination-large">
                 <li class="disabled"><span>&laquo;</span>
-                </li>            
+                </li>
                 <li class="active"><span>1</span></li>
                 <li>
-                <a href="#">2</a>
+                    <a href="#">2</a>
                 </li>
                 <li><a href="#" rel="next">&raquo;</a>
-                </li>	
+                </li>
             </ul>
-</div>
-        
+        </div>
+
     </div>
     <?php include '../footer.php' ?>
 

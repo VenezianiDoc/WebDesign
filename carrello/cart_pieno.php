@@ -47,10 +47,10 @@
         </div>
         <div class="panel-body">
             <p class="align-right">247,00 €</p>
-            
-    <form method="post" action="index.php" class="text-center">
-        <button type="submit" class="btn btn-primary" name="TIPO" value="2">Vai alla cassa</button>
-    </form>
+
+            <form method="post" action="index.php" class="text-center">
+                <button type="submit" class="btn btn-primary" name="TIPO" value="2">Vai alla cassa</button>
+            </form>
         </div>
     </div>
     <form action="../offerte">

@@ -52,7 +52,8 @@
                         <li class="list-group-item"><i class="icon-ok text-danger"></i> Hotel 5 stelle</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-danger" href="/venezianidoc/destinazioni/musei/item1.php">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-danger" href="/venezianidoc/destinazioni/musei/item1.php">Compra
+                            ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -73,7 +74,8 @@
                         <li class="list-group-item"><i class="icon-ok text-info"></i> 5 stelle</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-info" href="/venezianidoc/destinazioni/musei/item1.php">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-info" href="/venezianidoc/destinazioni/musei/item1.php">Compra
+                            ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -94,7 +96,8 @@
                         <li class="list-group-item"><i class="icon-ok text-success"></i> Mezza pensione</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-success" href="/venezianidoc/destinazioni/musei/item1.php">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-success" href="/venezianidoc/destinazioni/musei/item1.php">Compra
+                            ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->

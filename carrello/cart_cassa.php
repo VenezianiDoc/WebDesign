@@ -5,12 +5,12 @@
         </div>
         <div class="panel-body">
             <p>
-                <h4>Hotel Splendid, Venezia</h4>
-                <hr>
-                <h4>Tour in gondola in Canal Grande</h4>
-                <hr>
-                <h4>Prima Materia - Punta della Dogana</h4>
-                <hr>
+            <h4>Hotel Splendid, Venezia</h4>
+            <hr>
+            <h4>Tour in gondola in Canal Grande</h4>
+            <hr>
+            <h4>Prima Materia - Punta della Dogana</h4>
+            <hr>
             </p>
             <h3 class="align-right">247,00 €</h3>
         </div>
@@ -32,19 +32,29 @@
                 </fieldset>
             </form>
 
-            <div class="alert alert-warning" role="alert" <?php if ($_SESSION['user'] == null) { echo ''; } else { echo 'hidden="true"'; } ?>>
+            <div class="alert alert-warning" role="alert" <?php if ($_SESSION['user'] == null) {
+                echo '';
+            } else {
+                echo 'hidden="true"';
+            } ?>>
                 <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
                 <span class="sr-only">Warning:</span>
                 Attenzione!! Devi accedere per poter continuare con l'acquisto!
                 <br>
                 <br>
+
                 <form method="post" action="/venezianidoc/userzianidoc/user/login.php" class="text-center">
-                    <button type="submit" class="btn btn-warning" name="TIPO" value="1" >Accedi</button>
+                    <button type="submit" class="btn btn-warning" name="TIPO" value="1">Accedi</button>
                 </form>
             </div>
 
-            <form method="post" action="index.php" class="text-center" <?php if ($_SESSION['user'] == null) { echo 'hidden="true"'; } else { echo ''; } ?>>
-                <button type="submit" class="btn btn-primary" name="TIPO" value="3">&emsp;&emsp;Paga&emsp;&emsp;</button>
+            <form method="post" action="index.php" class="text-center" <?php if ($_SESSION['user'] == null) {
+                echo 'hidden="true"';
+            } else {
+                echo '';
+            } ?>>
+                <button type="submit" class="btn btn-primary" name="TIPO"
+                        value="3">&emsp;&emsp;Paga&emsp;&emsp;</button>
             </form>
 
         </div>
