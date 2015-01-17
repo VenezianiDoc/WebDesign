@@ -2,21 +2,21 @@
 <html lang="it">
 
 <head>
-    <?php include "../../headterzliv.php" ?>
+    <?php include "../../head.php" ?>
     <title>Musei - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include "../../navbarterzliv.php" ?>
+<?php include "../../navbar.php" ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="../../index.php">Home</a>
+        <li><a href="/index.php">Home</a>
         </li>
-        <li><a href="../../destinazioni/">Destinazioni</a>
+        <li><a href="/destinazioni/">Destinazioni</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Musei</li>
@@ -132,7 +132,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../../footerterzliv.php' ?>
+<?php include '../../footer.php' ?>
 
 </body>
 

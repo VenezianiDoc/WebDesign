@@ -2,20 +2,20 @@
 <html lang="it">
 
 <head>
-    <?php include '../../headterzliv.php' ?>
+    <?php include '../../head.php' ?>
     <title>Business - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include '../../navbarterzliv.php' ?>
+<?php include '../../navbar.php' ?>
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="../../index.php">Home</a>
+        <li><a href="/index.php">Home</a>
         </li>
-        <li><a href="../../categorie/">Categorie</a>
+        <li><a href="/categorie/">Categorie</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Business</li>
@@ -54,7 +54,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../../footerterzliv.php' ?>
+<?php include '../../footer.php' ?>
 
 </body>
 

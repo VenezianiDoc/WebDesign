@@ -2,23 +2,23 @@
 <html lang="it">
 
 <head>
-    <?php include "../../headterzliv.php" ?>
+    <?php include "../../head.php" ?>
     <title>Articolo - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include "../../navbarterzliv.php" ?>
+<?php include "../../navbar.php" ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="../../index.php">Home</a>
+        <li><a href="/index.php">Home</a>
         </li>
-        <li><a href="../../destinazioni/">Destinazioni</a>
+        <li><a href="/destinazioni/">Destinazioni</a>
         </li>
-        <li><a href="index.php">Musei</a>
+        <li><a href="./index.php">Musei</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Articolo</li>
@@ -86,14 +86,9 @@
                             <button type="button" class="btn btn-success">
                                 Aggiungi al carrello
                             </button>
-                        </div>
-                        <div class="col-md-1"></div>
+                        </div><div class="col-md-1"></div>
                         <div class="btn-group wishlist">
-                            <button type="button" class="btn btn-danger" <?php if ($_SESSION['user'] == null) {
-                                echo 'onclick="myFunction()"';
-                            } else {
-                                echo '';
-                            } ?> >
+                            <button type="button" class="btn btn-danger" <?php if ($_SESSION['user'] == null) { echo 'onclick="myFunction()"'; } else { echo ''; } ?> >
                                 <span id="warning">Aggiungi a Lista desideri</span>
                             </button>
                         </div>
@@ -104,9 +99,9 @@
     </div>
 </div>
 <!-- ========= ./CONTAINER ======== -->
+    
 
-
-<?php include '../../footerterzliv.php' ?>
+<?php include '../../footer.php' ?>
 
 </body>
 

@@ -2,14 +2,14 @@
 <html lang="it">
 
 <head>
-    <?php include '../headsecliv.php' ?>
+    <?php include '../head.php' ?>
     <title>Carrello - Discover Veneto</title>
 </head>
 
 <body>
-<?php $pagina = 'cart'; ?>
+    <?php $pagina=cart; ?>
 
-<?php include '../navbarsecliv.php' ?>
+<?php include '../navbar.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">

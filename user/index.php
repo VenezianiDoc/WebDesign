@@ -3,14 +3,14 @@
 
 <head>
 
-    <?php include '../headsecliv.php' ?>
+    <?php include '../head.php' ?>
     <title>Area riservata - Discover Veneto</title>
 </head>
 
 <body>
-<?php $pagina = 'user'; ?>
+    <?php $pagina=user; ?>
 
-<?php include '../navbarsecliv.php' ?>
+<?php include '../navbar.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -45,7 +45,7 @@
                                 <div class="row-fluid">
                                     <div class="span3">
                                         <img class="img-circle"
-                                             src="../img/photo.jpg"
+                                             src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=100"
                                              alt="User Pic">
                                     </div>
                                     <br>
@@ -150,14 +150,10 @@
                             </div>
                             <div class="panel-footer">
                                 <button class="btn  btn-primary" type="button" data-toggle="tooltip"
-                                        data-original-title="shop" onclick="window.location.href='/offerte'">Inizia
-                                    shopping
+                                        data-original-title="shop" onclick="window.location.href='/offerte'">Inizia shopping
                                 </button>
                                     <span class="pull-right">
-                                        <button class="btn btn-primary" type="button" data-toggle="tooltip"
-                                                data-original-title="Carrello"
-                                                onclick="window.location.href='/carrello'">Carrello
-                                        </button>
+                                        <button class="btn btn-primary" type="button" data-toggle="tooltip" data-original-title="Carrello" onclick="window.location.href='/carrello'">Carrello</button>
                         </span>
                             </div>
                         </div>
@@ -239,8 +235,7 @@
                                     <span class="pull-right">
                             <button class="btn btn-danger" type="button"
                                     data-toggle="tooltip"
-                                    data-original-title="Remove this user">Svuota
-                            </button>
+                                    data-original-title="Remove this user">Svuota</button>
                         </span>
                             </div>
                         </div>
@@ -334,10 +329,11 @@
 </div>
 
 
+</div>
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footersecliv.php' ?>
+<?php include '../footer.php' ?>
 
 </body>
 

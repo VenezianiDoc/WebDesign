@@ -4,10 +4,9 @@
         <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
         <span class="sr-only">Error:</span>
         Attenzione!! &Eacute; stato trovato un carrello contenente alcuni articoli! <br><br>
-
-        <form method="post" action="index.php" class="text-center">
-            <button type="submit" class="btn btn-danger" name="TIPO" value="1">Accedi al tuo vecchio carrello</button>
-        </form>
+    <form method="post" action="index.php" class="text-center">
+        <button type="submit" class="btn btn-danger" name="TIPO" value="1">Accedi al tuo vecchio carrello</button>
+    </form>
     </div>
 
     <div class="panel panel-default">

@@ -2,13 +2,13 @@
 <html lang="it">
 
 <head>
-    <?php include '../headsecliv.php' ?>
+    <?php include '../head.php' ?>
     <title>Search - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include '../navbarsecliv.php' ?>
+<?php include '../navbar.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -79,22 +79,22 @@
             est molestie nec. Ut volutpat vulputate lacus in pretium...</p>
         <hr>
 
-
+        
         <div class="text-center">
             <ul class="pagination pagination-large">
                 <li class="disabled"><span>&laquo;</span>
-                </li>
+                </li>            
                 <li class="active"><span>1</span></li>
                 <li>
-                    <a href="#">2</a>
+                <a href="#">2</a>
                 </li>
                 <li><a href="#" rel="next">&raquo;</a>
-                </li>
+                </li>	
             </ul>
-        </div>
-
+</div>
+        
     </div>
-    <?php include '../footersecliv.php' ?>
+    <?php include '../footer.php' ?>
 
 </div>
 </body>

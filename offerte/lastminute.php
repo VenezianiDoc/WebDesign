@@ -2,14 +2,14 @@
 <html lang="it">
 
 <head>
-    <?php include '../headsecliv.php' ?>
+    <?php include '../head.php' ?>
     <title>Last minute - Discover Veneto</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-<?php include '../navbarsecliv.php' ?>
+<?php include '../navbar.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -52,8 +52,7 @@
                         <li class="list-group-item"><i class="icon-ok text-danger"></i> Hotel 5 stelle</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-danger" href="/venezianidoc/destinazioni/musei/item1.php">Compra
-                            ora!</a>
+                        <a class="btn btn-lg btn-block btn-danger" href="/destinazioni/musei/item1.php">Compra ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -74,8 +73,7 @@
                         <li class="list-group-item"><i class="icon-ok text-info"></i> 5 stelle</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-info" href="/venezianidoc/destinazioni/musei/item1.php">Compra
-                            ora!</a>
+                        <a class="btn btn-lg btn-block btn-info" href="/destinazioni/musei/item1.php">Compra ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -96,8 +94,7 @@
                         <li class="list-group-item"><i class="icon-ok text-success"></i> Mezza pensione</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-success" href="/venezianidoc/destinazioni/musei/item1.php">Compra
-                            ora!</a>
+                        <a class="btn btn-lg btn-block btn-success" href="/destinazioni/musei/item1.php">Compra ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -139,7 +136,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footersecliv.php' ?>
+<?php include '../footer.php' ?>
 <script src="js.js"></script>
 </body>
 

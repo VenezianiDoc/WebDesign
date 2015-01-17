@@ -2,14 +2,14 @@
 <html lang="it">
 
 <head>
-    <?php include '../headsecliv.php' ?>
+    <?php include '../head.php' ?>
     <title>Categorie - Discover Veneto</title>
 </head>
 
 <body>
-<?php $pagina = 'categorie'; ?>
+    <?php $pagina=categorie; ?>
 
-<?php include '../navbarsecliv.php' ?>
+<?php include '../navbar.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -32,23 +32,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-2 hidden-print">
-                <ul class="navor menuor" role="group" aria-label="Categorie">
-                    <li><a href="index.php">Indice categorie</a>
-                    </li>
-                    <hr>
-                    <li><a href="avventura">Avventura</a>
-                    </li>
-                    <li><a href="relax">Relax &amp; Benessere</a>
-                    </li>
-                    <li><a href="arte">Arte</a>
-                    </li>
-                    <li><a href="famiglia">Famiglia</a>
-                    </li>
-                    <li><a href="studenti">Studenti</a>
-                    </li>
-                    <li><a href="business">Business Man</a>
-                    </li>
-                </ul>
+                <?php include 'navbarorizzontal.php' ?>
             </div>
             <div class="col-xs-12 col-sm-10">
                 <p>Se volete trascorrere il giorno più bello della vostra vita o una luna di miele indimenticabile avete
@@ -84,7 +68,7 @@
     <!-- ========= ./CONTAINER ======== -->
 </div>
 
-<?php include '../footersecliv.php' ?>
+<?php include '../footer.php' ?>
 </body>
 
 </html>

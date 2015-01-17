@@ -2,21 +2,21 @@
 <html lang="it">
 
 <head>
-    <?php include "../../headterzliv.php" ?>
+    <?php include "../../head.php" ?>
     <title>Locali &amp; Ristorazione - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include "../../navbarterzliv.php" ?>
+<?php include "../../navbar.php" ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="../../index.php">Home</a>
+        <li><a href="/index.php">Home</a>
         </li>
-        <li><a href="../../destinazioni/">Destinazioni</a>
+        <li><a href="/destinazioni/">Destinazioni</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Locali &amp; Ristorazione</li>
@@ -60,14 +60,13 @@
                     <div class="media">
 
                         <div class="media-body">
-                            <a href="../musei/item1.php"><h4 class="media-heading">Offerta
-                                    1</h4></a>
+                            <a href="/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 1</h4></a>
 
                             <p class="text-right">Città</p>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit
                                 amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a
-                                libero <a href="../musei/item1.php">[&hellip;]</a>
+                                libero <a href="/destinazioni/musei/item1.php">[&hellip;]</a>
                             </p>
                             <ul class="list-inline list-unstyled">
                                 <li><span><i class="glyphicon glyphicon-calendar"></i> fino al 12 febbraio</span>
@@ -96,13 +95,13 @@
                 <div class="well">
                     <div class="media">
                         <div class="media-body">
-                            <a href="../musei/item1.php"><h4 class="media-heading">Offerta 2</h4></a>
+                            <a href="/destinazioni/musei/item1.php"><h4 class="media-heading">Offerta 2</h4></a>
 
                             <p class="text-right">Città</p>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit
                                 amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a
-                                libero <a href="../musei/item1.php">[&hellip;]</a>
+                                libero <a href="/destinazioni/musei/item1.php">[&hellip;]</a>
                             </p>
                             <ul class="list-inline list-unstyled">
                                 <li><span><i class="glyphicon glyphicon-calendar"></i> fino al 13 maggio</span>
@@ -137,7 +136,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../../footerterzliv.php' ?>
+<?php include '../../footer.php' ?>
 
 </body>
 
