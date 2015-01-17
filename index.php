@@ -23,7 +23,7 @@
     <div class="carousel-inner">
 
         <div class="item active"><a href="search/">
-            <img src="http://www.hoteldelfino-mestre.com/wp-content/uploads/2013/09/venezia.jpg" alt="First slide">
+            <img src="img/venezia.jpg" alt="First slide">
 
             <div class="container">
                 <div class="carousel-caption carosello">
