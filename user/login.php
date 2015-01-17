@@ -7,7 +7,7 @@
 </head>
 
 <body>
-        <?php $pagina=user; ?>
+        <?php $pagina='user'; ?>
 
 <?php include '../navbar.php' ?>
 

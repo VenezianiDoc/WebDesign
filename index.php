@@ -7,7 +7,7 @@
 
 <body>
 
-<?php $pagina=home; ?>
+<?php $pagina='home'; ?>
 
 <?php include 'navbar.php' ?>
 
