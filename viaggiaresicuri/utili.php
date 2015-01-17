@@ -16,7 +16,7 @@
     <ol class="breadcrumb">
         <li><a href="../index.php">Home</a>
         </li>
-        <li><a href="./index.php">Viaggiare Sicuri</a>
+        <li><a href="index.php">Viaggiare Sicuri</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Numeri Utili</li>

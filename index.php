@@ -35,7 +35,7 @@
         </div>
         <div class="item"><a href="search/">
             <!-- <img src="http://placehold.it/1900x1080/990000/ffffff&text=Offerta%20Due" alt="Second slide"> -->
-            <img src="http://islandlakecatskiing.com/files/uploads/2013/10/trek_gall_ILL3956.jpg" alt="Second slide">
+            <img src="img/montagna.jpg" alt="Second slide">
 
             <div class="container">
                 <div class="carousel-caption carosello">
@@ -46,7 +46,7 @@
             </div></a>
         </div>
         <div class="item"><a href="search/">
-            <img src="http://www.villa-albonico.com/images/slider-home/4.jpg" alt="Third slide">
+            <img src="img/garda.jpg" alt="Third slide">
 
             <div class="container">
                 <div class="carousel-caption carosello">

@@ -14,9 +14,9 @@
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="/index.php">Home</a>
+        <li><a href="/venezianidoc/index.phpdoc/index.php">Home</a>
         </li>
-        <li><a href="/categorie/">Categorie</a>
+        <li><a href="/venezianidoc/categorie/">Categorie</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Avventura</li>

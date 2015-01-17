@@ -14,11 +14,11 @@
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="/index.php">Home</a>
+        <li><a href="/venezianidoc/index.phpdoc/index.php">Home</a>
         </li>
-        <li><a href="/destinazioni/">Destinazioni</a>
+        <li><a href="/venezianidoc/destinazioni/">Destinazioni</a>
         </li>
-        <li><a href="./index.php">Musei</a>
+        <li><a href="index.php">Musei</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Articolo</li>

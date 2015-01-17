@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- CSS -->
-<link href="/css/bootstrap.css" rel="stylesheet">
-<link href="/css/stylevenezianidoc.css" rel="stylesheet">
-<link href="/css/carousel.css" rel="stylesheet">
+<link href="/venezianidoc/css/bootstrap.css" rel="stylesheet">
+<link href="/venezianidoc/css/stylevenezianidoc.css" rel="stylesheet">
+<link href="/venezianidoc/css/carousel.css" rel="stylesheet">
 
 <!-- Custom Fonts -->
-<link href="/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="/venezianidoc/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 <!-- Titolo, descrizione, autore -->
 <meta name="description" content="Esplora Venezia e tutto il Veneto con le migliori offerte nel web!">
