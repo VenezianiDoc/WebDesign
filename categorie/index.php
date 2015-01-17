@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<?php $pagina = categorie; ?>
+<?php $pagina = 'categorie'; ?>
 
 <?php include '../navbarsecliv.php' ?>
 
