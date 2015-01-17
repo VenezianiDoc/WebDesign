@@ -33,7 +33,7 @@
                     <!-- Link semplici -->
                     <li <?php if ($pagina == offerte) {
                         echo 'class="active"';
-                    } ?> ><a href="/offerte">Offerte</a>
+                    } ?> ><a href="../offerte">Offerte</a>
                     </li>
                     <!-- Link dropdown DESTINAZIONI -->
                     <li class="dropdown <?php if ($pagina == destinazioni) {
