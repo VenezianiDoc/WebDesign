@@ -45,7 +45,7 @@
                                 <div class="row-fluid">
                                     <div class="span3">
                                         <img class="img-circle"
-                                             src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=100"
+                                             src="../img/photo.jpg"
                                              alt="User Pic">
                                     </div>
                                     <br>
@@ -77,7 +77,7 @@
                                 </div>
                             </div>
                             <div class="panel-footer">
-                                <form method="POST" action="/venezianidoc/user/loggatore.php">
+                                <form method="POST" action="/user/loggatore.php">
                                     <button class="btn  btn-primary" type="submit" data-toggle="tooltip"
                                             data-original-title="Send message to user" value=null id="username">Logout
                                         <i class="fa fa-sign-out"></i>

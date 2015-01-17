@@ -35,83 +35,83 @@ include '../navbar.php'
     <div class="container">
         <ul>
             <li>
-                <a href="/venezianidoc/index.phpdoc/index.php">Home</a>
+                <a href="/index.php">Home</a>
             </li>
             <ul>
                 <li>
-                    <a href="/venezianidoc/categorie/index.php">Categorie</a>
+                    <a href="/categorie/index.php">Categorie</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/venezianidoc/categorie/arte">Arte</a>
+                        <a href="/categorie/arte">Arte</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/categorie/avventura">Avventura</a>
+                        <a href="/categorie/avventura">Avventura</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/categorie/business">Business</a>
+                        <a href="/categorie/business">Business</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/categorie/famiglia">Famiglia</a>
+                        <a href="/categorie/famiglia">Famiglia</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/categorie/relax">Relax</a>
+                        <a href="/categorie/relax">Relax</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/categorie/studenti">Studenti</a>
+                        <a href="/categorie/studenti">Studenti</a>
                     </li>
                 </ul>
                 <li>
-                    <a href="/venezianidoc/destinazioni/index.php">Destinazioni</a>
+                    <a href="/destinazioni/index.php">Destinazioni</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/venezianidoc/destinazioni/alberghi">Alberghi</a>
+                        <a href="/destinazioni/alberghi">Alberghi</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/destinazioni/locali">Locali</a>
+                        <a href="/destinazioni/locali">Locali</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/destinazioni/mostre">Mostre</a>
+                        <a href="/destinazioni/mostre">Mostre</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/destinazioni/musei">Musei</a>
+                        <a href="/destinazioni/musei">Musei</a>
                     </li>
                 </ul>
                 <li>
-                    <a href="/venezianidoc/mappa/">Mappa del sito</a>
+                    <a href="/mappa/">Mappa del sito</a>
                 </li>
                 <li>
-                    <a href="/venezianidoc/offertenidoc/offerte">Offerte</a>
+                    <a href="/offerte/offerte">Offerte</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/venezianidoc/offertenidoc/offerte/bassa.php">Bassa stagione</a>
+                        <a href="/offerte/bassa.php">Bassa stagione</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/offertenidoc/offerte/lastminute.php">Ultimo minuto</a>
+                        <a href="/offerte/lastminute.php">Ultimo minuto</a>
                     </li>
                 </ul>
                 <li>
-                    <a href="/venezianidoc/servizinidoc/servizi">Servizi</a>
+                    <a href="/servizi">Servizi</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/venezianidoc/servizinidoc/servizi/about.php">About us</a>
+                        <a href="/servizi/about.php">About us</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/servizinidoc/servizi/contatti.php">Contattaci</a>
+                        <a href="/servizi/contatti.php">Contattaci</a>
                     </li>
                 </ul>
                 <li>
-                    <a href="/venezianidoc/viaggiaresicuriaggiaresicuri">Viaggiare sicuri</a>
+                    <a href="/viaggiaresicuri">Viaggiare sicuri</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/venezianidoc/viaggiaresicuriaggiaresicuri/comefare.php">Come fare</a>
+                        <a href="/viaggiaresicuri/comefare.php">Come fare</a>
                     </li>
                     <li>
-                        <a href="/venezianidoc/viaggiaresicuriaggiaresicuri/utili.php">Numeri utili</a>
+                        <a href="/viaggiaresicuri/utili.php">Numeri utili</a>
                     </li>
                 </ul>
             </ul>
