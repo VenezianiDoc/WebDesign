@@ -9,7 +9,7 @@
 <body>
 <?php $pagina = cart; ?>
 
-<?php include '../navbar.php' ?>
+<?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
