@@ -7,14 +7,14 @@
 
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <a href="../servizi" class="btn-outline"><h3>Servizi</h3></a>
+                        <a href="../../servizi" class="btn-outline"><h3>Servizi</h3></a>
 
                         <div class="row link-bottom">
-                            <a href="../servizi/about.php" class="btn-outline">About us</a>
+                            <a href="../../servizi/about.php" class="btn-outline">About us</a>
                             <br>
-                            <a href="../servizi/contatti.php" class="btn-outline">Contatti</a>
+                            <a href="../../servizi/contatti.php" class="btn-outline">Contatti</a>
                             <br>
-                            <a href="../mappa" class="btn-outline">Mappa del sito</a>
+                            <a href="../../mappa" class="btn-outline">Mappa del sito</a>
                             <br>
 
                         </div>
@@ -43,7 +43,7 @@
                                         class="fa fa-fw fa-linkedin"></i></a>-->
                             </li>
                             <li>
-                                <a href="../rss" class="btn-social btn-outline" target="_blank"><i
+                                <a href="../../rss" class="btn-social btn-outline" target="_blank"><i
                                         class="fa fa-fw fa-rss fa-2x"></i> </a>
                             </li>
                         </ul>
@@ -52,11 +52,11 @@
                         <h3>Shortcuts</h3>
 
                         <div class="row link-bottom">
-                            <a href="../offerte/lastminute.php" class="btn-outline">Last Minute</a>
+                            <a href="../../offerte/lastminute.php" class="btn-outline">Last Minute</a>
                             <br>
-                            <a href="../viaggiaresicuri/utili.php" class="btn-outline">Numeri utili</a>
+                            <a href="../../viaggiaresicuri/utili.php" class="btn-outline">Numeri utili</a>
                             <br>
-                            <a href="../viaggiaresicuri/comefare.php" class="btn-outline">Come fare se</a>
+                            <a href="../../viaggiaresicuri/comefare.php" class="btn-outline">Come fare se</a>
                         </div>
                     </div>
                 </div>
@@ -79,6 +79,6 @@
 
 <!-- Script -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="../js/jquery.min.js"></script>
+<script src="../../js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../js/bootstrap.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
