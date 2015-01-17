@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7411c865-0660-424f-b565-912aa0b9b61b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/carrello/cart_cassa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/carrello/cart_pagato.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/carrello/cart_pieno.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/carrello/cart_vuoto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/carrello/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/categorie/arte/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/categorie/avventura/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/categorie/business/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/categorie/famiglia/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/categorie/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/categorie/navbarorizzontal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/categorie/relax/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/categorie/studenti/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/css/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/css/stylevenezianidoc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/destinazioni/alberghi/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/destinazioni/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/destinazioni/locali/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/destinazioni/mostre/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/destinazioni/musei/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/destinazioni/musei/item1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/destinazioni/navbarorizzontal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/font-awesome-4.2.0/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/footersecliv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/footerterzliv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/head.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/headsecliv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/headterzliv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/BassaStagione_696x254.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/LastMinute_696x254.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/MasterCard_Logo.svg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/Paypal_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/comefare.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/garda.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/montagna.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/photo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/utili.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/venezia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/img/widget_large.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/js/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/js/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/js/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/mappa/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/navbar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/navbarsecliv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/navbarterzliv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/offerte/bassa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/offerte/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/offerte/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/offerte/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/offerte/lastminute.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/rss/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/search/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/servizi/about.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/servizi/contatti.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/servizi/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/user/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/user/loggatore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/user/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/user/registrati.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/viaggiaresicuri/comefare.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/viaggiaresicuri/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venezianidoc/viaggiaresicuri/utili.php" afterPath="" />
+    </list>
+    <ignored path="htdocs.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="htdocs" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/carrello/cart_cassa.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/mappa/index.php" />
+        <option value="$PROJECT_DIR$/user/index.php" />
+        <option value="$PROJECT_DIR$/navbar.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/navbarsecliv.php" />
+        <option value="$PROJECT_DIR$/carrello/index.php" />
+        <option value="$PROJECT_DIR$/a/navbar.php" />
+        <option value="$PROJECT_DIR$/a/footer.php" />
+        <option value="$PROJECT_DIR$/head.php" />
+        <option value="$PROJECT_DIR$/headsecliv.php" />
+        <option value="$PROJECT_DIR$/footerterzliv.php" />
+        <option value="$PROJECT_DIR$/footersecliv.php" />
+        <option value="$PROJECT_DIR$/headterzliv.php" />
+        <option value="$PROJECT_DIR$/navbarterzliv.php" />
+        <option value="$PROJECT_DIR$/categorie/arte/index.php" />
+        <option value="$PROJECT_DIR$/categorie/navbarorizzontal.php" />
+        <option value="$PROJECT_DIR$/categorie/index.php" />
+        <option value="$PROJECT_DIR$/categorie/avventura/index.php" />
+        <option value="$PROJECT_DIR$/categorie/business/index.php" />
+        <option value="$PROJECT_DIR$/categorie/famiglia/index.php" />
+        <option value="$PROJECT_DIR$/categorie/relax/index.php" />
+        <option value="$PROJECT_DIR$/categorie/studenti/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/categorie/navbarorizzontal.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/destinazioni/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/destinazioni/navbarorizzontal.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/destinazioni/alberghi/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/destinazioni/locali/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/destinazioni/mostre/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/destinazioni/musei/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/destinazioni/musei/item1.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/mappa/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/offerte/bassa.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/offerte/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/offerte/lastminute.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/rss/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/search/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/servizi/about.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/servizi/contatti.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/servizi/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/user/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/user/login.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/user/registrati.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/navbar.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/navbarterzliv.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/viaggiaresicuri/comefare.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/viaggiaresicuri/index.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/viaggiaresicuri/utili.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/navbarsecliv.php" />
+        <option value="$PROJECT_DIR$/venezianidoc/carrello/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xamppfiles/htdocs/categorie" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="img/&#9;FILE&#9;file:///Applications/XAMPP/htdocs/img" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/carrello" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/carrello" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/venezianidoc" />
+      <recent name="$PROJECT_DIR$/../xamppfiles/htdocs/categorie" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7411c865-0660-424f-b565-912aa0b9b61b" name="Default" comment="" />
+      <created>1419026702699</created>
+      <option name="number" value="Default" />
+      <updated>1419026702699</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Bug link&#10;&#10;Sistemato il bug dei link del sito in php">
+      <created>1419065549744</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1419065549744</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Bug homepage&#10;&#10;Sistemato il bug dei link della homepage in php">
+      <created>1419067324203</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1419067324203</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Aggiunto menù orizzontale&#10;&#10;Aggiunto menù orizzontale per tutte le pagine di categorie come indicato nel 2.1">
+      <created>1419068433497</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1419068433497</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Creato login&#10;&#10;Creato il login non funzionante che attiverà la sessione">
+      <created>1419069873555</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1419069873555</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Corretto arte">
+      <created>1419071502375</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1419071502375</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Sistemato arte">
+      <created>1419071637952</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1419071637952</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sistemata navbar">
+      <created>1419073155194</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1419073155194</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Aggiunto widget prenotazioni&#10;&#10;Creata la struttura per il widget di destinazioni. Si nasconde correttamente">
+      <created>1419075542166</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1419075542166</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Generato il ridimensionamento corretto per le categorie&#10;&#10;Il contenuto di categorie si riadatta in base alla dimensione del dispositivo">
+      <created>1419075715120</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1419075715120</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Minuscoli ritocchi">
+      <created>1419148945003</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1419148945003</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Minuscoli ritocchi">
+      <created>1419233455921</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1419233455921</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Modificate raw-&gt;row">
+      <created>1419233649371</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1419233649371</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Aggiunto modifeche stampa">
+      <created>1419236459078</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1419236459078</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add slide">
+      <created>1419236524541</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1419236524541</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Sistemazione formattazione codice&#10;&#10;Sistemata la formattazione del codice">
+      <created>1419409210017</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1419409210017</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Inizio mappa sito&#10;&#10;Inizio di struttura della mappa del sito">
+      <created>1419409235343</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1419409235343</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Mappa categorie&#10;&#10;Fatta al mappatura delle categorie">
+      <created>1419411350143</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1419411350143</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fine mappa&#10;&#10;Completata la mappa del sito">
+      <created>1419411810543</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1419411810543</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Pulizia del codice&#10;&#10;Formattazione del codice per renderlo più leggibile">
+      <created>1419699254520</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1419699254520</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Pulizia del codice 2&#10;&#10;Sistemazione merge">
+      <created>1419699371319</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1419699371319</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Aggiunte alcune immagini">
+      <created>1421513148581</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1421513148581</updated>
+    </task>
+    <task id="LOCAL-00022" summary="bug">
+      <created>1421513545582</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1421513545582</updated>
+    </task>
+    <task id="LOCAL-00023" summary="bug">
+      <created>1421513755316</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1421513755316</updated>
+    </task>
+    <task id="LOCAL-00024" summary="bug">
+      <created>1421513923183</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1421513923183</updated>
+    </task>
+    <task id="LOCAL-00025" summary="bug">
+      <created>1421513945898</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1421513945898</updated>
+    </task>
+    <task id="LOCAL-00026" summary="bug">
+      <created>1421514118423</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1421514118423</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bug">
+      <created>1421514556976</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1421514556976</updated>
+    </task>
+    <task id="LOCAL-00028" summary="js">
+      <created>1421514628821</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1421514628821</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Implementazione idea marghe">
+      <created>1421515427475</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1421515427475</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Implementazione idea marghe">
+      <created>1421515766939</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1421515766939</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Test implementazione">
+      <created>1421516245101</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1421516245101</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Test implementazione">
+      <created>1421516392845</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1421516392845</updated>
+    </task>
+    <task id="LOCAL-00033" summary="up qualcosa">
+      <created>1421516791196</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1421516791196</updated>
+    </task>
+    <task id="LOCAL-00034" summary="up qualcosa">
+      <created>1421516904528</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1421516904528</updated>
+    </task>
+    <task id="LOCAL-00035" summary="up qualcosa">
+      <created>1421517174012</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1421517174012</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Quasi finito">
+      <created>1421517428965</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1421517428965</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Fine">
+      <created>1421517504530</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1421517504530</updated>
+    </task>
+    <task id="LOCAL-00038" summary="little bug">
+      <created>1421517576938</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1421517576938</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2819063" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2819063" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Creato login&#10;&#10;Creato il login non funzionante che attiverà la sessione" />
+    <MESSAGE value="Corretto arte" />
+    <MESSAGE value="Sistemato arte" />
+    <MESSAGE value="Sistemata navbar" />
+    <MESSAGE value="Aggiunto widget prenotazioni&#10;&#10;Creata la struttura per il widget di destinazioni. Si nasconde correttamente" />
+    <MESSAGE value="Generato il ridimensionamento corretto per le categorie&#10;&#10;Il contenuto di categorie si riadatta in base alla dimensione del dispositivo" />
+    <MESSAGE value="Minuscoli ritocchi" />
+    <MESSAGE value="Modificate raw-&gt;row" />
+    <MESSAGE value="Aggiunto modifeche stampa" />
+    <MESSAGE value="add slide" />
+    <MESSAGE value="Sistemazione formattazione codice&#10;&#10;Sistemata la formattazione del codice" />
+    <MESSAGE value="Inizio mappa sito&#10;&#10;Inizio di struttura della mappa del sito" />
+    <MESSAGE value="Mappa categorie&#10;&#10;Fatta al mappatura delle categorie" />
+    <MESSAGE value="Fine mappa&#10;&#10;Completata la mappa del sito" />
+    <MESSAGE value="Pulizia del codice&#10;&#10;Formattazione del codice per renderlo più leggibile" />
+    <MESSAGE value="Pulizia del codice 2&#10;&#10;Sistemazione merge" />
+    <MESSAGE value="Aggiunte alcune immagini" />
+    <MESSAGE value="bug" />
+    <MESSAGE value="js" />
+    <MESSAGE value="Implementazione idea marghe" />
+    <MESSAGE value="Test implementazione" />
+    <MESSAGE value="up qualcosa" />
+    <MESSAGE value="Quasi finito" />
+    <MESSAGE value="Fine" />
+    <MESSAGE value="little bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="little bug" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07450331" vertical-offset="0" max-vertical-offset="604">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/categorie/navbarorizzontal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33163264" vertical-offset="0" max-vertical-offset="588">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/categorie/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1425">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/destinazioni/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33163264" vertical-offset="1530" max-vertical-offset="3855">
+          <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/destinazioni/navbarorizzontal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="588">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/destinazioni/alberghi/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74489796" vertical-offset="1752" max-vertical-offset="2340">
+          <caret line="146" column="34" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/destinazioni/locali/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86734694" vertical-offset="1635" max-vertical-offset="2235">
+          <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/destinazioni/mostre/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6632653" vertical-offset="1635" max-vertical-offset="2280">
+          <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/destinazioni/musei/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4030612" vertical-offset="597" max-vertical-offset="2160">
+          <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/destinazioni/musei/item1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71938777" vertical-offset="1182" max-vertical-offset="1770">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/mappa/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71938777" vertical-offset="1422" max-vertical-offset="2010">
+          <caret line="123" column="28" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/offerte/bassa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8469388" vertical-offset="1662" max-vertical-offset="2250">
+          <caret line="144" column="7" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/offerte/lastminute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.4948978" vertical-offset="0" max-vertical-offset="2265">
+          <caret line="137" column="6" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/offerte/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.8529415" vertical-offset="6030" max-vertical-offset="8415">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/rss/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86734694" vertical-offset="0" max-vertical-offset="885">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/search/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71938777" vertical-offset="1017" max-vertical-offset="1605">
+          <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/servizi/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8469388" vertical-offset="192" max-vertical-offset="780">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/servizi/contatti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.372449" vertical-offset="0" max-vertical-offset="1500">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/servizi/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8469388" vertical-offset="177" max-vertical-offset="765">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/user/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6683673" vertical-offset="4647" max-vertical-offset="5235">
+          <caret line="336" column="0" selection-start-line="336" selection-start-column="0" selection-end-line="336" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/user/loggatore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/offerte/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.897959" vertical-offset="0" max-vertical-offset="2970">
+          <caret line="192" column="7" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/offerte/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4185">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/user/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.117347" vertical-offset="0" max-vertical-offset="1545">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/headsecliv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/headterzliv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/user/registrati.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74489796" vertical-offset="747" max-vertical-offset="1335">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/navbarterzliv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20408164" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/viaggiaresicuri/comefare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.25" vertical-offset="795" max-vertical-offset="1755">
+          <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/viaggiaresicuri/utili.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.25" vertical-offset="627" max-vertical-offset="1215">
+          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/viaggiaresicuri/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="885">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/carrello/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45918366" vertical-offset="0" max-vertical-offset="2385">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venezianidoc/navbarsecliv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2193878" vertical-offset="1092" max-vertical-offset="1680">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
