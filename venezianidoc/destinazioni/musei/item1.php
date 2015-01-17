@@ -2,21 +2,21 @@
 <html lang="it">
 
 <head>
-    <?php include "../../head.php" ?>
+    <?php include "../../headterzliv.php" ?>
     <title>Articolo - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include "../../navbar.php" ?>
+<?php include "../../navbarterzliv.php" ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="/venezianidoc/index.phpdoc/index.php">Home</a>
+        <li><a href="../../index.php">Home</a>
         </li>
-        <li><a href="/venezianidoc/destinazioni/">Destinazioni</a>
+        <li><a href="../../destinazioni/">Destinazioni</a>
         </li>
         <li><a href="index.php">Musei</a>
         </li>
@@ -106,7 +106,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../../footer.php' ?>
+<?php include '../../footerterzliv.php' ?>
 
 </body>
 

@@ -103,8 +103,19 @@
 
         <div class="row">
             <div class="col-sm-2 hidden-print">
-                <?php include 'navbarorizzontal.php' ?>
-            </div>
+                <ul class="navor menuor" role="group" aria-label="Categorie">
+                    <li><a href="/venezianidoc/destinazioni/index.php">Indice destinazioni</a>
+                    </li>
+                    <hr>
+                    <li><a href="musei">Musei</a>
+                    </li>
+                    <li><a href="mostre">Mostre &amp; Concerti</a>
+                    </li>
+                    <li><a href="alberghi">Alberghi &amp; Alloggi</a>
+                    </li>
+                    <li><a href="locali">Locali &amp; Ristorazione</a>
+                    </li>
+                </ul>            </div>
             <div class="col-xs-12 col-sm-10">
                 <div class="row">
                     <p>Destinazioni consigliate in base alle tue scelte:</p><br>
