@@ -32,12 +32,12 @@
 
     <div class="container">
         <a href="comefare.php"><h2 class="text-center">Come fare se..</h2>
-            <img src="/img/comefare.jpg" class="img-responsive img-center hidden-print" alt="Come fare se"></a>
+            <img src="../img/comefare.jpg" class="img-responsive img-center hidden-print" alt="Come fare se"></a>
 
         <p class="text-center">Guida rapida su come affrontare gli imprevisti nel viaggio.</p>
 
         <a href="utili.php"><h2 class="text-center">Numeri utili</h2>
-            <img src="/img/utili.gif" class="img-responsive img-center hidden-print" alt="Numeir utili">
+            <img src="../img/utili.gif" class="img-responsive img-center hidden-print" alt="Numeir utili">
         </a>
 
         <p class="text-center">Tutti i numeri utili per viaggiare in sicurezza.</p>
