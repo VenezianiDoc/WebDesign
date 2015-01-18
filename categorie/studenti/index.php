@@ -14,9 +14,9 @@
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="/index.php">Home</a>
+        <li><a href="../../index.php">Home</a>
         </li>
-        <li><a href="/categorie">Categorie</a>
+        <li><a href="../../categorie">Categorie</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Studenti</li>
