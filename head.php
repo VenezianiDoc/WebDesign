@@ -24,4 +24,5 @@
 <![endif]-->
 
 <script src="js/jquery-1.10.2.js"></script>
-<?php session_start(); ?>
+<?php session_start();
+error_reporting(0); ?>
