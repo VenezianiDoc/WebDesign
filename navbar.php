@@ -15,7 +15,7 @@
                 } ?> href="index.php">Discover Veneto</a>
             </div>
             <div class="navbar-collapse collapse">
-                <form class="navbar-form navbar-right" role="search" action="/search">
+                <form class="navbar-form navbar-right" role="search" action="search">
                     <div class="input-group custom-search-form">
                         <input type="text" class="form-control" placeholder="Cerca...">
                       <span class="input-group-btn">
