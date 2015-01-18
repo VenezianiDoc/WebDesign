@@ -3,7 +3,7 @@
 
 <head>
     <?php
-    include '../head.php'
+    include '../headsecliv.php'
     ?>
     <title>Mappa del sito - Discover Veneto</title>
 </head>
@@ -11,7 +11,7 @@
 <body>
 
 <?php
-include '../navbar.php'
+include '../navbarsecliv.php'
 ?>
 
 <!-- ========= CONTAINER ======== -->
@@ -35,83 +35,83 @@ include '../navbar.php'
     <div class="container">
         <ul>
             <li>
-                <a href="/index.php">Home</a>
+                <a href="../index.php">Home</a>
             </li>
             <ul>
                 <li>
-                    <a href="/categorie/index.php">Categorie</a>
+                    <a href="../categorie/index.php">Categorie</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/categorie/arte">Arte</a>
+                        <a href="../categorie/arte">Arte</a>
                     </li>
                     <li>
-                        <a href="/categorie/avventura">Avventura</a>
+                        <a href="../categorie/avventura">Avventura</a>
                     </li>
                     <li>
-                        <a href="/categorie/business">Business</a>
+                        <a href="../categorie/business">Business</a>
                     </li>
                     <li>
-                        <a href="/categorie/famiglia">Famiglia</a>
+                        <a href="../categorie/famiglia">Famiglia</a>
                     </li>
                     <li>
-                        <a href="/categorie/relax">Relax</a>
+                        <a href="../categorie/relax">Relax</a>
                     </li>
                     <li>
-                        <a href="/categorie/studenti">Studenti</a>
+                        <a href="../categorie/studenti">Studenti</a>
                     </li>
                 </ul>
                 <li>
-                    <a href="/destinazioni/index.php">Destinazioni</a>
+                    <a href="../destinazioni/index.php">Destinazioni</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/destinazioni/alberghi">Alberghi</a>
+                        <a href="../destinazioni/alberghi">Alberghi</a>
                     </li>
                     <li>
-                        <a href="/destinazioni/locali">Locali</a>
+                        <a href="../destinazioni/locali">Locali</a>
                     </li>
                     <li>
-                        <a href="/destinazioni/mostre">Mostre</a>
+                        <a href="../destinazioni/mostre">Mostre</a>
                     </li>
                     <li>
-                        <a href="/destinazioni/musei">Musei</a>
+                        <a href="../destinazioni/musei">Musei</a>
                     </li>
                 </ul>
                 <li>
-                    <a href="/mappa/">Mappa del sito</a>
+                    <a href="../mappa/">Mappa del sito</a>
                 </li>
                 <li>
-                    <a href="/offerte">Offerte</a>
+                    <a href="../offerte">Offerte</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/offerte/bassa.php">Bassa stagione</a>
+                        <a href="../offerte/bassa.php">Bassa stagione</a>
                     </li>
                     <li>
-                        <a href="/offerte/lastminute.php">Ultimo minuto</a>
+                        <a href="../offerte/lastminute.php">Ultimo minuto</a>
                     </li>
                 </ul>
                 <li>
-                    <a href="/servizi/">Servizi</a>
+                    <a href="../servizi/">Servizi</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/servizi/about.php">About us</a>
+                        <a href="../servizi/about.php">About us</a>
                     </li>
                     <li>
-                        <a href="/servizi/contatti.php">Contattaci</a>
+                        <a href="../servizi/contatti.php">Contattaci</a>
                     </li>
                 </ul>
                 <li>
-                    <a href="/viaggiaresicuri/">Viaggiare sicuri</a>
+                    <a href="../viaggiaresicuri/">Viaggiare sicuri</a>
                 </li>
                 <ul>
                     <li>
-                        <a href="/viaggiaresicuri/comefare.php">Come fare</a>
+                        <a href="../viaggiaresicuri/comefare.php">Come fare</a>
                     </li>
                     <li>
-                        <a href="/viaggiaresicuri/utili.php">Numeri utili</a>
+                        <a href="../viaggiaresicuri/utili.php">Numeri utili</a>
                     </li>
                 </ul>
             </ul>
@@ -121,7 +121,7 @@ include '../navbar.php'
 
 
     <?php
-    include '../footer.php'
+    include '../footersecliv.php'
     ?>
 </div>
 </body>
