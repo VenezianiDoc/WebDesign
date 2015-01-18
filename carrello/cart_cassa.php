@@ -38,7 +38,7 @@
                 Attenzione!! Devi accedere per poter continuare con l'acquisto!
                 <br>
                 <br>
-                <form method="post" action="/user/login.php" class="text-center">
+                <form method="post" action="../user/login.php" class="text-center">
                     <button type="submit" class="btn btn-warning" name="TIPO" value="1" >Accedi</button>
                 </form>
             </div>
