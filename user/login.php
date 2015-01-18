@@ -38,7 +38,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
                             <div class="well">
-                                <form id="loginForm" method="POST" action="../loggatore.php" novalidate="novalidate">
+                                <form id="loginForm" method="POST" action="loggatore.php" novalidate="novalidate">
                                     <div class="form-group">
                                         <label for="username" class="control-label">Username</label>
                                         <input type="text" class="form-control" id="username" name="username" value=""
