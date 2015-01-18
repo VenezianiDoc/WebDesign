@@ -8,7 +8,7 @@
 </head>
 
 <body>
-
+<?php $pagina='bassa'; ?>
 <?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
