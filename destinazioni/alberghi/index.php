@@ -14,9 +14,9 @@
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="/index.php">Home</a>
+        <li><a href="../../index.php">Home</a>
         </li>
-        <li><a href="/destinazioni/">Destinazioni</a>
+        <li><a href="../../destinazioni/">Destinazioni</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Albergi &amp; Alloggi</li>
