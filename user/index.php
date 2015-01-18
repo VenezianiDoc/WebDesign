@@ -27,7 +27,7 @@
 
     <div class="page-header">
         <h1>Area riservata
-            <small> Benvenuto <?php echo $_SESSION['user']; ?></small>
+            <small> Benvenuto <?php echo $_SESSION['username']; ?></small>
         </h1>
     </div>
 
@@ -51,7 +51,7 @@
                                     <br>
 
                                     <div class="span6">
-                                        <strong><?php echo $_SESSION['user']; ?></strong>
+                                        <strong><?php echo $_SESSION['username']; ?></strong>
                                         <br>
                                         <table class="table table-condensed table-responsive table-user-information">
                                             <tbody>
