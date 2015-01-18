@@ -2,14 +2,14 @@
 <html lang="it">
 
 <head>
-    <?php include '../head.php' ?>
+    <?php include '../headsecliv.php' ?>
     <title>Last minute - Discover Veneto</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-<?php include '../navbar.php' ?>
+<?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -136,7 +136,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footer.php' ?>
+<?php include '../footersecliv.php' ?>
 <script src="js.js"></script>
 </body>
 
