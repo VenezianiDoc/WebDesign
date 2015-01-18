@@ -2,14 +2,14 @@
 <html lang="it">
 
 <head>
-    <?php include '../head.php' ?>
+    <?php include '../headsecliv.php' ?>
     <title>Area riservata - Discover Veneto</title>
 </head>
 
 <body>
         <?php $pagina='user'; ?>
 
-<?php include '../navbar.php' ?>
+        <?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -38,7 +38,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
                             <div class="well">
-                                <form id="loginForm" method="POST" action="/user/loggatore.php" novalidate="novalidate">
+                                <form id="loginForm" method="POST" action="loggatore.php" novalidate="novalidate">
                                     <div class="form-group">
                                         <label for="username" class="control-label">Username</label>
                                         <input type="text" class="form-control" id="username" name="username" value=""
@@ -90,7 +90,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footer.php' ?>
+        <?php include '../footersecliv.php' ?>
 
 </body>
 

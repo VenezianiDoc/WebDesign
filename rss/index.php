@@ -2,19 +2,19 @@
 <html lang="it">
 
 <head>
-    <?php include '../head.php' ?>
+    <?php include '../headsecliv.php' ?>
     <title>RSS - Discover Veneto</title>
 </head>
 
 <body>
-
-<?php include '../navbar.php' ?>
+<?php $pagina= 'rss';?>
+<?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="../index">Home</a>
+        <li><a href="../index.php">Home</a>
         </li>
         <!-- pagina attiva-->
         <li class="active">Rss</li>
@@ -47,7 +47,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footer.php' ?>
+<?php include '../footersecliv.php' ?>
 
 </body>
 

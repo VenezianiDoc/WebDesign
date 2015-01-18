@@ -2,19 +2,19 @@
 <html lang="it">
 
 <head>
-    <?php include '../head.php' ?>
+    <?php include '../headsecliv.php' ?>
     <title>Contatti - Discover Veneto</title>
 </head>
 
 <body>
-
-<?php include '../navbar.php' ?>
+<?php $pagina= 'contatti';?>
+<?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="/index.php">Home</a>
+        <li><a href="../index.php">Home</a>
         </li>
         <li><a href="index.php">Servizi</a>
         </li>
@@ -88,7 +88,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footer.php' ?>
+<?php include '../footersecliv.php' ?>
 
 </body>
 

@@ -2,14 +2,15 @@
 <html lang="it">
 
 <head>
-    <?php include '../head.php' ?>
+    <?php include '../headsecliv.php' ?>
     <title>Last minute - Discover Veneto</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+<?php $pagina='lastminute'; ?>
 
-<?php include '../navbar.php' ?>
+<?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -52,7 +53,8 @@
                         <li class="list-group-item"><i class="icon-ok text-danger"></i> Hotel 5 stelle</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-danger" href="/destinazioni/musei/item1.php">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-danger" href="../destinazioni/musei/item1.php">Compra
+                            ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -73,7 +75,7 @@
                         <li class="list-group-item"><i class="icon-ok text-info"></i> 5 stelle</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-info" href="/destinazioni/musei/item1.php">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-info" href="../destinazioni/musei/item1.php">Compra ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -94,7 +96,8 @@
                         <li class="list-group-item"><i class="icon-ok text-success"></i> Mezza pensione</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-success" href="/destinazioni/musei/item1.php">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-success" href="../destinazioni/musei/item1.php">Compra
+                            ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -115,7 +118,8 @@
                         <li class="list-group-item"><i class="icon-ok text-success"></i> 50 minuti</li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-primary" href="/destinazioni/musei/item1.php">Compra ora!</a>
+                        <a class="btn btn-lg btn-block btn-primary" href="../destinazioni/musei/item1.php">Compra
+                            ora!</a>
                     </div>
                 </div>
                 <!-- /PRICE ITEM -->
@@ -136,7 +140,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footer.php' ?>
+<?php include '../footersecliv.php' ?>
 <script src="js.js"></script>
 </body>
 

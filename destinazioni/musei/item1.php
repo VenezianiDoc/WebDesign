@@ -2,21 +2,21 @@
 <html lang="it">
 
 <head>
-    <?php include "../../head.php" ?>
+    <?php include "../../headterzliv.php" ?>
     <title>Articolo - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include "../../navbar.php" ?>
+<?php include "../../navbarterzliv.php" ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
     <ol class="breadcrumb">
-        <li><a href="/index.php">Home</a>
+        <li><a href="../../index.php">Home</a>
         </li>
-        <li><a href="/destinazioni/">Destinazioni</a>
+        <li><a href="../index.php">Destinazioni</a>
         </li>
         <li><a href="./index.php">Musei</a>
         </li>
@@ -88,7 +88,7 @@
                             </button>
                         </div><div class="col-md-1"></div>
                         <div class="btn-group wishlist">
-                            <button type="button" class="btn btn-danger" <?php if ($_SESSION['user'] == null) { echo 'onclick="myFunction()"'; } else { echo ''; } ?> >
+                            <button type="button" class="btn btn-danger" <?php if (!isset($_SESSION['username'])) { echo 'onclick="myFunction()"'; } else { echo ''; } ?> >
                                 <span id="warning">Aggiungi a Lista desideri</span>
                             </button>
                         </div>
@@ -99,9 +99,9 @@
     </div>
 </div>
 <!-- ========= ./CONTAINER ======== -->
-    
 
-<?php include '../../footer.php' ?>
+
+<?php include '../../footerterzliv.php' ?>
 
 </body>
 

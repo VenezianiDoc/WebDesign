@@ -25,25 +25,25 @@
             <form action="">
                 <fieldset>
                     <input type="radio" name="metodo" value="mastercard">&emsp;
-                    <img src="/img/MasterCard_Logo.svg.png" class="logo-cart" alt="MasterCard">
+                    <img src="../img/MasterCard_Logo.svg.png" class="logo-cart" alt="MasterCard">
                     <br>
                     <input type="radio" name="metodo" value="paypal">&emsp;
-                    <img src="/img/Paypal_logo.jpg" class="logo-cart" alt="PayPal">
+                    <img src="../img/Paypal_logo.jpg" class="logo-cart" alt="PayPal">
                 </fieldset>
             </form>
 
-            <div class="alert alert-warning" role="alert" <?php if ($_SESSION['user'] == null) { echo ''; } else { echo 'hidden="true"'; } ?>>
+            <div class="alert alert-warning" role="alert" <?php if (!isset($_SESSION['username'])) { echo ''; } else { echo 'hidden="true"'; } ?>>
                 <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
                 <span class="sr-only">Warning:</span>
                 Attenzione!! Devi accedere per poter continuare con l'acquisto!
                 <br>
                 <br>
-                <form method="post" action="/user/login.php" class="text-center">
+                <form method="post" action="../user/login.php" class="text-center">
                     <button type="submit" class="btn btn-warning" name="TIPO" value="1" >Accedi</button>
                 </form>
             </div>
 
-            <form method="post" action="index.php" class="text-center" <?php if ($_SESSION['user'] == null) { echo 'hidden="true"'; } else { echo ''; } ?>>
+            <form method="post" action="index.php" class="text-center" <?php if (!isset($_SESSION['username'])) { echo 'hidden="true"'; } else { echo ''; } ?>>
                 <button type="submit" class="btn btn-primary" name="TIPO" value="3">&emsp;&emsp;Paga&emsp;&emsp;</button>
             </form>
 

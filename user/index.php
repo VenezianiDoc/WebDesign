@@ -3,14 +3,14 @@
 
 <head>
 
-    <?php include '../head.php' ?>
+    <?php include '../headsecliv.php' ?>
     <title>Area riservata - Discover Veneto</title>
 </head>
 
 <body>
     <?php $pagina='user'; ?>
 
-<?php include '../navbar.php' ?>
+    <?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -27,7 +27,7 @@
 
     <div class="page-header">
         <h1>Area riservata
-            <small> Benvenuto <?php echo $_SESSION['user']; ?></small>
+            <small> Benvenuto <?php echo $_SESSION['username']; ?></small>
         </h1>
     </div>
 
@@ -45,13 +45,13 @@
                                 <div class="row-fluid">
                                     <div class="span3">
                                         <img class="img-circle"
-                                             src="/img/photo.jpg"
+                                             src="../img/photo.jpg"
                                              alt="User Pic">
                                     </div>
                                     <br>
 
                                     <div class="span6">
-                                        <strong><?php echo $_SESSION['user']; ?></strong>
+                                        <strong><?php echo $_SESSION['username']; ?></strong>
                                         <br>
                                         <table class="table table-condensed table-responsive table-user-information">
                                             <tbody>
@@ -77,7 +77,7 @@
                                 </div>
                             </div>
                             <div class="panel-footer">
-                                <form method="POST" action="/user/loggatore.php">
+                                <form method="POST" action="../user/loggatore.php">
                                     <button class="btn  btn-primary" type="submit" data-toggle="tooltip"
                                             data-original-title="Send message to user" value=null id="username">Logout
                                         <i class="fa fa-sign-out"></i>
@@ -328,12 +328,10 @@
 
 </div>
 
-
-</div>
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../footer.php' ?>
+    <?php include '../footersecliv.php' ?>
 
 </body>
 
