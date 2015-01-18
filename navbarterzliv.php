@@ -12,10 +12,10 @@
                 <!-- Logo o nome del sito  -->
                 <a class="navbar-brand" <?php if ($pagina == 'home') {
                     echo 'id="home"';
-                } ?> href="../../">Discover Veneto</a>
+                } ?> href="../../index.php">Discover Veneto</a>
             </div>
             <div class="navbar-collapse collapse">
-                <form class="navbar-form navbar-right" role="search" action="/search">
+                <form class="navbar-form navbar-right" role="search" action="../../search">
                     <div class="input-group custom-search-form">
                         <input type="text" class="form-control" placeholder="Cerca...">
                       <span class="input-group-btn">
@@ -33,7 +33,7 @@
                     <!-- Link semplici -->
                     <li <?php if ($pagina == 'offerte') {
                         echo 'class="active"';
-                    } ?> ><a href="/offerte">Offerte</a>
+                    } ?> ><a href="../../offerte">Offerte</a>
                     </li>
                     <!-- Link dropdown DESTINAZIONI -->
                     <li class="dropdown <?php if ($pagina == 'destinazioni') {

@@ -77,7 +77,7 @@
                                 </div>
                             </div>
                             <div class="panel-footer">
-                                <form method="POST" action="/user/loggatore.php">
+                                <form method="POST" action="../user/loggatore.php">
                                     <button class="btn  btn-primary" type="submit" data-toggle="tooltip"
                                             data-original-title="Send message to user" value=null id="username">Logout
                                         <i class="fa fa-sign-out"></i>

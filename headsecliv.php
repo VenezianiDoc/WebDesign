@@ -25,3 +25,7 @@
 
 <script src="../js/jquery-1.10.2.js"></script>
 <?php session_start(); ?>
+
+<?php include("../js/funzioni.php");
+error_reporting(E_ALL | (defined('E_STRICT') ? E_STRICT : 0));
+?>
