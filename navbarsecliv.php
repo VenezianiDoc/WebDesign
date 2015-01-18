@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Logo o nome del sito  -->
-                <a class="navbar-brand" <?php if ($pagina == home) {
+                <a class="navbar-brand" <?php if ($pagina == 'home') {
                     echo 'id="home"';
                 } ?> href="../">Discover Veneto</a>
             </div>
@@ -31,12 +31,12 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-left">
                     <!-- Link semplici -->
-                    <li <?php if ($pagina == offerte) {
+                    <li <?php if ($pagina == 'offerte') {
                         echo 'class="active"';
                     } ?> ><a href="../offerte">Offerte</a>
                     </li>
                     <!-- Link dropdown DESTINAZIONI -->
-                    <li class="dropdown <?php if ($pagina == destinazioni) {
+                    <li class="dropdown <?php if ($pagina == 'destinazioni') {
                         echo ' active';
                     } ?>"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Destinazioni<span
                                 class="caret"></span></a>
@@ -77,13 +77,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li <?php if ($pagina == viaggiare) {
+                    <li <?php if ($pagina == 'viaggiare') {
                         echo 'class="active"';
                     } ?>><a href="../viaggiaresicuri">Viaggiare sicuri</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li <?php if ($pagina == user) {
+                    <li <?php if ($pagina == 'user') {
                         echo 'class="active"';
                     } ?>>
                         <?php if ($_SESSION['user'] == null) {
@@ -94,7 +94,7 @@
                             echo '<a href="../user/index.php">Account di ' . $_SESSION['user'] . '</a>';
                         } ?>
                     </li>
-                    <li <?php if ($pagina == cart) {
+                    <li <?php if ($pagina == 'cart') {
                         echo 'class="active"';
                     } ?>><a href="../carrello"><i class="fa fa-shopping-cart"></i> Carrello</a>
                     </li>
