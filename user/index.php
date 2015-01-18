@@ -45,7 +45,7 @@
                                 <div class="row-fluid">
                                     <div class="span3">
                                         <img class="img-circle"
-                                             src="/img/photo.jpg"
+                                             src="../img/photo.jpg"
                                              alt="User Pic">
                                     </div>
                                     <br>

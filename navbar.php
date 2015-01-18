@@ -86,12 +86,12 @@
                     <li <?php if ($pagina == 'user') {
                         echo 'class="active"';
                     } ?>>
-                        <?php if ($_SESSION['user'] == null) {
+                        <?php if ($_SESSION['username'] == null) {
                             echo '<a href="user/login.php">Accedi</a>';
-                        } elseif ($_SESSION['user'] == ' ') {
+                        } elseif ($_SESSION['username'] == ' ') {
                             echo '<a href="user/index.php">Il tuo acconut</a>';
                         } else {
-                            echo '<a href="user/index.php">Account di ' . $_SESSION['user'] . '</a>';
+                            echo '<a href="user/index.php">Account di ' . $_SESSION['username'] . '</a>';
                         } ?>
                     </li>
                     <li <?php if ($pagina == 'cart') {
