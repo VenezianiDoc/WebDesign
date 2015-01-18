@@ -25,10 +25,10 @@
             <form action="">
                 <fieldset>
                     <input type="radio" name="metodo" value="mastercard">&emsp;
-                    <img src="/img/MasterCard_Logo.svg.png" class="logo-cart" alt="MasterCard">
+                    <img src="../img/MasterCard_Logo.svg.png" class="logo-cart" alt="MasterCard">
                     <br>
                     <input type="radio" name="metodo" value="paypal">&emsp;
-                    <img src="/img/Paypal_logo.jpg" class="logo-cart" alt="PayPal">
+                    <img src="../img/Paypal_logo.jpg" class="logo-cart" alt="PayPal">
                 </fieldset>
             </form>
 
