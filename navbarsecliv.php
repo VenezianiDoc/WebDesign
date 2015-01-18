@@ -83,7 +83,7 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li <?php if ($pagina == 'user') {
+                    <li <?php if ($pagina == 'userpage') {
                         echo 'class="active"';
                     } ?>>
                         <?php if ($_SESSION['user'] == null) {
