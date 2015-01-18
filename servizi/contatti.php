@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+<?php $pagina= 'contatti';?>
 <?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->

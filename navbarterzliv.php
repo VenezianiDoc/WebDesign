@@ -1,3 +1,4 @@
+<?php $pagina='terzo'; ?>
 <div id="navigation_bar">
     <nav class="navbar navbar-inverse navbar-fixed-top" id="primary-nav">
         <div class="container">
@@ -86,7 +87,7 @@
                     <li <?php if ($pagina == 'user') {
                         echo 'class="active"';
                     } ?>>
-                        <?php if ($_SESSION['username'] == null) {
+                        <?php if (!isset($_SESSION['username'])) {
                             echo '<a href="../../user/login.php">Accedi</a>';
                         } elseif ($_SESSION['username'] == ' ') {
                             echo '<a href="../../user/index.php">Il tuo acconut</a>';

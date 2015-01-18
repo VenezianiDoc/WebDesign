@@ -8,6 +8,7 @@
 </head>
 
 <body>
+<?php $pagina='lastminute'; ?>
 
 <?php include '../navbarsecliv.php' ?>
 

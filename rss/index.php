@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+<?php $pagina= 'rss';?>
 <?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->

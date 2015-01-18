@@ -86,7 +86,7 @@
                     <li <?php if ($pagina == 'userpage') {
                         echo 'class="active"';
                     } ?>>
-                        <?php if ($_SESSION['username'] == null) {
+                        <?php if (!isset($_SESSION['username'])) {
                             echo '<a href="../user/login.php">Accedi</a>';
                         } elseif ($_SESSION['username'] == ' ') {
                             echo '<a href="../user/index.php">Il tuo acconut</a>';

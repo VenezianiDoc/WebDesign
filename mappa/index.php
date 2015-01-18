@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+<?php $pagina= 'mappa';?>
 <?php
 include '../navbarsecliv.php'
 ?>

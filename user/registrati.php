@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+<?php $pagina='registri'; ?>
 <?php include '../navbarsecliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
