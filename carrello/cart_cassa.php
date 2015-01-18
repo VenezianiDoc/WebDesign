@@ -32,7 +32,7 @@
                 </fieldset>
             </form>
 
-            <div class="alert alert-warning" role="alert" <?php if (!isset($_SESSION['user'])) { echo ''; } else { echo 'hidden="true"'; } ?>>
+            <div class="alert alert-warning" role="alert" <?php if (!isset($_SESSION['username'])) { echo ''; } else { echo 'hidden="true"'; } ?>>
                 <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
                 <span class="sr-only">Warning:</span>
                 Attenzione!! Devi accedere per poter continuare con l'acquisto!
@@ -43,7 +43,7 @@
                 </form>
             </div>
 
-            <form method="post" action="index.php" class="text-center" <?php if (!isset($_SESSION['user'])) { echo 'hidden="true"'; } else { echo ''; } ?>>
+            <form method="post" action="index.php" class="text-center" <?php if (!isset($_SESSION['username'])) { echo 'hidden="true"'; } else { echo ''; } ?>>
                 <button type="submit" class="btn btn-primary" name="TIPO" value="3">&emsp;&emsp;Paga&emsp;&emsp;</button>
             </form>
 
