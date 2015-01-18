@@ -2,13 +2,13 @@
 <html lang="it">
 
 <head>
-    <?php include '../../head.php' ?>
+    <?php include '../../headterzliv.php' ?>
     <title>Business - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include '../../navbar.php' ?>
+<?php include '../../navbarterzliv.php' ?>
 <!-- ========= CONTAINER ======== -->
 <div class="container">
     <!-- breadcrumbs -->
@@ -54,7 +54,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../../footer.php' ?>
+<?php include '../../footerterzliv.php' ?>
 
 </body>
 

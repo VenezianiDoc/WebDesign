@@ -2,13 +2,13 @@
 <html lang="it">
 
 <head>
-    <?php include '../../head.php' ?>
+    <?php include '../../headterzliv.php' ?>
     <title>Avventura - Discover Veneto</title>
 </head>
 
 <body>
 
-<?php include '../../navbar.php' ?>
+<?php include '../../navbarterzliv.php' ?>
 
 <!-- ========= CONTAINER ======== -->
 <div class="container">
@@ -58,7 +58,7 @@
 <!-- ========= ./CONTAINER ======== -->
 
 
-<?php include '../../footer.php' ?>
+<?php include '../../footerterzliv.php' ?>
 
 </body>
 

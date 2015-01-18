@@ -12,7 +12,7 @@
                 <!-- Logo o nome del sito  -->
                 <a class="navbar-brand" <?php if ($pagina == home) {
                     echo 'id="home"';
-                } ?> href="index.php">Discover Veneto</a>
+                } ?> href="../">Discover Veneto</a>
             </div>
             <div class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right" role="search" action="/search">
@@ -33,7 +33,7 @@
                     <!-- Link semplici -->
                     <li <?php if ($pagina == offerte) {
                         echo 'class="active"';
-                    } ?> ><a href="offerte">Offerte</a>
+                    } ?> ><a href="../offerte">Offerte</a>
                     </li>
                     <!-- Link dropdown DESTINAZIONI -->
                     <li class="dropdown <?php if ($pagina == destinazioni) {
@@ -42,15 +42,15 @@
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
-                                <a href="destinazioni">Indice destinazioni</a>
+                                <a href="../destinazioni">Indice destinazioni</a>
                             </li>
-                            <li><a href="destinazioni/musei">Musei</a>
+                            <li><a href="../destinazioni/musei">Musei</a>
                             </li>
-                            <li><a href="destinazioni/mostre">Mostre &amp; Concerti</a>
+                            <li><a href="../destinazioni/mostre">Mostre &amp; Concerti</a>
                             </li>
-                            <li><a href="destinazioni/alberghi">Alberghi &amp; Alloggi</a>
+                            <li><a href="../destinazioni/alberghi">Alberghi &amp; Alloggi</a>
                             </li>
-                            <li><a href="destinazioni/locali">Locali &amp; Ristorazione</a>
+                            <li><a href="../destinazioni/locali">Locali &amp; Ristorazione</a>
                             </li>
                         </ul>
                     </li>
@@ -61,25 +61,25 @@
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
-                                <a href="categorie/index.php">Indice categorie</a>
+                                <a href="../categorie/index.php">Indice categorie</a>
                             </li>
-                            <li><a href="categorie/avventura">Avventura</a>
+                            <li><a href="../categorie/avventura">Avventura</a>
                             </li>
-                            <li><a href="categorie/relax">Relax &amp; Benessere</a>
+                            <li><a href="../categorie/relax">Relax &amp; Benessere</a>
                             </li>
-                            <li><a href="categorie/arte">Arte</a>
+                            <li><a href="../categorie/arte">Arte</a>
                             </li>
-                            <li><a href="categorie/famiglia">Famiglia</a>
+                            <li><a href="../categorie/famiglia">Famiglia</a>
                             </li>
-                            <li><a href="categorie/studenti">Studenti</a>
+                            <li><a href="../categorie/studenti">Studenti</a>
                             </li>
-                            <li><a href="categorie/business">Business Man</a>
+                            <li><a href="../categorie/business">Business Man</a>
                             </li>
                         </ul>
                     </li>
                     <li <?php if ($pagina == viaggiare) {
                         echo 'class="active"';
-                    } ?>><a href="viaggiaresicuri">Viaggiare sicuri</a>
+                    } ?>><a href="../viaggiaresicuri">Viaggiare sicuri</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -87,16 +87,16 @@
                         echo 'class="active"';
                     } ?>>
                         <?php if ($_SESSION['user'] == null) {
-                            echo '<a href="user/login.php">Accedi</a>';
+                            echo '<a href="../user/login.php">Accedi</a>';
                         } elseif ($_SESSION['user'] == ' ') {
-                            echo '<a href="user/index.php">Il tuo acconut</a>';
+                            echo '<a href="../user/index.php">Il tuo acconut</a>';
                         } else {
-                            echo '<a href="user/index.php">Account di ' . $_SESSION['user'] . '</a>';
+                            echo '<a href="../user/index.php">Account di ' . $_SESSION['user'] . '</a>';
                         } ?>
                     </li>
                     <li <?php if ($pagina == cart) {
                         echo 'class="active"';
-                    } ?>><a href="carrello"><i class="fa fa-shopping-cart"></i> Carrello</a>
+                    } ?>><a href="../carrello"><i class="fa fa-shopping-cart"></i> Carrello</a>
                     </li>
                 </ul>
             </div>

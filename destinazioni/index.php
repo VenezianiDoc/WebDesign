@@ -2,14 +2,14 @@
 <html lang="it">
 
 <head>
-    <?php include '../head.php' ?>
+    <?php include '../headsecliv.php' ?>
     <title>Destinazioni - Discover Veneto</title>
 </head>
 
 <body>
     <?php $pagina='destinazioni'; ?>
 
-    <?php include '../navbar.php' ?>
+    <?php include '../navbarsecliv.php' ?>
 
     <!-- ========= CONTAINER ======== -->
     <div class="container">
@@ -97,7 +97,19 @@
 
             <div class="row">
                 <div class="col-sm-2 hidden-print">
-                    <?php include 'navbarorizzontal.php' ?>
+                    <ul class="navor menuor" role="group" aria-label="Categorie">
+                        <li><a href="index.php">Indice destinazioni</a>
+                        </li>
+                        <hr>
+                        <li><a href="musei">Musei</a>
+                        </li>
+                        <li><a href="mostre">Mostre &amp; Concerti</a>
+                        </li>
+                        <li><a href="alberghi">Alberghi &amp; Alloggi</a>
+                        </li>
+                        <li><a href="locali">Locali &amp; Ristorazione</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-xs-12 col-sm-10">
             <div class="row">
@@ -220,7 +232,7 @@
     <!-- ========= ./CONTAINER ======== -->
 
 
-    <?php include '../footer.php' ?>
+    <?php include '../footersecliv.php' ?>
 
 </body>
 
